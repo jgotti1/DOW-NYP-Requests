@@ -1,6 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 require("dotenv").config();
+const path = require("path");
 const requestAllController = require("./controllers/createRequest");
 const getController = require("./controllers/getRequests");
 const deleteController = require("./controllers/deleteRequest");
@@ -8,6 +9,16 @@ const deleteController = require("./controllers/deleteRequest");
 const app = express();
 app.use(bodyParser.json());
 const port = process.env.PORT || 5001;
+
+// Serve static files from the public directory
+app.use(express.static(path.join(__dirname, "public")))
+
+// setup for running app from backend build folder 
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "public", "build")));
+}
+
+console.log(process.env.NODE_ENV);
 
 // default route
 app.get("/", (req, res) => {
