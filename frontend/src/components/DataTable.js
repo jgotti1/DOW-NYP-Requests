@@ -2,7 +2,45 @@ import React from "react";
 import { Table } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+
 function DataTable() {
+  // Example row data (for demonstration purposes)
+  const rowData = [
+    {
+      dateEntered: "2024-03-21",
+      name: "John Doe",
+      emailAddress: "johndoe@example.com",
+      requestType: "New Hire Add Apps",
+      dateNeeded: "2024-03-25",
+      applications: "MS Office, Slack",
+      modelAfter: "Jane Smith",
+      macOrPc: "PC",
+      requestedBy: "Adam Johnson",
+      status: "Complete", // This would be "Complete" for rows you want to highlight
+      completedDate: "N/A",
+      completedBy: "N/A",
+      ticketNumber: "123456",
+      notes: "Urgent setup required",
+    },
+    {
+      dateEntered: "2024-03-21",
+      name: "John Doe",
+      emailAddress: "johndoe@example.com",
+      requestType: "New Hire Add Apps",
+      dateNeeded: "2024-03-25",
+      applications: "MS Office, Slack",
+      modelAfter: "Jane Smith",
+      macOrPc: "PC",
+      requestedBy: "Adam Johnson",
+      status: "New", // This would be "Complete" for rows you want to highlight
+      completedDate: "N/A",
+      completedBy: "N/A",
+      ticketNumber: "123456",
+      notes: "Urgent setup required",
+    },
+    // Add more rows here if needed
+  ];
+
   return (
     <div>
       <Table striped bordered hover size="sm">
@@ -25,23 +63,24 @@ function DataTable() {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>2024-03-21</td>
-            <td>John Doe</td>
-            <td>johndoe@example.com</td>
-            <td>New Hire Add Apps</td>
-            <td>2024-03-25</td>
-            <td>MS Office, Slack</td>
-            <td>Jane Smith</td>
-            <td>PC</td>
-            <td>Adam Johnson</td>
-            <td>New</td>
-            <td>N/A</td>
-            <td>N/A</td>
-            <td>123456</td>
-            <td>Urgent setup required</td>
-          </tr>
-          {/* Add more rows here if needed */}
+          {rowData.map((row, index) => (
+            <tr key={index}>
+              <td>{row.dateEntered}</td>
+              <td>{row.name}</td>
+              <td>{row.emailAddress}</td>
+              <td>{row.requestType}</td>
+              <td>{row.dateNeeded}</td>
+              <td>{row.applications}</td>
+              <td>{row.modelAfter}</td>
+              <td>{row.macOrPc}</td>
+              <td>{row.requestedBy}</td>
+              <td>{row.status}</td>
+              <td>{row.completedDate}</td>
+              <td>{row.completedBy}</td>
+              <td>{row.ticketNumber}</td>
+              <td>{row.notes}</td>
+            </tr>
+          ))}
         </tbody>
       </Table>
     </div>
