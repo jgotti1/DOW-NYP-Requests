@@ -1,16 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 .anton-regular {
   font-family: "Anton", sans-serif;
   font-weight: 400;
- font-size: 52px;
- text-shadow: 3px 3px 8px rgba(0, 0, 0, 1);
- letter-spacing: 8px;
- -webkit-text-stroke-width: 1px; /* Set outline width */
-  -webkit-text-stroke-color: black; /* Set outline color */
-  -webkit-text-fill-color: white;
+ font-size: 16px;
+ letter-spacing: 1px;
 
+
+}
+
+.head-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: #C60800 ;
+  border-bottom: 3px solid black;
+}
+
+.head-container img {
+margin-bottom: 0px;
+}
+
+.head-container h4 {
+margin-top: -8px;
 }
 
 .App {
