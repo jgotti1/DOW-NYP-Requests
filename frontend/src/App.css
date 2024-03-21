@@ -13,19 +13,41 @@
  letter-spacing: 1px;
 }
 
+.filter-list-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ max-width: 100%;
+ height: 55px;
+ background-color: lightgray;
+ border-bottom: 2px solid black;;
 
-th, td {
+}
+
+th, td, .font-size {
 font-size: 12px;
 
 }
 .head-container {
   display: flex;
+  flex-direction: row;
+  justify-content: center; /* Keeps existing alignment */
+  align-items: center;
+  height: 95px;
+  background-color: #C60800;
+  border-bottom: 3px solid black;
+}
+
+.center-content {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 80px;
-  background-color: #C60800 ;
-  border-bottom: 3px solid black;
+
+}
+
+.small-input {
+  height: 30px; 
 }
 
 .head-container img {
@@ -33,13 +55,13 @@ margin-bottom: 0px;
 }
 
 .head-container h4 {
-margin-top: -8px;
+margin-top: -7px;
 }
 
 /* DataTable.css */
 
 .small-header {
-  font-size: 10px; /* Set smaller font size */
+  font-size: 10px; 
 
 }
 
