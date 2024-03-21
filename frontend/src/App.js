@@ -1,4 +1,6 @@
 import "./App.css";
+import DataTable from "./components/DataTable";
+
 
 function App() {
   return (
@@ -7,6 +9,7 @@ function App() {
         <img src="/images/nyplogo.png" alt="NYP LOGO" />
         <h4 className="anton-regular">Requests</h4>
       </div>
+      <DataTable/>
     </div>
   );
 }
