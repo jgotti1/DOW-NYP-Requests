@@ -1,5 +1,7 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const cors = require("cors");
+
 require("dotenv").config();
 const path = require("path");
 const requestAllController = require("./controllers/createRequest");
@@ -7,6 +9,7 @@ const getController = require("./controllers/getRequests");
 const deleteController = require("./controllers/deleteRequest");
 
 const app = express();
+app.use(cors());
 app.use(bodyParser.json());
 const port = process.env.PORT || 5001;
 

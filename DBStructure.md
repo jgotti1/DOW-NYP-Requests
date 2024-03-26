@@ -2,13 +2,13 @@
 <> DropDown List <>
 Name -required -
 Email Address - required-
-<> Request Type (New Hire Add Apps, Termination Remove Access, add/change request) -required-
+<> Request Type (New Hire, Add Apps, Termination, Remove Access, add/change request) -required-
 Request needed date 
 Applications Involved 
 Model After
-<> Mac or PC, N/A -required - 
+<> Mac or PC, Personal -required - 
 Requested by 
-<> Status (New, Complete, In Progress, On Hold) -required-
+<> Status (New, Complete, In Progress) -required-
 Completed Date
 <> Completed by 
 Ticket Number

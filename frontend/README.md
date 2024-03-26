@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+filterable list code to add...
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+import React, { useState } from 'react';
+import { useFilters } from './FilterContext'; // Import useFilters
+// Import other necessary components and styles...
 
-## Available Scripts
+const FilterableList = () => {
+  const { filters, setFilters } = useFilters(); // Use the context
+  const [searchTerm, setSearchTerm] = useState('');
 
-In the project directory, you can run:
+  // Rest of your component logic remains the same...
+};
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+datatable code change 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+import React, { useEffect, useState } from 'react';
+import { useFilters } from './FilterContext'; // Import useFilters
+// Import other necessary components and styles...
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+const DataTable = () => {
+  const { filters } = useFilters(); // Use the context
+  const [data, setData] = useState([]); // State to hold your data
 
-### `npm run build`
+  useEffect(() => {
+    // Fetch data from the database
+    // For demonstration, let's assume the fetched data is stored in `fetchedData`
+    const fetchedData = []; // Replace this with your actual fetch logic
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    // Apply filters to the fetched data
+    const filteredData = fetchedData.filter(request => {
+      // Assuming the `status` in your data matches the filter keys
+      // Adjust this logic based on your actual data structure
+      return filters[request.status];
+    });
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    setData(filteredData);
+  }, [filters]); // Re-run this effect when filters change
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  // Rest of your component logic to display the data...
+};

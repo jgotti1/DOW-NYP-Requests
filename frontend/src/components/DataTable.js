@@ -1,61 +1,41 @@
 import React from "react";
+import axios from "axios";
 import { Table } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useFilters } from "../hooks/FilterContext";
+
 
 
 function DataTable() {
-  // Example row data (for demonstration purposes)
-  const rowData = [
-    {
-      dateEntered: "2024-03-21",
-      name: "John Doe",
-      emailAddress: "johndoe@example.com",
-      requestType: "New Hire Add Apps",
-      dateNeeded: "2024-03-25",
-      applications: "MS Office, Slack",
-      modelAfter: "Jane Smith",
-      macOrPc: "PC",
-      requestedBy: "Adam Johnson",
-      status: "Complete", // This would be "Complete" for rows you want to highlight
-      completedDate: "N/A",
-      completedBy: "N/A",
-      ticketNumber: "123456",
-      notes: "Urgent setup required",
-    },
-    {
-      dateEntered: "2024-03-21",
-      name: "John Doe",
-      emailAddress: "johndoe@example.com",
-      requestType: "New Hire Add Apps",
-      dateNeeded: "2024-03-25",
-      applications: "MS Office, Slack",
-      modelAfter: "Jane Smith",
-      macOrPc: "PC",
-      requestedBy: "Adam Johnson",
-      status: "New",
-      completedDate: "N/A",
-      completedBy: "N/A",
-      ticketNumber: "123456",
-      notes: "Urgent setup required Urgent setup required Urgent setup required Urgent setup required",
-    },
-    {
-      dateEntered: "2024-03-21",
-      name: "John Doe",
-      emailAddress: "johndoe@example.com",
-      requestType: "New Hire Add Apps",
-      dateNeeded: "2024-03-25",
-      applications: "MS Office, Slack",
-      modelAfter: "Jane Smith",
-      macOrPc: "PC",
-      requestedBy: "Adam Johnson",
-      status: "New",
-      completedDate: "N/A",
-      completedBy: "N/A",
-      ticketNumber: "123456",
-      notes: "Urgent setup required Urgent setup required Urgent setup required Urgent setup required jnsisihjshcncijhddddccc",
-    },
-    // Add more rows here if needed
-  ];
+  const { rowData, filters, searchTerm } = useFilters(); // Use the custom hook to access rowData
+
+const filteredRowData = rowData.filter((row) => {
+  const term = searchTerm.toLowerCase();
+  const dateEnteredString = new Date(row.date_entered).toLocaleString().toLowerCase();
+  const dateNeededString = new Date(row.request_needed_date).toLocaleDateString().toLowerCase();
+  const completedDateString = row.completed_date ? new Date(row.completed_date).toLocaleDateString().toLowerCase() : "";
+
+  const matchesSearch =
+    !searchTerm ||
+    dateEnteredString.includes(term) ||
+    row.name.toLowerCase().includes(term) ||
+    row.email_address.toLowerCase().includes(term) ||
+    row.request_type.toLowerCase().includes(term) ||
+    dateNeededString.includes(term) ||
+    (row.applications_involved && row.applications_involved.toLowerCase().includes(term)) ||
+    (row.model_after && row.model_after.toLowerCase().includes(term)) ||
+    (row.mac_or_pc && row.mac_or_pc.toLowerCase().includes(term)) ||
+    (row.requested_by && row.requested_by.toLowerCase().includes(term)) ||
+    row.status.toLowerCase().includes(term) ||
+    completedDateString.includes(term) ||
+    (row.completed_by && row.completed_by.toLowerCase().includes(term)) ||
+    (row.ticket_number && row.ticket_number.toString().toLowerCase().includes(term)) || // Assuming ticket_number is a number
+    (row.notes && row.notes.toLowerCase().includes(term));
+
+  const matchesStatus = (filters.completed && row.status === "Complete") || (filters.inProgress && row.status === "In Progress") || (filters.newRequests && row.status === "New");
+
+  return matchesSearch && matchesStatus;
+});
 
   return (
     <div>
@@ -79,21 +59,21 @@ function DataTable() {
           </tr>
         </thead>
         <tbody>
-          {rowData.map((row, index) => (
+          {filteredRowData.map((row, index) => (
             <tr key={index}>
-              <td>{row.dateEntered}</td>
+              <td>{new Date(row.date_entered).toLocaleString()}</td>
               <td>{row.name}</td>
-              <td>{row.emailAddress}</td>
-              <td>{row.requestType}</td>
-              <td>{row.dateNeeded}</td>
-              <td>{row.applications}</td>
-              <td>{row.modelAfter}</td>
-              <td>{row.macOrPc}</td>
-              <td>{row.requestedBy}</td>
+              <td>{row.email_address}</td>
+              <td>{row.request_type}</td>
+              <td>{new Date(row.request_needed_date).toLocaleDateString()}</td>
+              <td>{row.applications_involved}</td>
+              <td>{row.model_after}</td>
+              <td>{row.mac_or_pc}</td>
+              <td>{row.requested_by}</td>
               <td>{row.status}</td>
-              <td>{row.completedDate}</td>
-              <td>{row.completedBy}</td>
-              <td>{row.ticketNumber}</td>
+              <td>{row.completed_date ? new Date(row.completed_date).toLocaleDateString() : ""}</td>
+              <td>{row.completed_by}</td>
+              <td>{row.ticket_number}</td>
               <td>{row.notes}</td>
             </tr>
           ))}
