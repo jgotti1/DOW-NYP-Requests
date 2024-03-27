@@ -70,9 +70,14 @@ function DataTable({ onRowClick }) {
         <tbody>
           {filteredRowData.map((row, index) => (
             <tr key={index} onClick={() => onRowClick(row)}>
-              <td style={{ color: isPastOrToday(row.request_needed_date) ? "red" : "inherit", fontWeight: isPastOrToday(row.request_needed_date) ? "bold" : "normal" }}>
+              <td
+                style={{
+                  color: row.status === "Complete" ? "darkgreen" : isPastOrToday(row.request_needed_date) ? "red" : "inherit",
+                  fontWeight: row.status === "Complete" || isPastOrToday(row.request_needed_date) ? "bold" : "normal",
+                }}>
                 {new Date(row.request_needed_date).toLocaleDateString()}
               </td>
+
               <td>{row.name}</td>
               <td>{row.email_address}</td>
               <td>{row.request_type}</td>
