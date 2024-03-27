@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 
 * {
   margin: 0;
@@ -9,24 +9,24 @@
 .anton-regular {
   font-family: "Anton", sans-serif;
   font-weight: 400;
- font-size: 16px;
- letter-spacing: 1px;
+  font-size: 16px;
+  letter-spacing: 1px;
 }
 
 .filter-list-div {
   display: flex;
   align-items: center;
   justify-content: center;
- max-width: 100%;
- height: 55px;
- background-color: lightgray;
- border-bottom: 2px solid black;;
-
+  max-width: 100%;
+  height: 55px;
+  background-color: lightgray;
+  border-bottom: 2px solid black;
 }
 
-th, td, .font-size {
-font-size: 12px;
-
+th,
+td,
+.font-size {
+  font-size: 12px;
 }
 .head-container {
   display: flex;
@@ -34,7 +34,7 @@ font-size: 12px;
   justify-content: center; /* Keeps existing alignment */
   align-items: center;
   height: 95px;
-  background-color: #C60800;
+  background-color: #c60800;
   border-bottom: 3px solid black;
 }
 
@@ -43,28 +43,25 @@ font-size: 12px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .small-input {
-  height: 30px; 
+  height: 30px;
 }
 
 .head-container img {
-margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .head-container h4 {
-margin-top: -7px;
+  margin-top: -7px;
 }
 
 /* DataTable.css */
 
 .small-header {
-  font-size: 10px; 
-
+  font-size: 10px;
 }
-
 
 .App {
   text-align: center;
@@ -74,8 +71,6 @@ margin-top: -7px;
   height: 40vmin;
   pointer-events: none;
 }
-
-
 
 .App-header {
   background-color: #282c34;
@@ -92,4 +87,19 @@ margin-top: -7px;
   color: #61dafb;
 }
 
+.addButton {
+  margin-right: 50px;
+  padding: 5px;
+  border-radius: 9px;
+}
 
+.required {
+  margin-left: 8px;
+  color: rgb(84, 83, 83);
+  font-style: italic;
+}
+
+/* customStyles.css */
+.data-entry-modal .modal-content {
+  background-color: #cfd4d6; /* Light grey background for this specific modal */
+}

@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
-import { Modal, Button, Form, Row, Col } from 'react-bootstrap';
-import './CustomeStyles.css'
+import React, { useState, useEffect } from "react";
+import { Modal, Button, Form, Row, Col } from "react-bootstrap";
+
 
 function DataEntryModal({ show, handleClose, handleSubmit, initialData = {} }) {
+  
   const [formData, setFormData] = useState({
     name: initialData.name || "",
     email_address: initialData.email_address || "",
@@ -18,6 +19,23 @@ function DataEntryModal({ show, handleClose, handleSubmit, initialData = {} }) {
     notes: initialData.notes || "",
   });
 
+  useEffect(() => {
+    setFormData({
+      name: initialData.name || "",
+      email_address: initialData.email_address || "",
+      request_type: initialData.request_type || "New Hire",
+      request_needed_date: initialData.request_needed_date || "",
+      applications_involved: initialData.applications_involved || "",
+      model_after: initialData.model_after || "",
+      mac_or_pc: initialData.mac_or_pc || "Mac",
+      requested_by: initialData.requested_by || "",
+      status: initialData.status || "New",
+      completed_by: initialData.completed_by || "",
+      ticket_number: initialData.ticket_number || "",
+      notes: initialData.notes || "",
+    });
+  }, [initialData]);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({ ...prevData, [name]: value }));
@@ -27,18 +45,20 @@ function DataEntryModal({ show, handleClose, handleSubmit, initialData = {} }) {
     <Modal show={show} onHide={handleClose} className="data-entry-modal">
       <Modal.Header closeButton>
         <Modal.Title>{initialData.id ? "Edit Request" : "New Request"}</Modal.Title>
+        <br />
       </Modal.Header>
+      <small className="required">* Required fields</small>
       <Modal.Body>
         <Form>
           <Row>
             <Col>
               <Form.Group className="mb-3">
-                <Form.Label>Name</Form.Label>
-                <Form.Control type="text" name="name" value={formData.name} onChange={handleChange} />
+                <Form.Label>Name *</Form.Label>
+                <Form.Control type="text" name="name" value={formData.name} onChange={handleChange} required />
               </Form.Group>
 
               <Form.Group className="mb-3">
-                <Form.Label>Email Address</Form.Label>
+                <Form.Label>Email Address *</Form.Label>
                 <Form.Control type="email" name="email_address" value={formData.email_address} onChange={handleChange} />
               </Form.Group>
 
@@ -96,7 +116,7 @@ function DataEntryModal({ show, handleClose, handleSubmit, initialData = {} }) {
           <Row>
             <Col xs={12}>
               <Form.Group className="mb-3">
-                <Form.Label>Applications Involved</Form.Label>
+                <Form.Label>Applications Involved *</Form.Label>
                 <Form.Control type="text" name="applications_involved" value={formData.applications_involved} onChange={handleChange} />
               </Form.Group>
             </Col>
@@ -105,7 +125,7 @@ function DataEntryModal({ show, handleClose, handleSubmit, initialData = {} }) {
           <Row>
             <Col>
               <Form.Group className="mb-3">
-                <Form.Label>Request Needed Date</Form.Label>
+                <Form.Label>Request Needed Date *</Form.Label>
                 <Form.Control type="date" name="request_needed_date" value={formData.request_needed_date} onChange={handleChange} />
               </Form.Group>
             </Col>
@@ -136,4 +156,3 @@ function DataEntryModal({ show, handleClose, handleSubmit, initialData = {} }) {
 }
 
 export default DataEntryModal;
-
