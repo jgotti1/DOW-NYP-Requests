@@ -59,7 +59,7 @@ const filteredRowData = rowData.filter((row) => {
         </thead>
         <tbody>
           {filteredRowData.map((row, index) => (
-            <tr key={index}>
+            <tr key={index} onClick={() => onRowClick(row)}>
               <td>{new Date(row.request_needed_date).toLocaleDateString()}</td>
               <td>{row.name}</td>
               <td>{row.email_address}</td>

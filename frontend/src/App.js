@@ -86,33 +86,41 @@ const handleRowClick = (rowData) => {
 };
 
   
-  const handleDelete = (id) => {
-    // Confirmation dialog
-    const isConfirmed = window.confirm("Are you sure you want to delete this request?");
+const handleDelete = (id) => {
+  // Password prompt
+  const password = window.prompt("Please enter the password to confirm you want to delete this request:");
+  if (password !== process.env.REACT_APP_DELETE_PASS) {
+    alert("Incorrect password. Deletion cancelled.");
+    return; // Exit the function if the password is incorrect
+  }
 
-    if (!isConfirmed) {
-      // If the user clicked "Cancel", exit the function without deleting
-      return;
-    }
+  // Confirmation dialog
+  const isConfirmed = window.confirm("Are you sure you want to delete this request?");
 
-    const url = `${process.env.REACT_APP_SERVER_URL}requests/${id}`;
+  if (!isConfirmed) {
+    // If the user clicked "Cancel", exit the function without deleting
+    return;
+  }
 
-    axios
-      .delete(url)
-      .then(() => {
-        alert("Entry deleted successfully!");
+  const url = `${process.env.REACT_APP_SERVER_URL}requests/${id}`;
 
-        // Update state to reflect deletion
-        const updatedData = rowData.filter((item) => item.id !== id);
-        setRowData(updatedData);
-      })
-      .catch((error) => {
-        console.error("Error deleting entry:", error);
-        alert("An error occurred while deleting the entry. Please try again.");
-      });
+  axios
+    .delete(url)
+    .then(() => {
+      alert("Entry deleted successfully!");
 
-    handleCloseModal();
-  };
+      // Update state to reflect deletion
+      const updatedData = rowData.filter((item) => item.id !== id);
+      setRowData(updatedData);
+    })
+    .catch((error) => {
+      console.error("Error deleting entry:", error);
+      alert("An error occurred while deleting the entry. Please try again.");
+    });
+
+  handleCloseModal();
+};
+
 
 
   return (
