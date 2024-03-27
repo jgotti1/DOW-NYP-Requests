@@ -20,6 +20,13 @@ function DataEntryModal({ show, handleClose, handleSubmit, initialData = {} }) {
   });
 
   useEffect(() => {
+
+    if (initialData.request_needed_date) {
+      // Convert ISO 8601 format to YYYY-MM-DD format
+      const date = new Date(initialData.request_needed_date);
+      const formattedDate = date.toISOString().split("T")[0]; // This will give you YYYY-MM-DD format
+      initialData.request_needed_date = formattedDate;
+    }
     setFormData({
       name: initialData.name || "",
       email_address: initialData.email_address || "",

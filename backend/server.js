@@ -4,7 +4,7 @@ const cors = require("cors");
 
 require("dotenv").config();
 const path = require("path");
-const requestAllController = require("./controllers/createRequest");
+const createController = require("./controllers/createRequest");
 const getController = require("./controllers/getRequests");
 const deleteController = require("./controllers/deleteRequest");
 
@@ -31,7 +31,10 @@ app.get("/", (req, res) => {
 // ******* request routes *******
 
 // write new request
-app.post("/requests", requestAllController.createRequest);
+app.post("/requests", createController.createRequest);
+
+// update request
+app.put("/requests/:id", createController.createRequest);
 
 // get all requests
 app.get("/requests/all", getController.getRequests);

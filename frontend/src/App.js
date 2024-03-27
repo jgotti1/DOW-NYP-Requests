@@ -22,6 +22,7 @@ function App() {
   };
 
   const handleSaveModalData = (data) => {
+
     // Check if the required fields are filled
     if (!data.name.trim() || !data.email_address.trim() || !data.applications_involved.trim() || !data.request_needed_date.trim()) {
       alert("Please fill out all required fields: Name, Email Address, and Applications Involved and Date Needed are all required fields.");
@@ -29,8 +30,10 @@ function App() {
     }
 
     // Determine the URL and HTTP method based on the presence of an ID
-    const url = data.id ? `${process.env.REACT_APP_SERVER_URL}requests/${data.id}` : `${process.env.REACT_APP_SERVER_URL}requests`;
-    const method = data.id ? "put" : "post";
+    const url = modalData.id ? `${process.env.REACT_APP_SERVER_URL}requests/${modalData.id}` : `${process.env.REACT_APP_SERVER_URL}requests`;
+    const method = modalData.id ? "put" : "post";
+     console.log(modalData.id)
+    console.log(method, url)
     
 
     // Make the HTTP request
@@ -76,6 +79,11 @@ function App() {
       });
   };
 
+const handleRowClick = (rowData) => {
+// console.log(rowData)
+  setModalData(rowData); 
+  setShowModal(true); 
+};
 
 
   return (
@@ -94,7 +102,7 @@ function App() {
         {/* Button to open the modal */}
         <DataEntryModal show={showModal} handleClose={handleCloseModal} handleSubmit={handleSaveModalData} initialData={modalData} />
       </div>
-      <DataTable />
+      <DataTable onRowClick={handleRowClick} />
     </div>
   );
 }

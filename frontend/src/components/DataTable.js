@@ -1,12 +1,11 @@
 import React from "react";
-import axios from "axios";
 import { Table } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useFilters } from "../hooks/FilterContext";
 
 
 
-function DataTable() {
+function DataTable({ onRowClick }) {
   const { rowData, filters, searchTerm } = useFilters(); // Use the custom hook to access rowData
 
 const filteredRowData = rowData.filter((row) => {
@@ -60,7 +59,7 @@ const filteredRowData = rowData.filter((row) => {
         </thead>
         <tbody>
           {filteredRowData.map((row, index) => (
-            <tr key={index}>
+            <tr key={index} onClick={() => onRowClick(row)}>
               <td>{new Date(row.date_entered).toLocaleString()}</td>
               <td>{row.name}</td>
               <td>{row.email_address}</td>
