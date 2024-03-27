@@ -87,6 +87,14 @@ const handleRowClick = (rowData) => {
 
   
   const handleDelete = (id) => {
+    // Confirmation dialog
+    const isConfirmed = window.confirm("Are you sure you want to delete this request?");
+
+    if (!isConfirmed) {
+      // If the user clicked "Cancel", exit the function without deleting
+      return;
+    }
+
     const url = `${process.env.REACT_APP_SERVER_URL}requests/${id}`;
 
     axios
@@ -102,8 +110,10 @@ const handleRowClick = (rowData) => {
         console.error("Error deleting entry:", error);
         alert("An error occurred while deleting the entry. Please try again.");
       });
+
     handleCloseModal();
   };
+
 
   return (
     <div className="App">

@@ -41,37 +41,37 @@ const filteredRowData = rowData.filter((row) => {
       <Table striped bordered hover size="sm">
         <thead>
           <tr>
-            <th>Date Entered</th>
+            <th>Date Needed</th>
             <th>Name</th>
             <th>Email Address</th>
             <th>Request Type</th>
-            <th>Date Needed</th>
             <th>Applications</th>
             <th>Model After</th>
             <th>Mac or PC</th>
             <th>Requested by</th>
+            <th>Requested Date</th>
             <th>Status</th>
-            <th>Completed Date</th>
             <th>Completed by</th>
+            <th>Completed Date</th>
             <th>Ticket Number</th>
             <th>Notes</th>
           </tr>
         </thead>
         <tbody>
           {filteredRowData.map((row, index) => (
-            <tr key={index} onClick={() => onRowClick(row)}>
-              <td>{new Date(row.date_entered).toLocaleString()}</td>
+            <tr key={index}>
+              <td>{new Date(row.request_needed_date).toLocaleDateString()}</td>
               <td>{row.name}</td>
               <td>{row.email_address}</td>
               <td>{row.request_type}</td>
-              <td>{new Date(row.request_needed_date).toLocaleDateString()}</td>
               <td>{row.applications_involved}</td>
               <td>{row.model_after}</td>
               <td>{row.mac_or_pc}</td>
               <td>{row.requested_by}</td>
+              <td>{new Date(row.date_entered).toLocaleString()}</td>
               <td>{row.status}</td>
-              <td>{row.completed_date ? new Date(row.completed_date).toLocaleDateString() : ""}</td>
               <td>{row.completed_by}</td>
+              <td>{row.completed_date ? new Date(row.completed_date).toLocaleDateString() : ""}</td>
               <td>{row.ticket_number}</td>
               <td>{row.notes}</td>
             </tr>
