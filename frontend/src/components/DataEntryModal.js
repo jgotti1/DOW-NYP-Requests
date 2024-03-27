@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Modal, Button, Form, Row, Col } from "react-bootstrap";
 
-
-function DataEntryModal({ show, handleClose, handleSubmit, initialData = {} }) {
-  
+function DataEntryModal({ show, handleClose, handleSubmit, handleDelete, initialData = {} }) {
   const [formData, setFormData] = useState({
     name: initialData.name || "",
     email_address: initialData.email_address || "",
@@ -20,7 +18,6 @@ function DataEntryModal({ show, handleClose, handleSubmit, initialData = {} }) {
   });
 
   useEffect(() => {
-
     if (initialData.request_needed_date) {
       // Convert ISO 8601 format to YYYY-MM-DD format
       const date = new Date(initialData.request_needed_date);
@@ -47,6 +44,8 @@ function DataEntryModal({ show, handleClose, handleSubmit, initialData = {} }) {
     const { name, value } = e.target;
     setFormData((prevData) => ({ ...prevData, [name]: value }));
   };
+
+
 
   return (
     <Modal show={show} onHide={handleClose} className="data-entry-modal">
@@ -154,9 +153,20 @@ function DataEntryModal({ show, handleClose, handleSubmit, initialData = {} }) {
         <Button variant="secondary" onClick={handleClose}>
           Close
         </Button>
-        <Button variant="primary" onClick={() => handleSubmit(formData)}>
-          Save Changes
-        </Button>
+        {initialData.id && (
+          <Button variant="danger" onClick={() => handleDelete(initialData.id)} style={{ marginRight: "auto" }}>
+            Delete
+          </Button>
+        )}
+        {initialData.id ? (
+          <Button variant="warning" onClick={() => handleSubmit(formData)}>
+            Update
+          </Button>
+        ) : (
+          <Button variant="primary" onClick={() => handleSubmit(formData)}>
+            Save Changes
+          </Button>
+        )}
       </Modal.Footer>
     </Modal>
   );

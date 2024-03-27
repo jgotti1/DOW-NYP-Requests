@@ -9,7 +9,7 @@ import { useFilters } from "./hooks/FilterContext";
 function App() {
   const [showModal, setShowModal] = useState(false);
   const [modalData, setModalData] = useState({}); // Data to edit, if necessary
-  const { setRowData } = useFilters(); 
+  const { rowData, setRowData } = useFilters(); 
 
   const handleOpenModal = (data = {}) => {
     setModalData(data); // Set the data you might want to edit
@@ -85,6 +85,25 @@ const handleRowClick = (rowData) => {
   setShowModal(true); 
 };
 
+  
+  const handleDelete = (id) => {
+    const url = `${process.env.REACT_APP_SERVER_URL}requests/${id}`;
+
+    axios
+      .delete(url)
+      .then(() => {
+        alert("Entry deleted successfully!");
+
+        // Update state to reflect deletion
+        const updatedData = rowData.filter((item) => item.id !== id);
+        setRowData(updatedData);
+      })
+      .catch((error) => {
+        console.error("Error deleting entry:", error);
+        alert("An error occurred while deleting the entry. Please try again.");
+      });
+    handleCloseModal();
+  };
 
   return (
     <div className="App">
@@ -100,7 +119,7 @@ const handleRowClick = (rowData) => {
           Add/Edit Request
         </button>{" "}
         {/* Button to open the modal */}
-        <DataEntryModal show={showModal} handleClose={handleCloseModal} handleSubmit={handleSaveModalData} initialData={modalData} />
+        <DataEntryModal show={showModal} handleClose={handleCloseModal} handleSubmit={handleSaveModalData} initialData={modalData} handleDelete={handleDelete} />
       </div>
       <DataTable onRowClick={handleRowClick} />
     </div>
