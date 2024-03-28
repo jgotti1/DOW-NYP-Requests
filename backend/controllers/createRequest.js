@@ -30,6 +30,8 @@ const createRequest = async (req, res) => {
         if (req.body.status === "Complete") {
           // Set completedDate to the current date and time
           completedDate = new Date();
+
+          console.log(completedDate)
         } else {
           // Keep the existing completedDate if the status is not 'completed'
           completedDate = req.body.completedDate;

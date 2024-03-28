@@ -32,8 +32,8 @@ function App() {
     // Determine the URL and HTTP method based on the presence of an ID
     const url = modalData.id ? `${process.env.REACT_APP_SERVER_URL}requests/${modalData.id}` : `${process.env.REACT_APP_SERVER_URL}requests`;
     const method = modalData.id ? "put" : "post";
-     console.log(modalData.id)
-    console.log(method, url)
+    //  console.log(modalData.id)
+    // console.log(method, url)
     
 
     // Make the HTTP request

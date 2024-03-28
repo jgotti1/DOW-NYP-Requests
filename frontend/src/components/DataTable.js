@@ -75,9 +75,16 @@ function DataTable({ onRowClick }) {
                   color: row.status === "Complete" ? "darkgreen" : isPastOrToday(row.request_needed_date) ? "red" : "inherit",
                   fontWeight: row.status === "Complete" || isPastOrToday(row.request_needed_date) ? "bold" : "normal",
                 }}>
-                {new Date(row.request_needed_date).toLocaleDateString()}
+                {/* <td>{row.request_needed_date}</td> */}
+                {/* {new Date(row.request_needed_date).toLocaleDateString()}run buid */}
+                {new Date(row.request_needed_date)
+                  .toISOString()
+                  .split("T")[0]
+                  .split("-")
+                  .slice(1)
+                  .concat(new Date(row.request_needed_date).toISOString().split("T")[0].split("-")[0])
+                  .join("/")}
               </td>
-
               <td>{row.name}</td>
               <td>{row.email_address}</td>
               <td>{row.request_type}</td>
@@ -88,7 +95,7 @@ function DataTable({ onRowClick }) {
               <td>{row.requested_by}</td>
               <td>{new Date(row.date_entered).toLocaleString()}</td>
               <td>{row.completed_by}</td>
-              <td>{row.completed_date ? new Date(row.completed_date).toLocaleDateString() : ""}</td>
+              <td>{row.completed_date ? new Date(row.completed_date).toLocaleString() : ""}</td>
               <td>{row.ticket_number}</td>
               <td>{row.notes}</td>
             </tr>
