@@ -1,42 +1,39 @@
-filterable list code to add...
+# New York Post Tracking Request Application
 
-import React, { useState } from 'react';
-import { useFilters } from './FilterContext'; // Import useFilters
-// Import other necessary components and styles...
+This application, developed by John Margotti on 3/28/2024, is designed to manage tracking request sites for the New York Post. It allows users to add or remove tracking requests and provides functionality to indicate when requests are late. The application is built using React, Rails, and PostgreSQL.
 
-const FilterableList = () => {
-  const { filters, setFilters } = useFilters(); // Use the context
-  const [searchTerm, setSearchTerm] = useState('');
+## Features
 
-  // Rest of your component logic remains the same...
-};
+- **Add or Remove Tracking Requests**: Users can add new tracking requests to the system or remove existing ones.
 
+- **Late Request Notification**: The application can identify and display notifications for requests that are late.
 
-datatable code change 
+- **Sorting Functionality**: Requests can be sorted based on their status, such as completed, in progress, or new requests.
 
+## Technologies Used
 
-import React, { useEffect, useState } from 'react';
-import { useFilters } from './FilterContext'; // Import useFilters
-// Import other necessary components and styles...
+- React: Frontend framework for building the user interface.
+- JavaScript Express BAckend with PG NPM package to connect to the DB
+- PostgreSQL: Database management system used to store tracking request data.
 
-const DataTable = () => {
-  const { filters } = useFilters(); // Use the context
-  const [data, setData] = useState([]); // State to hold your data
+## Installation
 
-  useEffect(() => {
-    // Fetch data from the database
-    // For demonstration, let's assume the fetched data is stored in `fetchedData`
-    const fetchedData = []; // Replace this with your actual fetch logic
+1. Clone the repository.
+2. Install dependencies using `npm install` for the frontend and `bundle install` for the backend.
+3. Set up the backend env and frontend env settings
+5. Start the React development server using `npm start`.
+6. Start BAckend by using node server.js
 
-    // Apply filters to the fetched data
-    const filteredData = fetchedData.filter(request => {
-      // Assuming the `status` in your data matches the filter keys
-      // Adjust this logic based on your actual data structure
-      return filters[request.status];
-    });
+## Usage
 
-    setData(filteredData);
-  }, [filters]); // Re-run this effect when filters change
+1. Open the application in your web browser.
+2. Use the interface to add, remove, or manage tracking requests.
+3. Use the sorting functionality to organize requests based on their status.
 
-  // Rest of your component logic to display the data...
-};
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
