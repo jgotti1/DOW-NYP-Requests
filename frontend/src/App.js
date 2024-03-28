@@ -2,14 +2,14 @@ import React, { useState } from "react";
 import "./App.css";
 import DataTable from "./components/DataTable";
 import FilterableList from "./components/FilterableList";
-import DataEntryModal from "./components/DataEntryModal"; 
-import axios from "axios"; 
+import DataEntryModal from "./components/DataEntryModal";
+import axios from "axios";
 import { useFilters } from "./hooks/FilterContext";
 
 function App() {
   const [showModal, setShowModal] = useState(false);
   const [modalData, setModalData] = useState({}); // Data to edit, if necessary
-  const { rowData, setRowData } = useFilters(); 
+  const { rowData, setRowData } = useFilters();
 
   const handleOpenModal = (data = {}) => {
     setModalData(data); // Set the data you might want to edit
@@ -18,11 +18,10 @@ function App() {
 
   const handleCloseModal = () => {
     setShowModal(false);
-    setModalData({}); 
+    setModalData({});
   };
 
   const handleSaveModalData = (data) => {
-
     // Check if the required fields are filled
     if (!data.name.trim() || !data.email_address.trim() || !data.applications_involved.trim() || !data.request_needed_date.trim()) {
       alert("Please fill out all required fields: Name, Email Address, and Applications Involved and Date Needed are all required fields.");
@@ -34,7 +33,6 @@ function App() {
     const method = modalData.id ? "put" : "post";
     //  console.log(modalData.id)
     // console.log(method, url)
-    
 
     // Make the HTTP request
     axios({
@@ -58,7 +56,6 @@ function App() {
       .then((response) => {
         alert("Request saved successfully!");
         handleCloseModal();
-   
 
         // Refresh data in context
         const fetchData = async () => {
@@ -79,49 +76,46 @@ function App() {
       });
   };
 
-const handleRowClick = (rowData) => {
-// console.log(rowData)
-  setModalData(rowData); 
-  setShowModal(true); 
-};
+  const handleRowClick = (rowData) => {
+    // console.log(rowData)
+    setModalData(rowData);
+    setShowModal(true);
+  };
 
-  
-const handleDelete = (id) => {
-  // Password prompt
-  const password = window.prompt("Please enter the password to confirm you want to delete this request:");
-  if (password !== process.env.REACT_APP_DELETE_PASS) {
-    alert("Incorrect password. Deletion cancelled.");
-    return; // Exit the function if the password is incorrect
-  }
+  const handleDelete = (id) => {
+    // Password prompt
+    const password = window.prompt("Please enter the password to confirm you want to delete this request:");
+    if (password !== process.env.REACT_APP_DELETE_PASS) {
+      alert("Incorrect password. Deletion cancelled.");
+      return; // Exit the function if the password is incorrect
+    }
 
-  // Confirmation dialog
-  const isConfirmed = window.confirm("Are you sure you want to delete this request?");
+    // Confirmation dialog
+    const isConfirmed = window.confirm("Are you sure you want to delete this request?");
 
-  if (!isConfirmed) {
-    // If the user clicked "Cancel", exit the function without deleting
-    return;
-  }
+    if (!isConfirmed) {
+      // If the user clicked "Cancel", exit the function without deleting
+      return;
+    }
 
-  const url = `${process.env.REACT_APP_SERVER_URL}requests/${id}`;
+    const url = `${process.env.REACT_APP_SERVER_URL}requests/${id}`;
 
-  axios
-    .delete(url)
-    .then(() => {
-      alert("Entry deleted successfully!");
+    axios
+      .delete(url)
+      .then(() => {
+        alert("Entry deleted successfully!");
 
-      // Update state to reflect deletion
-      const updatedData = rowData.filter((item) => item.id !== id);
-      setRowData(updatedData);
-    })
-    .catch((error) => {
-      console.error("Error deleting entry:", error);
-      alert("An error occurred while deleting the entry. Please try again.");
-    });
+        // Update state to reflect deletion
+        const updatedData = rowData.filter((item) => item.id !== id);
+        setRowData(updatedData);
+      })
+      .catch((error) => {
+        console.error("Error deleting entry:", error);
+        alert("An error occurred while deleting the entry. Please try again.");
+      });
 
-  handleCloseModal();
-};
-
-
+    handleCloseModal();
+  };
 
   return (
     <div className="App">
@@ -130,6 +124,7 @@ const handleDelete = (id) => {
           <img src="/images/nyplogo.png" alt="NYP LOGO" />
           <h4 className="anton-regular">Requests</h4>
         </div>
+        <h5 className="version">v-1.01</h5>
       </div>
       <div className="filter-list-div">
         <FilterableList />
@@ -145,17 +140,3 @@ const handleDelete = (id) => {
 }
 
 export default App;
-
-
-
-
-
-
-
-
-
-
-   
-   
-
-

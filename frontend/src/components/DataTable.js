@@ -8,15 +8,15 @@ import { useFilters } from "../hooks/FilterContext";
 function DataTable({ onRowClick }) {
   const { rowData, filters, searchTerm } = useFilters(); // Use the custom hook to access rowData
 
- const isPastOrToday = (requestNeededDate) => {
-   const today = new Date();
-   today.setHours(0, 0, 0, 0); // Reset time to 00:00:00 for today
+const isPastOrToday = (requestNeededDate) => {
+  const today = new Date();
+  today.setUTCHours(0, 0, 0, 0); // Reset time to 00:00:00 UTC for today
 
-   const redDate = new Date(requestNeededDate);
-  redDate.setHours(0, 0, 0, 0); // Reset time to 00:00:00 for needed date
+  const redDate = new Date(requestNeededDate);
+  redDate.setUTCHours(0, 0, 0, 0); // Reset time to 00:00:00 UTC for needed date
 
-   return redDate <= today;
- };
+  return redDate <= today;
+};
 
   const filteredRowData = rowData.filter((row) => {
     const term = searchTerm.toLowerCase();
@@ -72,11 +72,11 @@ function DataTable({ onRowClick }) {
             <tr key={index} onClick={() => onRowClick(row)}>
               <td
                 style={{
-                  color: row.status === "Complete" ? "darkgreen" : isPastOrToday(row.request_needed_date) ? "red" : "inherit",
-                  fontWeight: row.status === "Complete" || isPastOrToday(row.request_needed_date) ? "bold" : "normal",
+                  color: row.status === "Complete" ? "#00b300" : isPastOrToday(row.request_needed_date) ? "red" : "inherit",
+                  fontWeight: row.status === "Complete" || isPastOrToday(row.request_needed_date) ? "bolder" : "normal",
+                  fontStyle: row.status === "Complete" ? "italic" : "none",
                 }}>
-                {/* <td>{row.request_needed_date}</td> */}
-                {/* {new Date(row.request_needed_date).toLocaleDateString()}run buid */}
+
                 {new Date(row.request_needed_date)
                   .toISOString()
                   .split("T")[0]

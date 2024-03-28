@@ -83,6 +83,11 @@ td,
   color: white;
 }
 
+.version{
+font-size: 10px;
+
+}
+
 .App-link {
   color: #61dafb;
 }
