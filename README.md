@@ -22,7 +22,7 @@ This application, developed by John Margotti on 3/28/2024, is designed to manage
 2. Install dependencies using `npm install` for the frontend and `bundle install` for the backend.
 3. Set up the backend env and frontend env settings
 5. Start the React development server using `npm start`.
-6. Start BAckend by using node server.js
+6. Start Backend by using node server.js
 
 ## Usage
 

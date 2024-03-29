@@ -1,0 +1,2629 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>John Margotti</LastAuthor>
+  <Created>2024-03-29T17:27:15Z</Created>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12010</WindowHeight>
+  <WindowWidth>32767</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Aptos Narrow" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <NumberFormat ss:Format="Short Date"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="New York Post - New Hires ">
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="327" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="14.5">
+   <Column ss:AutoFitWidth="0" ss:Width="212.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="139.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="144"/>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-01-18T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0074074</Data></Cell>
+    <Cell><Data ss:Type="String">Evan Simko</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-01-14T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Start Date: Tuesday January 18, 2022 - Created the account 01-06-2022 - Just waiting for the LDAP to complete this. - Completed 01-14-2022 - ***Emailed Evan - 01-18-2022***</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-01-12T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Dexter Henry</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">As per Warren Cohen - No Adobe is needed.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-01-17T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Hailey Eber</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Hailey Eber is moving to full-time on 1/17/22 - ***No email needed. She is already working here. Just moved to a FT employee***.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-01-12T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0073287</Data></Cell>
+    <Cell><Data ss:Type="String">Michael Sorace </Data></Cell>
+    <Cell><Data ss:Type="String"> msorace@nypost.com </Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-01-13T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Request #: 5244 - ***Email sent***</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-01-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0073291</Data></Cell>
+    <Cell><Data ss:Type="String">Rebecca Isaacs </Data></Cell>
+    <Cell><Data ss:Type="String"> risaacs@decider.com </Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-01-13T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Waiting for the email to change from nypost.com to decider.com - Need to add Adobe to Okta to complete the request. Already added Adobe Acrobat Pro and Adobe Photshop to her account. ***Need to email her***</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-01-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0077563</Data></Cell>
+    <Cell><Data ss:Type="String">Shivani Reddy </Data></Cell>
+    <Cell><Data ss:Type="String"> smanjunath.intern@decider.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac </Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-01-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Accounts created - emailed the user on January 24th</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-01-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0077564</Data></Cell>
+    <Cell><Data ss:Type="String">Brittany Miller </Data></Cell>
+    <Cell><Data ss:Type="String"> bmiller.intern@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-01-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Accounts created - emailed the user on January 24th</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-01-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0077567</Data></Cell>
+    <Cell><Data ss:Type="String">Jenna Wirth </Data></Cell>
+    <Cell><Data ss:Type="String"> jwirth.intern@decider.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-01-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Accounts created - emailed the user on January 24th</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-01-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0077568</Data></Cell>
+    <Cell><Data ss:Type="String">Neha Seenarine </Data></Cell>
+    <Cell><Data ss:Type="String"> nseenarine.intern@decider.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-01-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Accounts created - emailed the user on January 24th</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-01-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0077569</Data></Cell>
+    <Cell><Data ss:Type="String">Dianna Shen </Data></Cell>
+    <Cell><Data ss:Type="String"> dshen.intern@decider.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-01-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Accounts created - emailed the user on January 24th</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-01-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0077570</Data></Cell>
+    <Cell><Data ss:Type="String">Jami Ellen </Data></Cell>
+    <Cell><Data ss:Type="String"> jellen.intern@decider.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-01-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Accounts created - emailed the user on January 24th</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-01-31T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0081278</Data></Cell>
+    <Cell><Data ss:Type="String">Samuel Munson </Data></Cell>
+    <Cell><Data ss:Type="String"> smunson@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-01-31T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Emailed the customer login and access info. Copied Peggy Mo in the email.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-02-03T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0083711</Data></Cell>
+    <Cell><Data ss:Type="String">Griffin Kelly </Data></Cell>
+    <Cell><Data ss:Type="String"> gkelly@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-02-03T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Emailed the customer login and access info. Copied Peggy Mo in the email.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-02-07T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0085280</Data></Cell>
+    <Cell><Data ss:Type="String">MaryAnn Martinez </Data></Cell>
+    <Cell><Data ss:Type="String"> mmartinez@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Emailed the customer login and access info. Copied Peggy Mo in the email. February 7, 2022</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-02-07T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0085282</Data></Cell>
+    <Cell><Data ss:Type="String">EmmaKate Austin </Data></Cell>
+    <Cell><Data ss:Type="String"> eaustin@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Emailed the customer login and access info. Copied Peggy Mo in the email. February 7, 2022</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-02-07T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0085284</Data></Cell>
+    <Cell><Data ss:Type="String">Ryan Sampson </Data></Cell>
+    <Cell><Data ss:Type="String"> rsampson@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Emailed the customer login and access info. Copied Peggy Mo in the email. February 7, 2022</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-02-07T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0085285</Data></Cell>
+    <Cell><Data ss:Type="String">Thomas Hogan </Data></Cell>
+    <Cell><Data ss:Type="String"> thogan@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Emailed the customer login and access info. Copied Peggy Mo in the email. February 7, 2022</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-02-15T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0089733</Data></Cell>
+    <Cell><Data ss:Type="String">Kristin Contino </Data></Cell>
+    <Cell><Data ss:Type="String"> kcontino@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-01-10T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Start date was changed to February 15, 2022 as per Peggy Mo's email. - I emailed Kristin the instructions to access Adobe CC and Photoshop - 02-15-2022 - 9:46 AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-02-22T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0092647</Data></Cell>
+    <Cell><Data ss:Type="String">Margaret Abrams </Data></Cell>
+    <Cell><Data ss:Type="String"> mabrams@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-02-17T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Margaret Abrams is starting 2/22/2022. Please activate all nypost accounts and model after Kristin Contino. She will only need Adobe Photoshop which she uses a Mac. - Account Created 02-17-2022 - Need to email the user on the start date.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-02-22T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0092636</Data></Cell>
+    <Cell><Data ss:Type="String">Nicole Mazza </Data></Cell>
+    <Cell><Data ss:Type="String"> nmazza@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-02-17T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">We have Nicole Mazza starting on Tuesday, 2/22. She's not in SN, so I wasn't able to submit a ticket. Macbook Pro 13&quot;, Monitor - Account Created 02-17-2022 - Need to email the user on the start date.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-02-22T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0092645</Data></Cell>
+    <Cell><Data ss:Type="String">Jeff Stansbury </Data></Cell>
+    <Cell><Data ss:Type="String"> jstansbury@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">We have&#160;Jeff Stansbury&#160;starting on&#160;Tuesday, 2/22.&#160;He's not in SN so I wasn't able to submit a ticket. His WD ID is 235423. - Emailed the user - 02-22-2022 - 8:58 AM.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-02-22T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0092639</Data></Cell>
+    <Cell><Data ss:Type="String">Alyssa Hargrove </Data></Cell>
+    <Cell><Data ss:Type="String"> ahargrove@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Alyssa Hargrove's first day is 2/22/22.  Please activate all nypost accounts and model after Pankaj Khadka. For equipment, she'll need a Macbook Pro 13&quot; and Monitor. For softwares, she'll need Merlin, photoshop, and bridge. Email sent 02-22-2022 - 8:59 AM.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-02-22T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0094245\SCTASK0094820</Data></Cell>
+    <Cell><Data ss:Type="String">Jon Helmkamp </Data></Cell>
+    <Cell><Data ss:Type="String"> jhelmkamp@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Jon Helmkamp started on 2/22/2022. His account is activated. He will need Macbook Pro 13&quot;. For softwares, he'll need Methode, Merlin, &#160;Adobe Photoshop. Please model after Mike Blinn. (Emailed the user Feb 25th and March 1st.)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-02-28T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0094245\SCTASK0096285</Data></Cell>
+    <Cell><Data ss:Type="String">Adriana Diaz </Data></Cell>
+    <Cell><Data ss:Type="String"> adiaz@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC </Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Adriana Diaz's first day back is 2/28/2022. Please activate all nypost accounts and model after Alex Mitchell. For softwares, Slack, WordPress, AirTable, Methode, Merlin, Photoshop. (Emailed at 12:30 PM - 03-01-2022.)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-03-01T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0094245\SCTASK0094249</Data></Cell>
+    <Cell><Data ss:Type="String">Brian Wacker </Data></Cell>
+    <Cell><Data ss:Type="String"> bwacker@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Brian Wacker's first day is 3/1/22, but will attend orientation on 2/28/22. For software, he'll need Methode, Merlin, Photoshop, Office, WordPress. (Email sent out - 02-24-2022 and again 03-01-2022.)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-02-25T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0094829\SCTASK0094832</Data></Cell>
+    <Cell><Data ss:Type="String">Erin Keller </Data></Cell>
+    <Cell><Data ss:Type="String"> ekeller@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Softwares: Merlin, Adobe Photoshop, Methode, Slack, WordPress, Storyful, Parsley, Getty, AP/AP Images, Security Keeper, Brightcove, Gmail, OKTA. (Email sent out Feb 25th.)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-03-07T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0099160\SCTASK0099164</Data></Cell>
+    <Cell><Data ss:Type="String">Erich Richter </Data></Cell>
+    <Cell><Data ss:Type="String"> erichter@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Softwares: Methode, Merlin, Adobe Photoshop - (03-07-2021 - 1:51 AM )</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-03-07T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0099160\SCTASK0099166</Data></Cell>
+    <Cell><Data ss:Type="String">Jeanette Settembre </Data></Cell>
+    <Cell><Data ss:Type="String"> jsettembre@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">She will need a Dell Latitude 5420. For softwares, she'll need Slack, WordPress, AirTable, Merlin, Photoshop, Microsoft Office, Keeper, GlobalConnect. (Emailed the user - 03-07-2022 -1:51 AM)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-03-07T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A - PAS</Data></Cell>
+    <Cell><Data ss:Type="String">Victoria Weinsheimer </Data></Cell>
+    <Cell><Data ss:Type="String"> vweinsheimer@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">She'll need Dell Latitude 5420 and Standard monitor/mouse/keyboard. For softwares, she'll need Microsoft Office - Most recent version and GlobalProtect.&#160;</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-03-07T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0099172</Data></Cell>
+    <Cell><Data ss:Type="String">Bernie Zilio </Data></Cell>
+    <Cell><Data ss:Type="String"> bzilio@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">For softwares, Adobe Photoshop, Slack, and Global Protect. (Emailed The User - 03-07-2022 - 1:52 AM)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-03-14T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0102614\SCTASK0102623</Data></Cell>
+    <Cell><Data ss:Type="String">Stephen Lee </Data></Cell>
+    <Cell><Data ss:Type="String"> SLee@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">For softwares, he'll need Methode, Merlin, Photoshop, WordPress, Airtable, Slack, Global Protect.&#160;(All requested accounts were completed on March 8, 2022. I need to email the user.) - Emailed The user: March 14, 2022 - 9:39 AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-03-14T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0102614</Data></Cell>
+    <Cell><Data ss:Type="String">Cayla Bamberger </Data></Cell>
+    <Cell><Data ss:Type="String"> cbamberger@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">For softwares, she'll need Methode, wordpress, air table, and Global Protect. (All requested accounts were completed on March 8, 2022. I need to email the user.) - Emailed the user: March 14, 2022 - 9:45 AM</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-03-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0106125</Data></Cell>
+    <Cell><Data ss:Type="String">Daniela Parfait </Data></Cell>
+    <Cell><Data ss:Type="String"> dparfait@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-03-15T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Daniela Parfait's first day is 3/21/22. Please activate all nypost accounts and model after Amy Roman - For softwares, please give her the same access to the ones Amy Roman had and Global Protect.  (03-18-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-03-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0106120</Data></Cell>
+    <Cell><Data ss:Type="String">Joseph LoVerde </Data></Cell>
+    <Cell><Data ss:Type="String"> jloverde@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-03-15T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Joseph LoVerde's first day is 3/21/22. Please activate all nypost accounts and model after Brayden Simms. For softwares, he'll need Methode, Merlin, and Global Protect. (03-18-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-03-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0106129</Data></Cell>
+    <Cell><Data ss:Type="String">Kayla Yoo </Data></Cell>
+    <Cell><Data ss:Type="String"> kyoo@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String">Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Kayla Yoo's first day is 3/21/22. Please activate all nypost accounts and model after Victoria Shobe.  - For softwares, she'll need Adobe Creative Suite, Acrobat, Quicktime, Slack, Global Protect.  (03-18-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-03-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0106120</Data></Cell>
+    <Cell><Data ss:Type="String">David Kaufman </Data></Cell>
+    <Cell><Data ss:Type="String"> dkaufman@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">David Kaufman's first day is 3/21/22. For softwares, he'll need Methode, Merlin, AirTable, Wordpress, Global Protect, and Slack. (03-18-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-03-19T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0106120</Data></Cell>
+    <Cell><Data ss:Type="String">Brian Marschhauser </Data></Cell>
+    <Cell><Data ss:Type="String"> bmarschhauser@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">We were just notified that Brian Marschhauser's first day is 3/19/22. For softwares, he'll need methode, slack, wordpress, air table, Global Protect. (03-18-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-03-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0106135</Data></Cell>
+    <Cell><Data ss:Type="String">Cierra Pacheco </Data></Cell>
+    <Cell><Data ss:Type="String"> cpacheco@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Cierra Pacheco's first day is 3/21/22. Please activate all nypost accounts and model after Warren Cohen. She'll need adobe creative suite, dropbox, slack. - Approved by Levent Saracoglu -  (Email sent: 03-18-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-03-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0106137</Data></Cell>
+    <Cell><Data ss:Type="String">Mollie Kather </Data></Cell>
+    <Cell><Data ss:Type="String"> mkather@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Mollie Kather's first day is 3/21/22. Please activate all nypost accounts and model after Warren Cohen. She'll need adobe creative suite, dropbox, slack. - Approved by Levent Saracoglu - (Email sent: 03-21-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-03-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0106140</Data></Cell>
+    <Cell><Data ss:Type="String">Nicholas Zawisha </Data></Cell>
+    <Cell><Data ss:Type="String"> nzawisha@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String">  Mac </Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Nicholas Zawisha's first day is 3/21/22. Please activate all nypost accounts and model after Warren Cohen. He'll need adobe creative suite, dropbox, slack. Approved By Levent Saracoglu - (Email sent 03-21-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-03-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0106206</Data></Cell>
+    <Cell><Data ss:Type="String">Elizabeth Morrow </Data></Cell>
+    <Cell><Data ss:Type="String"> emorrow@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Elizabeth Morrow's first day is 3/21/22. Please activate all nypost accounts and model after Warren Cohen. She'll need adobe creative suite, dropbox, slack - Approved by Levent Saracoglu - (Email sent: 03-21-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-03-28T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0107445</Data></Cell>
+    <Cell><Data ss:Type="String">David Kaye </Data></Cell>
+    <Cell><Data ss:Type="String"> dkaye@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">David Kaye's first day is 3/28/22. Please activate all nypost accounts and model after Pankaj Khadka.  For softwares, he'll need Merlin, Adobe Suite, Global Protect. - Approved by Levent Saracoglu - (Email sent: 03-29-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-04-03T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0112177</Data></Cell>
+    <Cell><Data ss:Type="String">Michael Romano </Data></Cell>
+    <Cell><Data ss:Type="String"> mromano@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Mike Romano's first day is 4/3/22 - Please activate all nypost accounts and model after James Covert - He'll need a Dell Latitude 5420. For softwares, Methode, Merlin, WordPress, AirTable. (03-31-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-03-30T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0112177</Data></Cell>
+    <Cell><Data ss:Type="String">Angela Barbuti </Data></Cell>
+    <Cell><Data ss:Type="String"> abarbuti@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Angela Barbuti's first day is 3/30/22. Please activate all nypost accounts and model after Griffin Kelly.&#160;She'll need Dell Latitude 5420. For softwares, she'll need methode, slack (breaking channel) air table; wordpress. (03-31-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-04-07T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0117927</Data></Cell>
+    <Cell><Data ss:Type="String">Jon Heyman </Data></Cell>
+    <Cell><Data ss:Type="String"> jheyman@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">For equipment, he'll need Macbook Pro 13&quot;. For softwares, he'll need Office, WordPress, Merlin, GlobalProtect. (04-08-2022).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-04-11T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0118986</Data></Cell>
+    <Cell><Data ss:Type="String">Hannah Sulcov </Data></Cell>
+    <Cell><Data ss:Type="String"> hsulcov@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Hannah Sulcov's first day is 4/11/22. Please activate all nypost accounts and model after Maggie Sposato. She'll need Macbook Pro 13&quot;. For softwares, she'll need Adobe Photoshop, Adobe Rush, and Global Protect. (Email sent 04-11-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-04-18T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0122469</Data></Cell>
+    <Cell><Data ss:Type="String">Snejana Farberov </Data></Cell>
+    <Cell><Data ss:Type="String"> sfarberov@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Snejana Farberov's first day is 4/18/22. Please activate all nypost accounts and model after Lia Eustachewich.  Dell Latitude 5420. For softwares, Microsoft office, methode, Global Protect.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-04-18T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Jordyn Tilchen </Data></Cell>
+    <Cell><Data ss:Type="String"> jtilchen@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Jordyn Tilchen's first day is 4/18/22. Please activate all nypost accounts and model after Zac Croce. She'll need Macbook Pro 13&quot;.  For softwares, Parsely, Airtable, WordPress, Google Search Console, Google Analytics, Microsoft Office, Global Protect.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-04-18T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Zach Williams </Data></Cell>
+    <Cell><Data ss:Type="String"> zwilliams@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Zach William's first day is 4/18/22. Please activate all nypost accounts and model after Bernadette Hogan.  Macbook Pro 13&quot;. For softwares, airtable, slack, Global Protect.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-04-25T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0126554</Data></Cell>
+    <Cell><Data ss:Type="String">Greta Bjornson </Data></Cell>
+    <Cell><Data ss:Type="String"> gbjornson@decider.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Greta Bjornson is being rehired on 4/25/2022. She'll need Macbook Pro 13&quot;. For software, she'll need Photoshop, Office, Slack, Global Protect. (email sent out: 04-25-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-05-04T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0134813</Data></Cell>
+    <Cell><Data ss:Type="String">Jessica Cherner </Data></Cell>
+    <Cell><Data ss:Type="String"> jcherner@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Jessica Cherner's first day is 5/4/2022. Please activate all nypost accounts and model after Dana Kennedy.  For softwares, she'll need Methode, Merlin, AirTable, Wordpress, Slack, Microsoft Word. (Need To Sent Out Email - 05-04-2022).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-05-09T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0134875</Data></Cell>
+    <Cell><Data ss:Type="String">Riley Cardoza </Data></Cell>
+    <Cell><Data ss:Type="String"> rcardoza@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-05-09T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">.Riley Cardoza's first day is 5/9/2022. Please activate all nypost accounts and model after Nick Hautman. For softwares, slack, photoshop, MS word, airtable, and global protect. (05-09-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-05-09T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0134813/SCTASK0134905</Data></Cell>
+    <Cell><Data ss:Type="String">Edward Glazarev </Data></Cell>
+    <Cell><Data ss:Type="String"> eglazarev@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-05-09T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Edward Glazarev's first day is 5/9/2022. Please activate all nypost accounts and model after Bradley Davis. For softwares, he'll need Methode, Merlin, Photoshop on Dell laptop. (05-09-2022).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-05-09T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Jatin Gongiwala </Data></Cell>
+    <Cell><Data ss:Type="String"> jgongiwala@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Jatin Gongiwala's first day is 5/9/2022. Please activate all nypost accounts and model after Samantha Previte. For softwares, microsoft excel. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-04-30T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0130274</Data></Cell>
+    <Cell><Data ss:Type="String">Meenakshi Krishnan </Data></Cell>
+    <Cell><Data ss:Type="String"> mkrishnan.consultant@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-05-02T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">DWT has&#160;a&#160;new attorney,&#160;Ms. Meenakshi Krishnan, who will be assisting with prepub work and will need remote access. (Email sent 05-02-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-05-09T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0134813</Data></Cell>
+    <Cell><Data ss:Type="String">Allison (Allie) Griffin </Data></Cell>
+    <Cell><Data ss:Type="String"> agriffin@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String">PC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-05-09T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Allison Griffin's first day is 5/9/2022. Please activate all nypost accounts and model after Lia Eustachewich. Dell Latitude 5420. For softwares, methode/microsoft office/global protect. (05-09-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-05-09T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0134813</Data></Cell>
+    <Cell><Data ss:Type="String">David Propper </Data></Cell>
+    <Cell><Data ss:Type="String"> dpropper@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-05-09T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">David Propper's first day is 5/9/2022. Please activate all nypost accounts and model after Lia Eustachewich/Snejana Farberov. For softwares, methode/microsoft office/global protect. - (05-09-2022).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-05-16T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Christopher (Brendan) O'Connell </Data></Cell>
+    <Cell><Data ss:Type="String"> boconnell@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">For softwares, Microsoft Office, Google Search Console (Owner, all domains), Google Analytics, Parsely, WordPress, Global Protect.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-05-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0142708</Data></Cell>
+    <Cell><Data ss:Type="String">Olivia Silio </Data></Cell>
+    <Cell><Data ss:Type="String"> osilio@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-05-16T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Olivia Silio's first day is 5/21/22. Her manager is Warren Cohen. Please activate all nypost accounts and model after Thomas Hogan as soon as possible.For softwares, adobe creative suite, slack, frame.io, global protect. (05-20-2022).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-05-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0143526</Data></Cell>
+    <Cell><Data ss:Type="String">Barret Wertz </Data></Cell>
+    <Cell><Data ss:Type="String"> bwertz@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-05-09T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">For softwares, he'll need Microsoft Office, Global Protect, and Adobe Photoshop. (Email  sent - 05-23-2022).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-05-31T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Stephanie Burgess </Data></Cell>
+    <Cell><Data ss:Type="String"> sburgess@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Stephanie Burgess' first day is 5/31/22. Her manager is Kim Muir. Please activate all nypost accounts and model after Olga Leus. For softwares, Microsoft Office, Workday access, Global Protect.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0146790/SCTASK0143533</Data></Cell>
+    <Cell><Data ss:Type="String">Emily Lefroy </Data></Cell>
+    <Cell><Data ss:Type="String"> elefroy@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String">  PC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-05-16T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Emily Lefroy's first day is 6/6/22. Her manager is Hailey Eber. Please activate all nypost accounts and model after Asia Grace Gaskin. For softwares, Wordpress, Airtable, Merlin, Photoshop, global protect. (Sent Out Email - 06-06-2022).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Ryan Murphy </Data></Cell>
+    <Cell><Data ss:Type="String"> rmurphy@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String">  Mac)</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Ryan Murphy's first day is 6/6/22. His manager is Jackie Goldstein. Please activate all nypost accounts and model after Cade Burk. For softwares, Microsoft Office. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-05-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0144762</Data></Cell>
+    <Cell><Data ss:Type="String">David Landsel </Data></Cell>
+    <Cell><Data ss:Type="String"> dlandsel@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-05-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">David Landsel's first day is 5/24/2022. His manager is Carla Spartos. Please reactivate all nypost accounts and model after Rachelle Bergstein.  For softwares, Methode, Merlin, Wordpress, Airtable, and Global Protect. (05-24-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-05-31T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0148194</Data></Cell>
+    <Cell><Data ss:Type="String">Elizabeth Karpen </Data></Cell>
+    <Cell><Data ss:Type="String"> ekarpen@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-05-31T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Elizabeth Karpen is converting over to full-time on 5/31. Her e-mail should now be: ekarpen@nypost.com. For software, she'll need Methode/Parallels/Citrix, Merlin, Adobe Photoshop, Microsoft Office, Slack. Please model after Taylor Knight. (Emails Sent - 05-31-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0152002</Data></Cell>
+    <Cell><Data ss:Type="String">Nicole Lee </Data></Cell>
+    <Cell><Data ss:Type="String"> nlee.intern@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-07T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">frame.io, adobe creative suite, slack - (Email Sent Out - 06-07-2022).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0152608</Data></Cell>
+    <Cell><Data ss:Type="String">Sekhena Sembenu </Data></Cell>
+    <Cell><Data ss:Type="String"> ssembenu.intern@decider.com  </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Summer Intern - starting 06-06-2022 - Manager Alex Zalben - Software - Adobe Photoshop - model after Greta Bjornson. Macbook Pro 13&quot; (06-06-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0151967</Data></Cell>
+    <Cell><Data ss:Type="String">Suzanne Haskell </Data></Cell>
+    <Cell><Data ss:Type="String"> shaskell.intern@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Summer Intern - starting 06-06-2022 - Manager Angie Scire - Adobe Photoshop, Dropbox, Google Drive - (Email sent 06-06-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0151223\SCTASK0152626</Data></Cell>
+    <Cell><Data ss:Type="String">Jared Greenspan </Data></Cell>
+    <Cell><Data ss:Type="String"> jgreenspan.intern@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Summer Intern - starting 06-06-2022 - Methode, WordPress, Merlin, Photoshop, Office - (Email Sent Out - 06-06-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0151223\SCTASK0152633</Data></Cell>
+    <Cell><Data ss:Type="String">David Scott </Data></Cell>
+    <Cell><Data ss:Type="String"> dscott.intern@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Summer Intern - starting 06-06-2022 - Methode, WordPress, Merlin, Photoshop, Office - (Email Sent Out - 06-06-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0151223\SCTASK0152638</Data></Cell>
+    <Cell><Data ss:Type="String">Matthew Neschis (rehire) </Data></Cell>
+    <Cell><Data ss:Type="String"> mneschis.intern@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Summer Intern - starting 06-06-2022 - Methode, WordPress, Merlin, Photoshop, Office - (Email Sent Out - 06-06-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0151982</Data></Cell>
+    <Cell><Data ss:Type="String">Shane Palma </Data></Cell>
+    <Cell><Data ss:Type="String"> spalma.intern@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Summer Intern - starting 06-06-2022 - Adobe Photoshop - (Email Sent Out - 06-06-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0151223\SCTASK0152011</Data></Cell>
+    <Cell><Data ss:Type="String">Julia Kahen </Data></Cell>
+    <Cell><Data ss:Type="String"> jkahen.intern@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Summer Intern - starting 06-06-2022 - Merlin, Adobe Photoshop, Slack - (Email Sent Out - 06-06-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0151223\SCTASK0152020</Data></Cell>
+    <Cell><Data ss:Type="String">Isabel Bekele </Data></Cell>
+    <Cell><Data ss:Type="String"> ibekele.intern@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Summer Intern - starting 06-06-2022 - Merlin, Adobe Photoshop, Slack - (Email Sent Out - 06-06-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0152651</Data></Cell>
+    <Cell><Data ss:Type="String">Jolie Zenna </Data></Cell>
+    <Cell><Data ss:Type="String"> jzenna.intern@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Summer Intern - starting 06-06-2022 - Microsoft Office, Photoshop - (Email Sent Out - 06-06-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0151223</Data></Cell>
+    <Cell><Data ss:Type="String">Maddie Panzer </Data></Cell>
+    <Cell><Data ss:Type="String"> mpanzer.intern@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Summer Intern - starting 06-06-2022 - Methode, Worpress, Airtable - (Email Sent Out - 06-06-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0151223</Data></Cell>
+    <Cell><Data ss:Type="String">Irie Sentner </Data></Cell>
+    <Cell><Data ss:Type="String"> isentner.intern@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Summer Intern - starting 06-06-2022 - Methode, Worpress, Airtable - (Email Sent Out - 06-06-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0151223\SCTASK0152039</Data></Cell>
+    <Cell><Data ss:Type="String">Caroline Coyer </Data></Cell>
+    <Cell><Data ss:Type="String"> ccoyer.intern@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Summer Intern - starting 06-06-2022 - Office, Merlin, Photoshop, Premiere - (Email Sent Out - 06-06-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0152022</Data></Cell>
+    <Cell><Data ss:Type="String">Emma Cavoli </Data></Cell>
+    <Cell><Data ss:Type="String"> ecavoli.intern@nypost.com Mac</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Summer Intern - starting 06-06-2022 - Adobe Photoshop - (Email Sent Out - 06-06-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0151223</Data></Cell>
+    <Cell><Data ss:Type="String">Desheania Andrews </Data></Cell>
+    <Cell><Data ss:Type="String"> dandrews.intern@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Summer Intern - starting 06-06-2022 - Methode, Microsoft Office - (Email Sent Out - 06-06-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0151223</Data></Cell>
+    <Cell><Data ss:Type="String">Valentina Jaramillo </Data></Cell>
+    <Cell><Data ss:Type="String"> vjaramillo.intern@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Summer Intern - starting 06-06-2022 - Methode, Microsoft Office - (Email Sent Out - 06-06-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0151223</Data></Cell>
+    <Cell><Data ss:Type="String">M'Niyah Lynn </Data></Cell>
+    <Cell><Data ss:Type="String"> mlynn.intern@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Summer Intern - starting 06-06-2022 - Methode, Microsoft Office - (Email Sent Out - 06-06-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0152032</Data></Cell>
+    <Cell><Data ss:Type="String">Hannah Schinzing </Data></Cell>
+    <Cell><Data ss:Type="String"> hschinzing@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Summer Intern - starting 06-06-2022 - ADOBE PHOTOSHOP, ADOBE PREMIERE, ADOBE ACROBAT, GIFBREWERY - (Email Sent Out - 06-06-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0152035</Data></Cell>
+    <Cell><Data ss:Type="String">Thomas Cohen </Data></Cell>
+    <Cell><Data ss:Type="String"> tcohen.intern@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Summer Intern - starting 06-06-2022 - Adobe Photoshop, Adobe Premiere - (Email Sent Out - 06-06-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-03T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0151223</Data></Cell>
+    <Cell><Data ss:Type="String">Bob Fredericks </Data></Cell>
+    <Cell><Data ss:Type="String"> RFredericks@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Bob Fredericks' first day is 6/3/2022. His manager is Gary Buiso. Please activate all nypost accounts and model after Gary Buiso. For softwares, nypost email, methode, wordpress, airtable, browser, google, office, global protect. (Email Sent Out - 06-06-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0152662</Data></Cell>
+    <Cell><Data ss:Type="String">Sophia Caraballo </Data></Cell>
+    <Cell><Data ss:Type="String"> scaraballo@nypost.com Mac</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Sophia Caraballo's first day is 6/6/22. Her manager is Ally D'Aluisio. Please activate all nypost accounts and model after Riley Cardoza.&#160;For softwares, slack, airtable, MS office, photoshop, global protect. (06-06-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0152042</Data></Cell>
+    <Cell><Data ss:Type="String">Akanke Jackson </Data></Cell>
+    <Cell><Data ss:Type="String"> ajackson@decider.com Mac</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Akanke Jackson's first day is 6/6/2022. Her manager is Alex Zalben. Please activate all nypost accounts and model after Greta Bjornson. For softwares, she'll need Microsoft Office, Slack, Photoshop. (Email sent out - 06-06-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-13T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0155261</Data></Cell>
+    <Cell><Data ss:Type="String">Cindy Martinez </Data></Cell>
+    <Cell><Data ss:Type="String"> cmartinez@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-13T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Cindy Martinez's first day is 6/13/22. Her manager is Karen Cifone. Please activate all nypost accounts and model after Desmond Nieves. For softwares, she'll need Microsoft office, Adobe Acrobat Pro, and from Citrix she needs DTI, Adbase and Diver. (Email sent out - 06-13-2022.)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-13T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0155257</Data></Cell>
+    <Cell><Data ss:Type="String">Victoria Matthews </Data></Cell>
+    <Cell><Data ss:Type="String"> vmatthews@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-13T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Victoria Matthews' first day is 6/13/22. Her manager is Melissa Smith. Please activate all nypost accounts and model after Taylor Valentine.  For softwares,  adobe creative suite, dropbox, slack, frame.io. - ((Email sent out - 06-13-2022).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0160304</Data></Cell>
+    <Cell><Data ss:Type="String">Nicole Gallucci </Data></Cell>
+    <Cell><Data ss:Type="String"> ngallucci@decider.com Mac </Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Nicole Gallucci's first day is on 6/21/22. Her manager is Mark Graham. For softwares, she'll need ADOBE PHOTOSHOP, GIF BREWERY, SLACK, ADOBE ACROBAT, SKYPE. (Email sent 06-21-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-07-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0155957</Data></Cell>
+    <Cell><Data ss:Type="String">Julia Remillard </Data></Cell>
+    <Cell><Data ss:Type="String"> jremillard@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Julia Remillard's first day is 7/5/2022. She'll be reporting to Kristin McNamara. Please activate all nypost accounts and model after Kristin McNamara.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-07-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0166549\SCTASK0167135</Data></Cell>
+    <Cell><Data ss:Type="String">Jeff Colson </Data></Cell>
+    <Cell><Data ss:Type="String"> JColson@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-07-01T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Jeff Colson's first day is 7/5/22. His manager is Bryan Erickson. Please activate all nypost accounts and model after Toni Misthos. For softwares, he'll need Adobe CC (Photoshop, Indesign, Illustrator, Acrobat, Bridge), Methode, Merlin, Parallels, Wordpress login, AirTable login, Slack. (07-01-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Molly Palma </Data></Cell>
+    <Cell><Data ss:Type="String"> mpalma.intern@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Molly Palma's first day is 6/21/22. Please activate all nypost accounts and model after Kristen Yanez. Her primary email should be mpalma.intern@nypost.com.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Stinson Fuller </Data></Cell>
+    <Cell><Data ss:Type="String"> sfuller@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Stinson Fuller's first day of work is 06/21/2022. His hiring manager is Jackie Jaramillo.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0160326\SCTASK0160328\SCTASK0160331</Data></Cell>
+    <Cell><Data ss:Type="String">Daniel Shapiro </Data></Cell>
+    <Cell><Data ss:Type="String"> dshapiro@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Daniel Shapiro's first day of work is 06/21/2022, his manager is  Chris Dougherty. Please activate all NY post accounts and model after Juan Arellano. Needed software's: Methode, Merlin, Adobe Photoshop. (06-21-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-25T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0161769\SCTASK0161774</Data></Cell>
+    <Cell><Data ss:Type="String">Sammy Erinc </Data></Cell>
+    <Cell><Data ss:Type="String"> serinc@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Sammy Erinc's first day is 06/25/2022. His manager is Derek O'Callaghan please model after him. Software's needed: Methode, merlin, photoshop, acrobat, illustrator, microsoft office, FTP client, methode barcode color and folio plugins.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-27T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0163437\SCTASK0163332</Data></Cell>
+    <Cell><Data ss:Type="String">Richard Pollina </Data></Cell>
+    <Cell><Data ss:Type="String"> rpollina@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-27T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Richard Pollina's start date is 6/27/22. His manager is Eileen Holliday. Please activate all nypost accounts and model after Alec Gearty. Software needed: Adobe Photoshop, Merlin. (Emails sent - 06-27-2022).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-07-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0167132</Data></Cell>
+    <Cell><Data ss:Type="String">Sierra Porter </Data></Cell>
+    <Cell><Data ss:Type="String"> sporter.intern@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-07-01T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Sierra Porter's first day is 7/5/2022. Please activate all nypost accounts and model after Jolie Zenna. Her primary email should be sporter.intern@nypost.com.  For softwares, Photoshop, Microsoft office. - (Email sent out - 07-01-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-07-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0167131</Data></Cell>
+    <Cell><Data ss:Type="String">Nicki Cox </Data></Cell>
+    <Cell><Data ss:Type="String"> ncox@nypost.com Mac</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-07-01T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Nicki Cox is converting to full-time on 7/5. For softwares, Photoshop, MS Office, slack, airtable. Her accounts should model Caroline Blair. - (Email sent out - 07-01-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-06-27T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0166549</Data></Cell>
+    <Cell><Data ss:Type="String">Kyle Schnitzer </Data></Cell>
+    <Cell><Data ss:Type="String"> kschnitzer@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Kyle Schnitzer's first day is 6/27/22. Please reactivate all nypost accounts and model after David Propper. For softwares, Methode, Microsoft office.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-07-11T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0172121</Data></Cell>
+    <Cell><Data ss:Type="String">Darby Hyde </Data></Cell>
+    <Cell><Data ss:Type="String"> dhyde@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Darby Hyde's first day is 7/11/22. Her manager is Kelly Gordon. Please activate all nypost accounts and model after Rachel Small.  For softwares, Methode, Airtable, Wordpress, Slack, Google/gmail, OKTA. (07-11-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-07-14T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0172078</Data></Cell>
+    <Cell><Data ss:Type="String">Richard Pollina </Data></Cell>
+    <Cell><Data ss:Type="String"> rpollina@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Richard Pollina is switching from part time to full time. His transition date is 7/14/2022. Please activate all NY Post accounts and model after Alec Gearty. Softwares needed: Adobe photoshop, Merlin. (07-12-2022).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-07-18T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0175180\SCTASK0172391</Data></Cell>
+    <Cell><Data ss:Type="String">Jacquelyn Kozak </Data></Cell>
+    <Cell><Data ss:Type="String"> jkozak@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-07-18T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String"> Jacquelyn Kozak's first day of work is 7/18/2022.\Please activate all NY post accounts and model after Tori Schneebaum.\Softwares needed: Merlin, photoshop - (07-18-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-07-18T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0176025</Data></Cell>
+    <Cell><Data ss:Type="String">Samantha Nungesser </Data></Cell>
+    <Cell><Data ss:Type="String"> snungesser@decider.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-07-19T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Please activate all NY Post accounts and model accounts after Greta Bjornson. Software needed: ADOBE PHOTOSHOP, ADOBE ACROBAT, SLACK, GIFBREWERY. ( 07-19-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-07-25T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0177772\SCTASK0177792</Data></Cell>
+    <Cell><Data ss:Type="String">Gary Hershon </Data></Cell>
+    <Cell><Data ss:Type="String"> ghershorn@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-07-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Gary Hershon's first day is 07/25/2022. His manager is Chris Dougherty. Please activate all NY Post accounts and model after Annie Wermiel. Equipment needed: MacBook Air 13. Software's needed: Merlin, Methode, Photoshop. (07-22-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-08-01T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0177797</Data></Cell>
+    <Cell><Data ss:Type="String">Kelly Laske </Data></Cell>
+    <Cell><Data ss:Type="String"> klaske@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-07-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Kelly Laske's first day is 08/01/2022. Please activate all New York Post accounts and model after Lauren Higgins. Equipment needed: Macbook Air. Software needed: Adobe Photoshop - (Email sent 07-22-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-07-25T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Aman Vinayak </Data></Cell>
+    <Cell><Data ss:Type="String"> avinayak@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Aman Vinayak's first day of work is 07/25/2022. Please activate all NY post accounts and model his account after Gladys Bertrand. Software needed: OneTrust, Gmail, Zoom, Office</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-08-08T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Pedro Reyes </Data></Cell>
+    <Cell><Data ss:Type="String"> preyes@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Pedro Reyes first day of work is 08/08/2022. Please activate all NY Post accounts and model his account after Rosalie Webster or Samantha Donsky (former employee). Software needed: Microsoft Office</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-08-15T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0190592\SCTASK0190571</Data></Cell>
+    <Cell><Data ss:Type="String">Nadine Bourne </Data></Cell>
+    <Cell><Data ss:Type="String"> nbourne@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-08-15T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Nadine Bourne's first day is 08/15/2022 - Software needed: Methode/Citirx, Merlin, Adobe Photoshop - Please activate all NY post accounts and model after Andrew Battifarano -  (Email sent 08-15-2022).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-08-15T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Matthew Sedacca </Data></Cell>
+    <Cell><Data ss:Type="String"> msedacca@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Matthew Sedacca's transition day is 08/15/2022. Please give him access to all NY Post accounts.  - He was a trial transitioning into a Part Timer so no need for equipment/new softwares. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-08-22T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0194485</Data></Cell>
+    <Cell><Data ss:Type="String">Cathy Burke </Data></Cell>
+    <Cell><Data ss:Type="String"> cburke@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-08-22T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Cathy Burke's first day of work will be 8/22/2022. Please activate all NYP accounts and model after Lia Eustachewich. Software needed: Methode, Microsoft Office</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-08-22T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0194485</Data></Cell>
+    <Cell><Data ss:Type="String">Matthew Abrahams </Data></Cell>
+    <Cell><Data ss:Type="String"> MAbrahams@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-08-22T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Matt Abraham's first day is 8/22/22. Please activate all nypost accounts and model after Joe Illuzzi.  For software, Methode, Slack.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-08-29T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0197914</Data></Cell>
+    <Cell><Data ss:Type="String">Julie Fuschetti </Data></Cell>
+    <Cell><Data ss:Type="String"> jfuschetti@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-08-29T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Julie Fuschetti's first day is 8/29/22. Please activate all nypost accounts and model after Ryan Murphy. For software, Adobe Photoshop, Microsoft Office. (Email sent 08-29-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0202023</Data></Cell>
+    <Cell><Data ss:Type="String">Nicole Cukingnan </Data></Cell>
+    <Cell><Data ss:Type="String"> (ncukingnan@nypost.com)</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Nicole Cukingnan's first day is 9/6/2022. Please activate all nypost accounts and model after Mike King. For software, adobe photoshop, slack, frame, jw player, vidiq. (09-06-2022).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0202052</Data></Cell>
+    <Cell><Data ss:Type="String">Andrew Tillett </Data></Cell>
+    <Cell><Data ss:Type="String"> atillett@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Andrew Tillett's first day is 9/6/2022. Please activate all nypost accounts and model after Lia Eustachewich. For softwares, he'll need Methode, Microsoft Office. (Email sent 09-06-2022).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-08-22T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Jaquira Truesdale </Data></Cell>
+    <Cell><Data ss:Type="String"> (jtruesdale@nypost.com)</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Jaquira Truesdale is being converted to a full-time employee on 8/22. Please make her primary email address jtruesdale@nypost.com and model after Pedro Reyes. For softwares, Microsoft Office.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0202979\SCTASK0202963</Data></Cell>
+    <Cell><Data ss:Type="String">Nicholas McEntyre </Data></Cell>
+    <Cell><Data ss:Type="String"> (nmcentyre@nypost.com) </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Nicholas McEntyre is starting on 9/6/2022. Please activate all nypost accounts and model after Alec Gearty. For softwares, Merlin, Adobe Photoshop. (Email sent 09-07-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0202979\SCTASK0202965</Data></Cell>
+    <Cell><Data ss:Type="String">Ray Lewis </Data></Cell>
+    <Cell><Data ss:Type="String"> rlewis@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Ray Lewis is starting on 9/6/2022. Please activate all nypost accounts and model after Alec Gearty. For softwares, Merlin, Adobe Photoshop. (Email sent 09-07-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-12T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Valentina Jaramillo </Data></Cell>
+    <Cell><Data ss:Type="String"> vjaramillo@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Valentina Jaramillo is converting over to PT on 9/12/22. Please update her email to reflect vjaramillo@nypost.com and model after Jules Corderoy. She'll need a Dell Latitude 5420 and Microsoft Office.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-12T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0210516</Data></Cell>
+    <Cell><Data ss:Type="String">Max Weisman </Data></Cell>
+    <Cell><Data ss:Type="String"> mweisman.intern@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-20T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">From MS Excel Spreadsheet - Methods, Wordpress, office </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-12T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0205817</Data></Cell>
+    <Cell><Data ss:Type="String">Claire Waheed </Data></Cell>
+    <Cell><Data ss:Type="String"> cwaheed.intern@decider.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-12T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Office, Slack Photoshop, Gif Brewery</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-12T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0205834</Data></Cell>
+    <Cell><Data ss:Type="String">Mara Kleinberg </Data></Cell>
+    <Cell><Data ss:Type="String"> mkleinberg.intern@decider.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-12T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Office, Slack Photoshop, Gif Brewery</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-12T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0205865</Data></Cell>
+    <Cell><Data ss:Type="String">Amelia Brennan </Data></Cell>
+    <Cell><Data ss:Type="String"> abrennan.intern@decider.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-12T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SLACK, ADOBE PHOTOSHOP, ADOBE PREMIERE, GIF BREWERY, KEEPER</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-12T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0205838</Data></Cell>
+    <Cell><Data ss:Type="String">Jake Garbar </Data></Cell>
+    <Cell><Data ss:Type="String"> jgarbar.intern@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-12T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Photoshop, Microsoft Office</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-12T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0205730\SCTASK0205807</Data></Cell>
+    <Cell><Data ss:Type="String">Brittney Najar </Data></Cell>
+    <Cell><Data ss:Type="String"> bnajar@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-12T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Brittney Najar's first day is 9/12/22. - Please activate all nypost accounts and model after Gordon Donovan - For softwares, she'll need methode, merlin, photoshop. She'll need Macbook Pro 13&quot;. (Email Sent Out - 09-12-2022).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-19T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0209677</Data></Cell>
+    <Cell><Data ss:Type="String">Raven Brunner </Data></Cell>
+    <Cell><Data ss:Type="String"> rbrunner@decider.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-19T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Raven Brunner's first day is 9/19. Please activate all accounts and model after Greta Bjornson. For softwares, she'll need Office, Slack, Photoshop, gif brewery. She'll need Macbook Air 13&quot; - (Email Sent Out - 09-19-2022).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-19T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0209681</Data></Cell>
+    <Cell><Data ss:Type="String">Hannah Southwick </Data></Cell>
+    <Cell><Data ss:Type="String"> hsouthwick@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-19T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Hannah Southwick's first day back is 9/19/22. Please activate all nypost accounts and model after Sophie Cannon. For equipment, she'll need Macbook Air 13&quot;. For softwares, Adobe Photoshop. (Email Sent Out - 09-19-2022).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-19T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0209746</Data></Cell>
+    <Cell><Data ss:Type="String">Georgia Worrell </Data></Cell>
+    <Cell><Data ss:Type="String"> gworrell@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-19T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Georgia Worrell will be attending orientation on 9/19. Please activate all nypost accounts and model after Griffin Kelly. For softwares, she'll need Methode, Airtable, Slack, Wordpress, Gmail. (Dell Latitude 5420) - (Email Sent Out - 09-19-2022).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-26T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0213595</Data></Cell>
+    <Cell><Data ss:Type="String">Ella Zeiler </Data></Cell>
+    <Cell><Data ss:Type="String"> ezeiler@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-19T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Ella Zeiler's first day is 9/26/22. Please activate all nypost accounts and model after Allison Underhill. She'll need a Macbook Pro 13&quot; and photoshop. (09-26-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-26T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0213577\SCTASK0213584</Data></Cell>
+    <Cell><Data ss:Type="String">Caitlin Doornbos </Data></Cell>
+    <Cell><Data ss:Type="String"> cdoornbos@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-09-26T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Caitlin Doornbos is starting on 9/26/22. Please activate all nypost accounts and model after Steven Nelson. For softwares, Methode, Merlin, Adobe Photoshop, Microsoft Office. (09-26-2022).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-10-03T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0218332</Data></Cell>
+    <Cell><Data ss:Type="String">Colin Loughran </Data></Cell>
+    <Cell><Data ss:Type="String"> cloughran.intern@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-10-03T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Colin Loughran's first day is 10/3/22. Please activate all nypost accounts and model Max Weisman. For softwares, Methods, Wordpress, office. (10-03-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-10-10T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0224020</Data></Cell>
+    <Cell><Data ss:Type="String">Victor Nava </Data></Cell>
+    <Cell><Data ss:Type="String"> vnava@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-10-10T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Victor Nava's first day is 10/10/22. Please activate all nypost accounts and model after Neil Sloane. For softwares, please give him the same ones that are assigned to Neil Sloane and Sam Chamberlain. (Email sent out - 10-10-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-10-10T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0224020</Data></Cell>
+    <Cell><Data ss:Type="String">Isabel Keane </Data></Cell>
+    <Cell><Data ss:Type="String"> ikeane@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-10-10T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">She'll need Dell Latitude 5420. For softwares, Methode, Microsoft Office. (Email sent out - 10-10-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-10-10T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0224034</Data></Cell>
+    <Cell><Data ss:Type="String">Matt Levy </Data></Cell>
+    <Cell><Data ss:Type="String"> MatthewLevy@nypost </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-10-10T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Matt Levy's first day is 10/10/22. Please activate all nypost accounts and model after Victoria Giardina. For equipment, he'll need Macbook Air 13&quot;. For softwares, he'll need Adobe Photoshop. (Email sent out - 10-10-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-10-10T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0224038</Data></Cell>
+    <Cell><Data ss:Type="String">P.J. McCormick </Data></Cell>
+    <Cell><Data ss:Type="String"> pmccormick@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-10-10T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">P.J. McCormick's first day is 10/10/22. Please activate all nypost accounts and model after Victoria Giardina. For software, Adobe Photoshop. (Email sent out - 10-10-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-10-10T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Tracy Swartz </Data></Cell>
+    <Cell><Data ss:Type="String"> tswartz@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Please activate all nypost accounts and model after Nadine DeNinno. For equipment, she'll need Macbook Air 13.  For softwares, she'll need AirTable, Slack, WordPress, Keeper (and whatever the new photo archive is called). </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-10-10T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0224101</Data></Cell>
+    <Cell><Data ss:Type="String">Ralph Semilla </Data></Cell>
+    <Cell><Data ss:Type="String"> rsemilla@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-10-10T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Ralph Semilla's first day is 10/10/22. For softwares, he needs adobe premiere, photoshop, slack, dropbox for video team, zoom with local recording for video team. Please model after Thomas Hogan. (Email sent out - 10-10-2022) </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-10-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0231495\SCTASK0231497</Data></Cell>
+    <Cell><Data ss:Type="String">Amy Hartmann </Data></Cell>
+    <Cell><Data ss:Type="String"> ahartmann@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-10-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Amy Hartmann's first day is 10/24/22. Please activate all nypost accounts and model after Evelyn Cordon.&#160;For softwares, Merlin, Methode, Photoshop, Bridge. (10-24-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-10-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0231495\SCTASK0231504</Data></Cell>
+    <Cell><Data ss:Type="String">Dylan Svoboda </Data></Cell>
+    <Cell><Data ss:Type="String"> dsvoboda@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-10-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Dylan Svoboda's first day is 10/24/22. Please activate all nypost accounts and model after Michael Blinn.&#160;He needs a Macbook Air 13&quot;. For software, Methode, Merlin, Photoshop. (10-24-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-10-31T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0234559\SCTASK0234560</Data></Cell>
+    <Cell><Data ss:Type="String">Farrah Julin </Data></Cell>
+    <Cell><Data ss:Type="String"> fjulin@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Farrah Julin's first day is 10/31/22. Please activate all nypost accounts and model after Tori Schneebaum. For softwares, she'll need Methode, Merlin, Adobe Photoshop. (Email send - 10-31-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-10-31T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0234559\SCTASK0234563</Data></Cell>
+    <Cell><Data ss:Type="String">Tom Roarty </Data></Cell>
+    <Cell><Data ss:Type="String"> troarty@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Tom Roarty is starting on 10/31/22. Please activate all nypost accounts and model after Gordon Donovan.&#160;Methode, Merlin, Photoshop.  (10-31-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-11-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0239939\SCTASK0239963</Data></Cell>
+    <Cell><Data ss:Type="String">Suzanne Popadin </Data></Cell>
+    <Cell><Data ss:Type="String"> spopadin@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-11-04T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Suzanne Popadin's first day is 11/6/22. Please activate all nypost accounts and model after Juan Rodriguez. She'll need Dell Latitude 5420, Methode (for print publishing), Merlin, Photoshop, Indesign. - Email sent 11-04-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-11-09T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0241350</Data></Cell>
+    <Cell><Data ss:Type="String">Tamantha Ryan </Data></Cell>
+    <Cell><Data ss:Type="String"> tryan@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-11-04T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Tamantha Ryan's first day is 11/9/22. Please activate all nypost accounts and model after Lindsey Kupfer. She'll need Macbook Air 13&quot;, Photoshop, Airtable, Slack, Microsoft Office, CHP, Zoom. -(Emailed - 11-09-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-11-08T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0240492</Data></Cell>
+    <Cell><Data ss:Type="String">Jacob Geanous  </Data></Cell>
+    <Cell><Data ss:Type="String"> jgeanous@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-11-08T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Jacob Geanous' first day is 11/8/22. Please activate all nypost accounts and model after Matthew Sedacca. For softwares, methode, merlin, airtable, slack, email, wordpress. (11-08-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-11-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Lexi Porigow </Data></Cell>
+    <Cell><Data ss:Type="String"> lporigow@nypost.com  </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Lexi Porigow's start date is 11/21/22. Please activate all nypost accounts and model after Curt Schwarzkopf. She needs a Macbook Air 13&quot;, Wireless mouse and keyboard for office use, and Microsoft Office.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-11-28T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Saloni Kankaria </Data></Cell>
+    <Cell><Data ss:Type="String"> skankaria@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Saloni Kankaria's first day is 11/28/2022. Please activate all nypost accounts and model after Alex Talbert. She'll need Macbook Air 13&quot;, Monitor, keyboard, mouse for office use, Asana, Google Workspace, One Trust, Zoom. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-11-14T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0243842\SCTASK0244943</Data></Cell>
+    <Cell><Data ss:Type="String">Bryan Fonseca </Data></Cell>
+    <Cell><Data ss:Type="String"> BFonseca@nypost </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-11-14T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Bryan Fonseca's first day is 11/14/22. Please activate all nypost accounts and model after Michael Blinn. He'll need Macbook Air 13&quot;, Methode, and Photoshop.&#160;(11-14-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-11-28T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0248991</Data></Cell>
+    <Cell><Data ss:Type="String">Lauren Santiago </Data></Cell>
+    <Cell><Data ss:Type="String"> lsantiago@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-11-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Lauren Santiago's first day is 11/28/22. Please activate all nypost accounts and model after Ryan Sampson/Thomas Hogan. Adobe creative suite, frame.io, slack, jw player.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-12-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Methode &amp; Merlin were already active\SCTASK0255154</Data></Cell>
+    <Cell><Data ss:Type="String">Mark Suleymanov </Data></Cell>
+    <Cell><Data ss:Type="String"> msuleymanov@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Mark Suleymanov's first day back is 12/5/22. Please activate all nypost accounts and model after Alec Gearty. He'll need Macbook Pro 13&quot;, Methode/Citrix, Adobe Photoshop, Microsoft Office, Slack, CHP.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-12-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0255222\SCTASK0255156</Data></Cell>
+    <Cell><Data ss:Type="String">Michael McWeeney  </Data></Cell>
+    <Cell><Data ss:Type="String"> mmcweeney@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-12-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String"> Please activate all nypost accounts and model after Evelyn Cordon. He'll need a Macbook Pro 13&quot; and Monitor. For softwares, CHP, Methode, Merlin, Photoshop - (12-06-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-12-18T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0261278</Data></Cell>
+    <Cell><Data ss:Type="String">David Scott </Data></Cell>
+    <Cell><Data ss:Type="String"> dscott.intern@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-12-20T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">David Scott's first day is 12/18/22. Please reactivate all nypost accounts. His primary email is dscott.intern@nypost.com. He'll need access to Photoshop PC. No equipment is necessary. - (Email sent 12-20-2022)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-12-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Phil Chan took care of this request</Data></Cell>
+    <Cell><Data ss:Type="String">Maude Campbell </Data></Cell>
+    <Cell><Data ss:Type="String"> mcampbell@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-12-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">She'll need Dell Latitude 5420, Keyboard for in-office. Wired mouse for both office and home, Methode, Okta, Global Protect, Merlin, CHP, Slack, Airtable, Wordpress, MS Word w/macros, gmail, chrome.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-12-14T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Jinan Huang took care of this</Data></Cell>
+    <Cell><Data ss:Type="String">Lindsey Cherner </Data></Cell>
+    <Cell><Data ss:Type="String"> lcherner.consultant@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2022-12-14T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Can you please&#160;create an NYP&#160; method account for&#160;Lindsey Cherner&#160;you can&#160;model it after&#160;Meenakshi&#160;Krishnan and someone&#160;will need to install Method on her notebook.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2022-12-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Brooke Kato </Data></Cell>
+    <Cell><Data ss:Type="String"> bkato@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">She'll need a Macbook Air 13&quot;, Mouse, and Charger. For softwares, she'll need CHP, AirTable, WordPress, Slack, Keeper. Please model after Andrew Court.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-03T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0265383</Data></Cell>
+    <Cell><Data ss:Type="String">Everett Jones </Data></Cell>
+    <Cell><Data ss:Type="String"> ejones@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-03T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">He'll need Dell Latitude 5420 and mouse. For softwares, he'll need Methode, Slack, Global Protect, Airtable, Wordpress (Page Six and NYP, live access), gmail.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-03T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0265969\SCTASK0265029</Data></Cell>
+    <Cell><Data ss:Type="String">Andrew Crane </Data></Cell>
+    <Cell><Data ss:Type="String"> acrane@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-04T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Andrew Crane's first day is 1/3/22. Please activate all nypost accounts and model after Jared Schwartz. His primary email should be acrane@nypost.com. - (Emailed Andrew - 01-04-2023).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-03T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0265054</Data></Cell>
+    <Cell><Data ss:Type="String">Jane Herz </Data></Cell>
+    <Cell><Data ss:Type="String"> jherz@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-03T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Jane Herz's first day is 1/3/22. Please activate all nypost accounts and model after Andrew Court. She'll need Macbook Air 13&quot;, Mouse, Charger. For softwares, WordPress, Parsley, AirTable, Slack, CHP, Photoshop, Google Docs.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-09T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0265061</Data></Cell>
+    <Cell><Data ss:Type="String">Angela Tricarico </Data></Cell>
+    <Cell><Data ss:Type="String"> atricarico@decider.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-03T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Angela Tricarico's first day is 1/9/2022. Please activate all nypost accounts and model after Sophie Cannon. She'll need a Macbook Air 13&quot;, Monitor, Keyboard, Mouse — for office. For softwares, she'll need Adobe Photoshop, Microsoft Office.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-17T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0266084\SCTASK0265071</Data></Cell>
+    <Cell><Data ss:Type="String">Bridget Reilly </Data></Cell>
+    <Cell><Data ss:Type="String"> breilly@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Bridget Reilly's start date is 1/17/23. Please activate all nypost accounts and model after Jared Schwartz. She'll need a Dell Latitude 5420 and company phone. For softwares, Methode, Merlin, CHP, WordPress, Photoshop, Office</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-17T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Robert Reese</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">For softwares, Microsoft Office and Global Protect AD.  - No action needed from PAS.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0271535</Data></Cell>
+    <Cell><Data ss:Type="String">Jake Aryeh </Data></Cell>
+    <Cell><Data ss:Type="String"> jaryeh@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-13T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Jake Aryeh's first day is 1/21/2023. For softwares, Global Protect AD, adobe creative suite, slack, parsley, wordpress, airtable. Please model after Alex DePinto. (Completed - 01-13-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0276238</Data></Cell>
+    <Cell><Data ss:Type="String">Rylee Johnston </Data></Cell>
+    <Cell><Data ss:Type="String"> rjohnston@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Rylee Johnston's first day is 1/23/23. Please activate all nypost accounts and model after Sophie Cannon.&#160; For softwares, Global Protect AD, Adobe Photoshop Microsoft Office. (Email sent 01-23-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0276243</Data></Cell>
+    <Cell><Data ss:Type="String">Rachel Meller </Data></Cell>
+    <Cell><Data ss:Type="String"> rmeller.intern@decider.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Microsoft Office, Adobe Photoshop, Slack, Gif Brewery. (Email sent 01-23-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0276251</Data></Cell>
+    <Cell><Data ss:Type="String">Noah Concordia </Data></Cell>
+    <Cell><Data ss:Type="String"> nconcordia.intern@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">WordPress, Methode, PhotoShop, Office, CHP. (Email sent 01-23-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0276253</Data></Cell>
+    <Cell><Data ss:Type="String">Ava Erickson </Data></Cell>
+    <Cell><Data ss:Type="String"> aerickson.intern@decider.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Microsoft Office, Adobe Photoshop, Slack, Gif Brewery. (Email sent 01-23-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0276254</Data></Cell>
+    <Cell><Data ss:Type="String">Kara VanDooijeweert </Data></Cell>
+    <Cell><Data ss:Type="String"> kvandooijeweert.intern@decider.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Microsoft Office, Adobe Photoshop, Slack, Gif Brewery. (Email sent 01-23-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Erica Daley </Data></Cell>
+    <Cell><Data ss:Type="String"> edaley.intern@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">No software was requested.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0276274</Data></Cell>
+    <Cell><Data ss:Type="String">Jialing He </Data></Cell>
+    <Cell><Data ss:Type="String"> jhe.intern@decider.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Adobe Photoshop, Adobe Premiere, Slack, GIF Brewery, Canvas, Keeper. (Email sent 01-23-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0276257</Data></Cell>
+    <Cell><Data ss:Type="String">Caroline McCarthy </Data></Cell>
+    <Cell><Data ss:Type="String"> cmccarthy.intern@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Adobe Photoshop, Slack, CHP. (Email sent 01-23-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0280664</Data></Cell>
+    <Cell><Data ss:Type="String">Alyona Uvarova </Data></Cell>
+    <Cell><Data ss:Type="String"> auvarova.intern@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-31T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Adobe Photoshop, Slack, CHP - Start date delayed. Completed - 01-31-2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-30T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0280636</Data></Cell>
+    <Cell><Data ss:Type="String">Steve Janoski </Data></Cell>
+    <Cell><Data ss:Type="String"> sjanoski@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Steve Janoski's first day is 1/30/23. Please activate all nypost accounts and model after David Propper. For softwares, Global Protect AD, Latest version of Methode, Microsoft office. (01-31-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-30T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0280636\SCTASK0280660</Data></Cell>
+    <Cell><Data ss:Type="String">Ethan Tanzer </Data></Cell>
+    <Cell><Data ss:Type="String"> etanzer@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-01-31T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Ethan Tanzer's first day is 1/30/23. Please activate all nypost accounts and model after Mark Suleymanov. Macbook Pro 13&quot;. For software, Global Protect AD, CHP, Methode, Adobe Photoshop, Microsoft Office, Slack. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-02-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Ashley Joyner </Data></Cell>
+    <Cell><Data ss:Type="String"> ajoyner@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Ashley Joyner's first day is 2/6/23. Please activate all nypost accounts and model after Chloe Ru. - She'll need Macbook Air 13&quot; and Microsoft Office. Please add her to Global Protect AD. She'll be onsite on Day 1. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-02-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0292356</Data></Cell>
+    <Cell><Data ss:Type="String">Radhamely De Leon\rdeleon@decider.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-02-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Radhamely De Leon is starting on 2/21/2023. Please activate all accounts and model after Greta Bjornson. Her primary email should be rdeleon@decider.com. Global Protect AD, Photoshop. (02-21-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-02-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0292368</Data></Cell>
+    <Cell><Data ss:Type="String">Josh Christenson </Data></Cell>
+    <Cell><Data ss:Type="String"> jchristenson@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-02-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Josh Christenson's first day is 2/21/2023. He'll need a Macbook Air 13&quot;. For softwares, he'll need Global Protect AD, adobe photoshop, chp, airtable, wordpress, slack. (02-21-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-02-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Yuheng Zhan </Data></Cell>
+    <Cell><Data ss:Type="String"> yzhan.intern@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Yuheng Zhan is starting 2/21/2023. You can model after James Covert. He'll need Dell Latitude 5430, Global Protect AD, WordPress, and CHP.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-02-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0292377</Data></Cell>
+    <Cell><Data ss:Type="String">Tracy Awino </Data></Cell>
+    <Cell><Data ss:Type="String"> tawino@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-02-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Tracy Awino is starting on 2/21/2023.  Model after Jessica Hober. For softwares, OKTA, NYpost Email, Dropbox, Adobe Creative Suite account, CHP, Slack, Airtable. Global Protect - (02-21-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-03-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0299291\SCTASK0299294</Data></Cell>
+    <Cell><Data ss:Type="String">Steve Frank </Data></Cell>
+    <Cell><Data ss:Type="String"> sfrank@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-03-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Steve Frank is starting on 3/6/23. Please activate all nypost accounts and model after Mark Suleymanov. For softwares, he'll need Adobe photoshop, Microsoft Office, CHP, Slack, Methode. (03-06-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-03-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0299291</Data></Cell>
+    <Cell><Data ss:Type="String">Stephanie Pagones </Data></Cell>
+    <Cell><Data ss:Type="String"> SPagones@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-03-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Stephanie Pagones is starting 3/6/23. Please activate all nypost accounts and model after Steve Janoski. For softwares, she'll need Global Protect AD, Methode, Microsoft Office. (03-06-2023).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-03-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0299291</Data></Cell>
+    <Cell><Data ss:Type="String">Ronny Reyes </Data></Cell>
+    <Cell><Data ss:Type="String"> rreyes@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-03-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Ronny Reyes is starting on 3/6/23. Please activate all nypost accounts and model after Steve Janoski.&#160;For softwares, Global Protect AD, Methode, Microsoft Office, CHP. (Emailed - 03-06-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-03-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0299296</Data></Cell>
+    <Cell><Data ss:Type="String">Filipe Freitas </Data></Cell>
+    <Cell><Data ss:Type="String"> ffreitas@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-03-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Filipe Freitas' first day is 3/6/23. Please activate all nypost accounts and model after Pierre Mena. He'll need a Macbook Pro 13&quot;, Photoshop, Photo Mechanic, Chrome. (Emailed sent - 03-06-2023).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-03-13T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0302839\SCTASK0303055</Data></Cell>
+    <Cell><Data ss:Type="String">Hugh Dougherty </Data></Cell>
+    <Cell><Data ss:Type="String"> hdougherty@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-03-13T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Hugh Dougherty's first day is 3/13/23. Please activate all accounts and model after Shelly Ridenour. He'll need a Macbook Air 13&quot;, Parallels/Methode, CHP, InDesign. (Emailed the user - 03-13-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-03-27T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0311382</Data></Cell>
+    <Cell><Data ss:Type="String">Alena (Hancock) Adamson </Data></Cell>
+    <Cell><Data ss:Type="String"> aadamson@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-03-28T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Alena Hancock's start date is 3/27/23. Please activate all nypost accounts and model after Gordon Donovan. For softwares, she'll need Photoshop, Bridge, CHP. (Emailed - 03-28-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-04-17T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Sarah Berman </Data></Cell>
+    <Cell><Data ss:Type="String"> sberman@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Sarah Berman's first day is 4/17/23. Please activate all nypost accounts and model after Jordyn Tilchen. For software, she'll need WordPress, AirTable, Parsely, Google Search Console, Google Analytics.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-01T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0328401</Data></Cell>
+    <Cell><Data ss:Type="String">Terry Moseley </Data></Cell>
+    <Cell><Data ss:Type="String"> tmoseley@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-01T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Terry Moseley's start date is 5/1/2023. Please activate all nypost accounts and model after Lia Eustachewich. She'll need a Dell Latitude 5430. For softwares, Methode, CHP, microsoft office, Global Protect AD. (Emailed sent - 05-01-2023).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-01T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Shannon Thaler </Data></Cell>
+    <Cell><Data ss:Type="String"> sthaler@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Shannon Thaler's starts date is 05/01/2023. Please activate all NYP accounts and model after James Covert. Software needed: CHP, WordPress, AirTable</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-08T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0331480</Data></Cell>
+    <Cell><Data ss:Type="String">Gregg Martinez </Data></Cell>
+    <Cell><Data ss:Type="String"> gmartinez@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Gregg Martinez's first day is 5/8/23. Please activate all nypost accounts and model after Scott Lareau. For softwares, Global Protect AD, Adobe Acrobat and All Microsoft Office products.  - (05-05-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-08T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0331485</Data></Cell>
+    <Cell><Data ss:Type="String">Kevin Hill </Data></Cell>
+    <Cell><Data ss:Type="String"> khill@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Kevin Hill's first day is 5/8/23. Please activate all nypost accounts and model after Dan McKay. For softwares, Global Protect AD, All Microsoft office products, Adobe Acrobat.  - (05-05-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-08T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0331489</Data></Cell>
+    <Cell><Data ss:Type="String">Nick Bianco </Data></Cell>
+    <Cell><Data ss:Type="String"> nbianco@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Nick Bianco's start date is 5/8/2023. Please activate all nypost accounts and model after Tori Schneebaum. For softwares, Photoshop, Chrome, CHP. - (05-05-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-15T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0335305</Data></Cell>
+    <Cell><Data ss:Type="String">Blanca Torres </Data></Cell>
+    <Cell><Data ss:Type="String"> btorres@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-12T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Please activate all nypost accounts and model after Pankaj Khadka. For softwares, CHP, Photoshop, Bridge. (Completed - 05-12-2023).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-15T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Mark Lallanilla </Data></Cell>
+    <Cell><Data ss:Type="String"> mlallanilla@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Marc Lallanilla's first day is 5/15/23. Please activate all nypost accounts and model after Nadine DeNinno or Eric Hegedus. For softwares, he'll need WordPress, Slack, Gmail, AirTable, Parse.ly, Google Docs, Google Calendar, Microsoft Office. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-15T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0335329</Data></Cell>
+    <Cell><Data ss:Type="String">Alex Oliveira </Data></Cell>
+    <Cell><Data ss:Type="String"> aoliveira@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-12T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Alex Oliveira's start date is 5/15/23. Please activate all nypost accounts and model after Steve Janoski. For softwares, Methode, CHP, Microsoft Office. (Emailed - 05-12-2023).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-15T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0336173</Data></Cell>
+    <Cell><Data ss:Type="String">Ed Daigneault </Data></Cell>
+    <Cell><Data ss:Type="String"> (edaigneault@nypost.com)</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-15T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Ed Daignault's first day is 5/15/23. Please activate all nypost accounts and model after Jarad Wilk. For softwares, Methode, CHP. (Email Sent)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-16T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0336173</Data></Cell>
+    <Cell><Data ss:Type="String">Caoline McCarthy </Data></Cell>
+    <Cell><Data ss:Type="String"> cmccarthy1@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-15T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Caroline McCarthy's first day back is 5/16/23. Her e-mail should read cmccarthy1@nypost.com. Methode/citirix (required for digital producers), CHP, Microsoft Office, Slack via Okta. 05-15-2023&#10;5/22/2023,SCTASK0339763,Andrew Priebel , apriebel.intern@nypost.com,,Completed - 05-22-2023,05-22-2023,Andrew Priebel's first day is 5/22/2023. Model after Rebecca Ciment. His email should be apriebel.intern@nypost.com. For softwares</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-22T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0339777</Data></Cell>
+    <Cell><Data ss:Type="String">Medina Boudreaux </Data></Cell>
+    <Cell><Data ss:Type="String"> mboudreaux@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-22T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Medina Boudreaux's first day is 5/22/23. Please activate all nypost accounts and model after Annie Wermiel.&#160;She needs a Macbook Pro 13&quot;, Chrome, CHP, Photoshop. (05-22-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-30T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0343762</Data></Cell>
+    <Cell><Data ss:Type="String">Vanessa Serna </Data></Cell>
+    <Cell><Data ss:Type="String"> vserna@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-30T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Vanessa Serna's first day is 5/30/23. Please activate all nypost accounts and model after Caroline Blair. She'll need a Macbook Air 13&quot;, chp, slack, airtable, photoshop, MS office. 05-30-2023.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-30T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0343760</Data></Cell>
+    <Cell><Data ss:Type="String">Gabi Duncan </Data></Cell>
+    <Cell><Data ss:Type="String"> gduncan@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-30T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Gabi Duncan's first day is 5/30/23. Please activate nypost accounts and model after Sophia Caraballo. She'll need Macbook Air 13&quot;. For softwares, CHP, airtable, slack, photoshop, google drive, keeper. 05-30-2023.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-05-30T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0345553\SCTASK0345551</Data></Cell>
+    <Cell><Data ss:Type="String">Lucius Riley </Data></Cell>
+    <Cell><Data ss:Type="String"> LRiley@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-01T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Lucius Riley's first day is 5/30/23. Please activate all nypost accounts and model after Annie Wermiel. He'll need Macbook Pro 13&quot;. For softwares, Chrome, CHP, Methode, Photoshop. (Emails sent - 06-01-2023).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Jolie Zenna (rehire) </Data></Cell>
+    <Cell><Data ss:Type="String"> (jzenna.intern@nypost.com)</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Microsoft Office</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0349059</Data></Cell>
+    <Cell><Data ss:Type="String">Donovan Pepe </Data></Cell>
+    <Cell><Data ss:Type="String"> (dpepe.intern@nypost.com)</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-07T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Adobe Acrobat Pro DC - Approved by Levent Saracoglu - 06-07-2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Erika Cheng </Data></Cell>
+    <Cell><Data ss:Type="String"> (echeng.intern@nypost.com)</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">SailThru - Only for setting up/creating emails and lists, NOT for deployment of emails or the ability to discard templates/campaigns/lists.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0347000</Data></Cell>
+    <Cell><Data ss:Type="String">Maeve Degan </Data></Cell>
+    <Cell><Data ss:Type="String"> (mdegan.intern@decider.com)</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String"> Adobe Creative Suite, GIF Brewery - (06-05-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0347046</Data></Cell>
+    <Cell><Data ss:Type="String">Emma Becker </Data></Cell>
+    <Cell><Data ss:Type="String"> (ebecker.intern@decider.com)</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Office, Slack, Gif Brewery, Photoshop - (06-05-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Samantha Hsueh </Data></Cell>
+    <Cell><Data ss:Type="String"> (shsueh.intern@nypost.com)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Hayley Villapudua </Data></Cell>
+    <Cell><Data ss:Type="String"> (hvillapudua.intern@nypost.com)</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">N/A displays on the spreadsheet as of 05-30-2023.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Nicole Guillen </Data></Cell>
+    <Cell><Data ss:Type="String"> (nguillen.intern@nypost.com)</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">N/A displays on the spreadsheet as of 05-30-2023.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Isabel Berman </Data></Cell>
+    <Cell><Data ss:Type="String"> (iberman.intern@nypost.com)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Carrie Berk </Data></Cell>
+    <Cell><Data ss:Type="String"> (cberk.intern@nypost.com)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0347013</Data></Cell>
+    <Cell><Data ss:Type="String">Abigail Baughan </Data></Cell>
+    <Cell><Data ss:Type="String"> ( abaughan.intern@nypost.com)</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Adobe Photoshop - (Email sent 06-05-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0341298\SCTASK0347056</Data></Cell>
+    <Cell><Data ss:Type="String">Miles Schachner </Data></Cell>
+    <Cell><Data ss:Type="String"> (mschachner.intern@nypost.com)</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Photoshop, Methode, CHP, WordPress, Office - Email sent 06-05-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0341298\SCTASK0347050</Data></Cell>
+    <Cell><Data ss:Type="String">Dhani Joseph </Data></Cell>
+    <Cell><Data ss:Type="String"> (djoseph.intern@nypost.com)</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Photoshop, Methode, CHP, WordPress, Office - Email sent 06-05-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0341298\SCTASK0347047</Data></Cell>
+    <Cell><Data ss:Type="String">Belle Fraser </Data></Cell>
+    <Cell><Data ss:Type="String"> (bfraser.intern@nypost.com)</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Photoshop, Methode, CHP, WordPress, Office - Email sent 06-05-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0347027</Data></Cell>
+    <Cell><Data ss:Type="String">Thomas Cohen (rehire) </Data></Cell>
+    <Cell><Data ss:Type="String"> (tcohen.intern@nypost.com)</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Adobe products (Photoshop, Premiere Pro, After Effects) - (06-05-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Nicholas Guzman </Data></Cell>
+    <Cell><Data ss:Type="String"> (nguzman.intern@nypost.com)</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">N/A displays on the spreadsheet as of 05-30-2023.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0347036</Data></Cell>
+    <Cell><Data ss:Type="String">Morgan Alston </Data></Cell>
+    <Cell><Data ss:Type="String"> (malston.intern@nypost.com)</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">06-05-20223</Data></Cell>
+    <Cell><Data ss:Type="String">Adobe Creative Suite - (Email sent out - 06-05-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Paige Kahn </Data></Cell>
+    <Cell><Data ss:Type="String"> (pkahn.intern@nypost.com)</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">N/A displays on the spreadsheet as of 05-30-2023.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Rthvika Suvarna </Data></Cell>
+    <Cell><Data ss:Type="String"> (rsuvarna.intern@nypost.com)</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">N/A displays on the spreadsheet as of 05-30-2023.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Jordan Levy </Data></Cell>
+    <Cell><Data ss:Type="String"> (jlevy.intern@nypost.com)</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">WordPress, Google Search Console, Parsely, Google Analytics</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Kimani Krienke </Data></Cell>
+    <Cell><Data ss:Type="String"> (kkrienke.intern@nypost.com)</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">CHP, Wordpress</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Rosie Xie</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">N/A</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Michael Kanyongolo </Data></Cell>
+    <Cell><Data ss:Type="String"> (mkanyongolo.intern@nypost.com)</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">CHP, Wordpress</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Sarah Cassuto </Data></Cell>
+    <Cell><Data ss:Type="String"> (scassuto.intern@nypost.com)</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">CHP, Wordpress</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0347139\SCTASK0347063</Data></Cell>
+    <Cell><Data ss:Type="String">Christian Arnold </Data></Cell>
+    <Cell><Data ss:Type="String"> carnold1@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">&#160;New hire Christian Arnold is starting 6/5/2023. Please model the account after Michael Blinn. He also needs access to Methode, CHP, Keeper, Photoshop. - (06-05-2023).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-19T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Meghan Powers </Data></Cell>
+    <Cell><Data ss:Type="String"> (mpowers.intern@nypost.com)</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Slack, WordPress, Airtable, CHP</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-19T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Jordan Lance </Data></Cell>
+    <Cell><Data ss:Type="String"> (jlance.intern@nypost.com)</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">WordPress and SocialFlow. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-12T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0347139\SCTASK0350973</Data></Cell>
+    <Cell><Data ss:Type="String">Ryan King </Data></Cell>
+    <Cell><Data ss:Type="String"> rking@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Ryan King's first day is 6/12/2023. Please activate all nypost accounts and model after Sam Chamberlain. For equipment, he'll need a Dell Latitude 5430. For softwares, he'll need Microsoft Office, CHP, Methode. (06-12-2023).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-12T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Benjamin Larry Completed this request</Data></Cell>
+    <Cell><Data ss:Type="String">Alexandra Vena </Data></Cell>
+    <Cell><Data ss:Type="String"> avena@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Alexandra Vena, She is starting 6/12/2023. Please model her account after Radhamely De Leon. She needs a Macbook Pro 13&quot; and adobe photoshop installed on her device.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-13T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0351822</Data></Cell>
+    <Cell><Data ss:Type="String">Deidre Bardolf </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-13T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Deirdre Bardolf. Their start date is 6/13/2023.  Please model her account after Matthew Sedacca. The software she needs installed is Wordpress, methode, slack, email, and air table. (Account is not created as of 06-12-2023) - Email sent 06-13-2023.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-30T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0360531</Data></Cell>
+    <Cell><Data ss:Type="String">Alyssa Guzman</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">New hire Alyssa Guzman, her start date is 07/05/2023. model the account after Ronny Reyes. She will need a Dell Latitude 5430.  She will need Methode, CHP, Microsoft Office installed on her device. (Emailed - 06-30-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-06-30T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A (update: She withdrew her agreement)</Data></Cell>
+    <Cell><Data ss:Type="String">Wynter Levons</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String"> Request for new hire Wynter Levons. Start date is 07/05/2023. This new hire will need a MacBook Air 13&quot;.  Needs Microsoft Office installed including Excel and Word to review documents from Finance, downloaded reports, etc.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-07-10T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Sophie Gardiner </Data></Cell>
+    <Cell><Data ss:Type="String"> (sgardiner.intern@nypost.com)</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">No requested software was provided on the intern spreadsheet. As of 07-07-2023 there has not been any request for software that PAS need to provide to the user.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-07-10T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Jared Downing </Data></Cell>
+    <Cell><Data ss:Type="String"> (jdowning@nypost.com)</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Would it be possible to get an email for PT hire Jared Downing. He will be starting July 10th but he will be attending orientation on that day as well. He doesn't need technology as he will be using his own equipment.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-07-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0374682</Data></Cell>
+    <Cell><Data ss:Type="String">Holly Coley </Data></Cell>
+    <Cell><Data ss:Type="String"> (hcoley@nypost.com)</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-07-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">She will need access to Microsoft Office 365, and Adobe Photoshop - (07-21-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-07-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Steven Nevills</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">He will need a NYpost email as well as airtable, chp, VLC Player (free)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-07-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0374695/SCTASK0374693</Data></Cell>
+    <Cell><Data ss:Type="String">Matt Ehalt </Data></Cell>
+    <Cell><Data ss:Type="String"> (mehalt@nypost.com)</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-07-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Can we please model his account after Michael Blinn. He will need a 13&quot; MacBook Air as well as an NYPost email and access to Photoshop and Methode. (07-21-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-07-31T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0379999/SCTASK0380001</Data></Cell>
+    <Cell><Data ss:Type="String">Mike Rosenstein </Data></Cell>
+    <Cell><Data ss:Type="String"> mrosenstein@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-07-31T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">He will need a MacBook Air 13&quot; with Methode and Photoshop installed on his device as well as an nypost email. Model the account after Michael Blinn. (07-31-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-08-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0383182</Data></Cell>
+    <Cell><Data ss:Type="String">Matthew Neschis </Data></Cell>
+    <Cell><Data ss:Type="String"> mneschis@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-08-03T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">He will need a MacBook Pro 13&quot;. He will need Adobe Photoshop, Microsoft Office.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-08-07T00:00:00.000</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Larry Stansbury </Data></Cell>
+    <Cell><Data ss:Type="String"> lstansbury@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-08-07T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">He will need an NYP email as well as Photoshop and Microsoft Excel. (08-07-2023).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-08-14T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0389600</Data></Cell>
+    <Cell><Data ss:Type="String">Ben Kochman </Data></Cell>
+    <Cell><Data ss:Type="String"> bkochman@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-08-09T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">He needs a Dell Latitude 5430. He will need Methode, Adobe PDF reader, Microsoft Office. (Email sent 0 08-14-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-08-14T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Alana Bracken </Data></Cell>
+    <Cell><Data ss:Type="String"> (abracken@nypost.com)</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">She will need access to an NYP email as well as WordPress, Parsely, Google Analytics, Google Search Console.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-08-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0394077</Data></Cell>
+    <Cell><Data ss:Type="String">Mark Levine</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-08-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Please install Adobe: premiere, after effects, photoshop, CHP, Dropbox on his device. (Completed 08-21-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-08-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0394079</Data></Cell>
+    <Cell><Data ss:Type="String">Nicholas Perrone</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-08-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Please add Adobe: premiere, after effects, photoshop, CHP, dropbox to his devices. (Completed 08-21-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-08-21T00:00:00.000</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Kaydi Pelletier </Data></Cell>
+    <Cell><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">She will need an NYP email as well as Microsoft Office, Slack and CHP tiles via Okta.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-08-21T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0393787</Data></Cell>
+    <Cell><Data ss:Type="String">Melissa Koenig </Data></Cell>
+    <Cell><Data ss:Type="String"> mkoenig@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">She will need Methode, CHP, Microsoft Office, and an NYP email. (Completed - Email sent 08-21-2023 - 9:30 AM).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-08-28T00:00:00.000</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">Jain Krikorian </Data></Cell>
+    <Cell><Data ss:Type="String"> jkrikorian@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">They'll need a Dell Latitude 5430 &amp; Microsoft Office.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-08-28T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Completed By Benjamin Larry</Data></Cell>
+    <Cell><Data ss:Type="String">Greg Hester </Data></Cell>
+    <Cell><Data ss:Type="String"> </Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">He will need a Mac Book Pro 13&quot;. He will also need access to Adobe products (adobe CC, photoshop, indesign, illustrator, after effects), Methode, CHP. - Completed By Benjamin Larry.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0403616</Data></Cell>
+    <Cell><Data ss:Type="String">Barry Ward</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">For softwares, Gmail, Okta, Global Protect, Methode, Slack, Wordpress (NYPost.com and PageSix.com).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Stephanie Webber</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">For softwares, she'll need Microsoft office, CHP, Slack. She's starting in person.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Sarah Goodman</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Sarah Goodman is starting on 9/5/23. Please activate all nypost accounts and model after Valentina Jaramillo. No equipment is necessary.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Completed By Benjamin Larry</Data></Cell>
+    <Cell><Data ss:Type="String">Nicholas (Nic) Dobija</Data></Cell>
+    <Cell><Data ss:Type="String">Nootens</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">For software, Adobe Suite, Slack, and Microsoft Office. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-11T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0407345</Data></Cell>
+    <Cell><Data ss:Type="String">Sarah Russo </Data></Cell>
+    <Cell><Data ss:Type="String"> srusso.intern@decider.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-11T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Slack, Office, Airtable, GIF Brewery, Photoshop, Decider Wordpress. - (Email sent 09-11-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-11T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0407357</Data></Cell>
+    <Cell><Data ss:Type="String">Megan Palin </Data></Cell>
+    <Cell><Data ss:Type="String"> mpalin@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-08T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String"> For softwares, Methode, CHP, Microsoft Office, Slack, Concur, Workday. (09-08-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-11T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Martina Kugler </Data></Cell>
+    <Cell><Data ss:Type="String"> mkugler.intern@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Gmail/ Asana </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-11T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Tohomas Gamba</Data></Cell>
+    <Cell><Data ss:Type="String">Ellis </Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Slack, CHP</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-11T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0407357\SCTASK0407360</Data></Cell>
+    <Cell><Data ss:Type="String">Mandi Shovlin </Data></Cell>
+    <Cell><Data ss:Type="String"> mshovlin.intern@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-08T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Photoshop, Slack, Methode - (09-08-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-11T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Katie Fongvongsa </Data></Cell>
+    <Cell><Data ss:Type="String"> kfongvongsa.intern@decider.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">microsoft office, slack, keeper, gif brewery, and airtable access</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-11T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0407364</Data></Cell>
+    <Cell><Data ss:Type="String">Guadalupe Jimenez </Data></Cell>
+    <Cell><Data ss:Type="String"> gjimenez@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-08T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">For softwares, Adobe Photoshop, Chrome, CHP. - (Email sent 09-11-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-11T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0407365</Data></Cell>
+    <Cell><Data ss:Type="String">Linda Tran </Data></Cell>
+    <Cell><Data ss:Type="String"> ltran@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-08T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">For softwares, Adobe Photoshop, Chrome, CHP. - (Email sent 09-11-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-11T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Chris Rogers </Data></Cell>
+    <Cell><Data ss:Type="String"> crogers@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">For softwares, CHP, slack, microsoft office, airtable, slack.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-25T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Diana Glebova </Data></Cell>
+    <Cell><Data ss:Type="String"> dglebova@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">For softwares, Slack, CHP, Wordpress, Microsoft Office, Okta, AdTrav, Concur.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-20T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Rthvika Suvarna </Data></Cell>
+    <Cell><Data ss:Type="String">  rsuvarna@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">No software is needed. Just a nyp email account.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-25T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0416615</Data></Cell>
+    <Cell><Data ss:Type="String">Chris Nesi </Data></Cell>
+    <Cell><Data ss:Type="String"> cnesi@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-25T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">For softwares, Slack, Methode. - Completed - 09-25-2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-25T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0416594</Data></Cell>
+    <Cell><Data ss:Type="String">Sara Whitman</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-25T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">For softwares, slack, CHP, MS Office, airtable, photoshop. Completed 09-25-2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-28T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0421674</Data></Cell>
+    <Cell><Data ss:Type="String">Stefan Bondy sbondy@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-09-22T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String"> For softwares, Slack, Methode, CHP, Office, and anything else we supply for sports reporters.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-10-02T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0422507</Data></Cell>
+    <Cell><Data ss:Type="String">Jessica Wendroff </Data></Cell>
+    <Cell><Data ss:Type="String"> jwendroff@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-10-03T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String"> She'll need Macbook Pro 13&quot;. For softwares, Adobe Photoshop &amp; Bridge, CHP, Chrome.Completed - 10-03-2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-10-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0429478</Data></Cell>
+    <Cell><Data ss:Type="String">Daryen Ru </Data></Cell>
+    <Cell><Data ss:Type="String"> dru@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">We have a new freelance editor starting with us tomorrow who needs access to Adobe Premiere expedited.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-10-09T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0426535</Data></Cell>
+    <Cell><Data ss:Type="String">Lisa Gordon </Data></Cell>
+    <Cell><Data ss:Type="String"> lgordon@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-10-09T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Please activate all nypost accounts and model after April Umali. She'll need a Dell Latitude 5430. For softwares, please issue the same access as April Umali. - Emailed 10-09-2023.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-10-09T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0426548</Data></Cell>
+    <Cell><Data ss:Type="String">Mason Verdicchio </Data></Cell>
+    <Cell><Data ss:Type="String"> mverdicchio.intern@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-10-09T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">For software, he'll need Adobe Audition and Premiere. No equipment is necessary. (Emailed - 10-09-2023).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-10-10T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0427405</Data></Cell>
+    <Cell><Data ss:Type="String">Connor Creagan </Data></Cell>
+    <Cell><Data ss:Type="String"> ccreagan@nypost.com</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">10-10&#45;-2023</Data></Cell>
+    <Cell><Data ss:Type="String"> For software, Slack, CHP, Methode.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-10-16T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0431232</Data></Cell>
+    <Cell><Data ss:Type="String">Sara Feigin </Data></Cell>
+    <Cell><Data ss:Type="String"> sfeigin@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-10-16T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">For softwares, CHP, Chrome, Slack, Photoshop, Bridge.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-10-16T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Albert Murillo </Data></Cell>
+    <Cell><Data ss:Type="String"> amurillo@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">For softwares, MS Office.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-10-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0436142</Data></Cell>
+    <Cell><Data ss:Type="String">Jenna Wirth </Data></Cell>
+    <Cell><Data ss:Type="String"> jwirth@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-10-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">For softwares, Adobe Premiere, Slack, CHP, Airtable, Keeper Security, JW Player. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-10-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Paige Beurges </Data></Cell>
+    <Cell><Data ss:Type="String"> pbuerger@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> PC</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">For equipment, she'll need Dell Latitude 5430. For software, Microsoft Office.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-10-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0436896</Data></Cell>
+    <Cell><Data ss:Type="String">Miles Schachner </Data></Cell>
+    <Cell><Data ss:Type="String"> (mschachner@nypost.com)</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-10-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">For softwares, Slack, Methode, CHP.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-10-23T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0436896</Data></Cell>
+    <Cell><Data ss:Type="String">Vaughn Golden </Data></Cell>
+    <Cell><Data ss:Type="String"> vgolden@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-10-24T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">He needs Slack, Methode, CHP, Microsoft Office added to this laptop</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-11-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0445347</Data></Cell>
+    <Cell><Data ss:Type="String">Kendall Cornish</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-11-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">For softwares, Adobe Photoshop,Microsoft Excel, Slack. - Email Sent out  - 11-06-2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-11-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0445354</Data></Cell>
+    <Cell><Data ss:Type="String">Miska Salemann</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-11-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">For softwares, Adobe Photoshop,Microsoft Excel, Slack. - Email Sent out  - 11-06-2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-11-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0445359</Data></Cell>
+    <Cell><Data ss:Type="String">Max Tapogna</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-11-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String"> For softwares, Methode, CHP, Slack, GlobalProtect, Wordpress. They'll need a Dell Latitude 5430 - Email Sent out  - 11-06-2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-11-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0445359</Data></Cell>
+    <Cell><Data ss:Type="String">Galib Kabir</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-11-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String"> For softwares, Methode, CHP, Slack, GlobalProtect, Wordpress. They'll need a Dell Latitude 5430 - Email Sent out  - 11-06-2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-11-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0445362</Data></Cell>
+    <Cell><Data ss:Type="String">Tracy Lu</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-11-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">For softwares, she'll need Adobe Acrobat Pro/AdobeSign, Dropbox, and Microsoft 365. Approved by Levent Saracoglu. - Email Sent out  - 11-06-2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-11-13T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0449032/SCTASK0451984</Data></Cell>
+    <Cell><Data ss:Type="String">Matthew Abate mabate@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-11-15T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">For softwares, please assign what Bryan Erickson previously had. Email Sent Out  - 11-15-2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-11-20T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0456696</Data></Cell>
+    <Cell><Data ss:Type="String">Brooke Matalon </Data></Cell>
+    <Cell><Data ss:Type="String"> bmatalon@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-11-22T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">For softwares, they’ll need adobe suite, microsoft office suite. (approved by Levent) - Email sent out - 11-22-2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-12-04T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0465469</Data></Cell>
+    <Cell><Data ss:Type="String">Mindy Freifeld </Data></Cell>
+    <Cell><Data ss:Type="String"> mfreifeld@nypost.com </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-12-06T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">For softwares, they’ll need Microsoft Office (Excel, Word, Powerpoint), Adobe Creative Suite (photoshop, indesign, XD). Emailed Sent Out - 12-06-2023</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-12-11T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0469677</Data></Cell>
+    <Cell><Data ss:Type="String">Aneeta Bhole </Data></Cell>
+    <Cell><Data ss:Type="String"> abhole@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-12-07T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">For softwares, they’ll need Slack, Methode, CHP, Microsoft Office. (Email sent 12-13-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-12-11T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Max Rivera </Data></Cell>
+    <Cell><Data ss:Type="String"> mrivera@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String"> For softwares, they’ll need Slack.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-12-12T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0469708</Data></Cell>
+    <Cell><Data ss:Type="String">Priyanka Pardasani </Data></Cell>
+    <Cell><Data ss:Type="String"> ppardasani@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-12-13T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String"> For softwares, they’ll need Adobe Premiere &amp; Photoshop, Slack, Cerby (via Okta), Keeper, AirTable, Parse.ly. ( 12-13-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-12-12T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Samantha Antona </Data></Cell>
+    <Cell><Data ss:Type="String"> santona@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">For softwares, they’ll need Slack, Airtable, Zoom.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-12-18T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0469855</Data></Cell>
+    <Cell><Data ss:Type="String">Zachary Filkoff </Data></Cell>
+    <Cell><Data ss:Type="String"> zfilkoff@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-12-13T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String"> For softwares, they’ll need Adobe Creative suite (full suite), Slack, Zoom, Shutterstock, CHP, Dropbox, Airtable. - Approved by Levent Saracoglu.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-12-18T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0469804</Data></Cell>
+    <Cell><Data ss:Type="String">Samantha Sutton </Data></Cell>
+    <Cell><Data ss:Type="String"> ssutton@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-12-13T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">For softwares, they’ll need Slack, CHP, Adobe PhotoShop.  (Email sent  12-13-2023)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-12-18T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Astra Viola </Data></Cell>
+    <Cell><Data ss:Type="String"> aviola@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">For softwares, they’ll need Slack, CHP, Zoom, Airtable, Trello.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-12-18T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0469923</Data></Cell>
+    <Cell><Data ss:Type="String">Kristin Contino </Data></Cell>
+    <Cell><Data ss:Type="String"> kcontino@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2023-12-13T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">For softwares, they’ll need Slack, CHP, Adobe PhotoShop. (Emaile sent - 12-13-2023).</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2023-12-15T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Loni Fiscus </Data></Cell>
+    <Cell><Data ss:Type="String"> lfiscus@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Just an email and slack for now. Her manager is suppose to reach out for anything else. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-01-02T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0477587</Data></Cell>
+    <Cell><Data ss:Type="String">Mark Lungariello </Data></Cell>
+    <Cell><Data ss:Type="String"> mlungariello@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2024-01-02T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">For softwares, they’ll need Slack, Methode, CHP, Microsoft Office. (01-02-2024)</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-01-02T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Ashlee McGeehan</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">For softwares, they’ll need Slack, AirTable, Wordpress, CHP, Trello, Zoom, Shutterstock. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-01-02T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0477711</Data></Cell>
+    <Cell><Data ss:Type="String">Jason Cerin </Data></Cell>
+    <Cell><Data ss:Type="String"> jcerin@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String"> For softwares, they’ll need Adobe CS video applications - Premiere, After effects, Photoshop - Slack, Zoom, CHP, Sofi, Dropbox, Shutterstock, Wochit.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-01-08T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Jordan Levy </Data></Cell>
+    <Cell><Data ss:Type="String"> jlevy@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">For equipment, they’ll need MacBook Air 13' - M1/M2 Chips - 16GB RAM. For softwares, they’ll need Slack, Airtable, WordPress, Parsely.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0500508</Data></Cell>
+    <Cell><Data ss:Type="String">Lola Piccolo </Data></Cell>
+    <Cell><Data ss:Type="String"> lpiccolo.intern@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Lola Piccolo is starting on 2/5/24. Please activate all nypost accounts and model after Marina Kugler. No equipment. They will need an intern email. For softwares, they’ll need Microsoft Office, Adobe Photoshop, Google Drive.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0500511</Data></Cell>
+    <Cell><Data ss:Type="String">Anna Salewycz </Data></Cell>
+    <Cell><Data ss:Type="String"> asalewycz.intern@decider.com</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">(02-05-2024</Data></Cell>
+    <Cell><Data ss:Type="String">Anna Salewycz is starting on 2/5/24. Please activate all nypost accounts and model after Karen Kemmerle. For equipment, they’ll need Macbook Pro 13&quot;. For softwares, they’ll need Adobe Photoshop, Slack, Keeper. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0499471</Data></Cell>
+    <Cell><Data ss:Type="String">Julia Pryor </Data></Cell>
+    <Cell><Data ss:Type="String"> jpryor.intern@decider.com</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">(02-02-2024)</Data></Cell>
+    <Cell><Data ss:Type="String">Julia Pryor is starting on 2/5/24. Please activate all nypost accounts and model after Alex Vena. For softwares, they’ll need Adobe Photoshop, Slack, AirTable.  For equipment, they’ll need Macbook Pro 13&quot;.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0500514</Data></Cell>
+    <Cell><Data ss:Type="String">Ismail Sy </Data></Cell>
+    <Cell><Data ss:Type="String"> isy.intern@nypost.com</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">(02-05-2024</Data></Cell>
+    <Cell><Data ss:Type="String">Adobe Photoshop.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0499353</Data></Cell>
+    <Cell><Data ss:Type="String">Evelyn Kelley  </Data></Cell>
+    <Cell><Data ss:Type="String"> ekelley.intern@decider.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-02T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Evelyn Kelley is starting on 2/5/24. Please activate all nypost accounts and model after Mark Graham. For equipment, they’ll need MacBook Air 13&quot;. For softwares, they’ll need Slack, Adobe Photoshop, Airtable, GIF Brewery.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Charlotte Zoe Steinberg </Data></Cell>
+    <Cell><Data ss:Type="String"> csteinberg.intern@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">No software is needed\requested.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Alyona Uvarova  </Data></Cell>
+    <Cell><Data ss:Type="String"> auvarova.intern@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">She needs access to WordPress, AirTable, and Slack.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-01-29T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0495155</Data></Cell>
+    <Cell><Data ss:Type="String">Ben Trivett </Data></Cell>
+    <Cell><Data ss:Type="String"> btrivett@nypost.com </Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2024-01-29T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Ben Trivett is starting on 01/29/2024. Please activate all nypost accounts and model after Annie Wermiel. For equipment, they’ll need MacBook Pro 13&quot;. For softwares, they’ll need Chrome, CHP, Adobe photoshop.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-01T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0499332</Data></Cell>
+    <Cell><Data ss:Type="String">Nicky Kavanagh </Data></Cell>
+    <Cell><Data ss:Type="String"> nkavanagh@nypost.com</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String"> 02-01-2024</Data></Cell>
+    <Cell><Data ss:Type="String">Nicky Kavanagh is starting on 2/1/23. Please activate all nypost accounts and model after Kim Muir. For equipment, they’ll need Dell Latitude. For softwares, they’ll need Adobe sign, slack, dropbox, zoom. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Aarez Maknojia </Data></Cell>
+    <Cell><Data ss:Type="String"> Mac</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Aarez Maknojia is starting on 2/5/24 . Please activate all nypost accounts and model after Kristen Yanez. For equipment, they’ll need Mabook Air 13&quot;. For softwares, they’ll need Microsoft Office (word, excel powerpoint) .</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Thomas Gamba</Data></Cell>
+    <Cell><Data ss:Type="String">Ellis</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Thomas Gamba-Ellis is starting on 2/5/24. Please activate all nypost accounts and model after Miles Schachner.For equipment, they’ll need Macbook Air 13&quot;. For softwares, they’ll need Slack, CHP. </Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0500516</Data></Cell>
+    <Cell><Data ss:Type="String">Daniel Shalam</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Daniel Shalam is starting on 2/5/24. Please activate all nypost accounts. They don't need equipment. For softwares, they’ll need adobe audition, premiere, photoshop. Approved by Levent.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Sydney Champagne</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Sydney Champagne is starting on 2/5/2024. Please activate all nypost accounts. For equipment, they’ll need Macbook Air 13&quot;. For softwares, they’ll need microsoft office.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-05T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0499389</Data></Cell>
+    <Cell><Data ss:Type="String">Aqsa Azam </Data></Cell>
+    <Cell><Data ss:Type="String"> aazam@nypost.com</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String"> 02-02-2024</Data></Cell>
+    <Cell><Data ss:Type="String">Aqsa Azam is starting on 2/5/2024. Please activate all nypost accounts and model after Brandon Jaskulek. For equipment, they’ll need Dell Latitude 5430. For softwares, they’ll need Microsoft Office, Adobe Acrobat.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-07T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0499399</Data></Cell>
+    <Cell><Data ss:Type="String">Tiana Schippa </Data></Cell>
+    <Cell><Data ss:Type="String"> tschippa@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-02T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Tiana Schippa is starting on 2/7/24. Please activate all nypost accounts and model after Jessica Hober. For equipment, they’ll need Macbook Air 13. For softwares, they’ll need Adobe creative suite, Slack, CHP, Airtable, Dropbox.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-20T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0510855</Data></Cell>
+    <Cell><Data ss:Type="String">Steve Helling </Data></Cell>
+    <Cell><Data ss:Type="String"> shelling@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-20T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Please activate all nypost accounts and model after Andy Tillett. For equipment, they’ll need Dell Latitude.  For softwares, they’ll need Slack, Methode, CHP, Microsoft office.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-20T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0510885</Data></Cell>
+    <Cell><Data ss:Type="String">Michael Zinnie</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Please activate all nypost accounts and model after Lia Eustachewich. For equipment, they’ll need Dell Latitude. For softwares, they’ll need Slack, methode, CHP, Microsoft Office.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-20T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0510634</Data></Cell>
+    <Cell><Data ss:Type="String"> Ian Fox </Data></Cell>
+    <Cell><Data ss:Type="String"> ifox@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-20T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Ian Fox is starting on 2/20/2024. Please activate all nypost accounts and model after Annie Wermiel. For equipment, they’ll need Macbook Pro. For softwares, they’ll need CHP, Adobe photoshop, Bridge, Chrome.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-20T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0510885</Data></Cell>
+    <Cell><Data ss:Type="String">Wayne Lockwood </Data></Cell>
+    <Cell><Data ss:Type="String"> wlockwood@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Please activate all nypost accounts and model after Harrison Shuldman. For equipment, they’ll need Dell Latitude. For softwares, they’ll need Slack, Methode, Gmail, Okta, AP Stylebook, Microsoft Office, AP wires.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-27T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0511816</Data></Cell>
+    <Cell><Data ss:Type="String">David Vogler </Data></Cell>
+    <Cell><Data ss:Type="String"> dvogler@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2024-02-20T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">For softwares, they’ll need Adobe Creative Suite, Apple Keynote, Slack, and Microsoft Office. Keith has given approval for MS office to be installed on the Mac.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-03-04T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Jennie Taer </Data></Cell>
+    <Cell><Data ss:Type="String"> jtaer@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Jennie Taer is starting on 03/04/2024. Please activate all nypost accounts and model after Andy Tillett. For equipment, they’ll need Dell Latitude 5430. For softwares, they’ll need Slack, Micorsoft Office .</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-03-04T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">John Metichecchia</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-03-08T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0523138</Data></Cell>
+    <Cell><Data ss:Type="String">Maeve Degan </Data></Cell>
+    <Cell><Data ss:Type="String"> mdegan@decider.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2024-03-08T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Maeve Degan is starting on 03/08/2024. Please activate all nypost accounts and model after Karen Kemmerle. For softwares, they’ll need Slack, Wordpress and Adobe Photoshop and Adobe Premiere Pro.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-03-11T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0524121</Data></Cell>
+    <Cell><Data ss:Type="String">BreAnna Bell </Data></Cell>
+    <Cell><Data ss:Type="String"> bbell@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2024-03-08T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">BreAnna Bell is starting on 3/11/2024. Please activate all nypost accounts and model after Sara Whitman. For softwares, they’ll need Slack, Airtable, MS Office, Photoshop, MAC</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-03-11T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0524121</Data></Cell>
+    <Cell><Data ss:Type="String">Chris Harris </Data></Cell>
+    <Cell><Data ss:Type="String"> charris@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2024-03-08T00:00:00.000</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Chris Harris is starting on 03/11/2024. Please activate all nypost accounts and model after Matthew Sedacca. For softwares, they’ll need slack, methode, airtable, wordpress, Provide required due date: 2024-03-08 &#10;03/11/2024,SCTASK0524303,Andrew Harts ,m aharts@nypost.com,,Completed - 3-11-2024,3-11-2024,Andrew Harts last day was 3/11/24. Please deactivate all nypost accounts. Not sure if he has equipment</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-03-18T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0528537</Data></Cell>
+    <Cell><Data ss:Type="String">Emma Sutton</Data></Cell>
+    <Cell><Data ss:Type="String">Williams</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2024-03-18T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">For softwares, they’ll Adobe Photoshop.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-03-19T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Andrew Erb</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Andrew Erb is starting on 3/19/24. Please activate all nypost accounts and model after Ianthe Ephraim. They don't need equipment or software.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-04-01T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Stephanie Webber</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">For softwares, they’ll need Slack, CHP, Microsoft suite.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-03-26T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">SCTASK0532783</Data></Cell>
+    <Cell><Data ss:Type="String">Jonah Elkowitz </Data></Cell>
+    <Cell><Data ss:Type="String"> jelkowitz@nypost.com</Data></Cell>
+    <Cell ss:Index="6" ss:StyleID="s62"><Data ss:Type="DateTime">2024-03-25T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">Please activate all nypost accounts and model after Ethan Tanzer. For equipment, they’ll need Macbook Air. For softwares, they’ll need Photoshop, Slack, Methode, CHP.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-04-01T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Marie Pohl</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Please activate all nypost accounts and model after Lia Eustachewich. They don't need equipment or softwares.</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:StyleID="s62"><Data ss:Type="DateTime">2024-04-01T00:00:00.000</Data></Cell>
+    <Cell><Data ss:Type="String">N/A</Data></Cell>
+    <Cell><Data ss:Type="String">Dorian Geiger </Data></Cell>
+    <Cell><Data ss:Type="String"> dgeiger@nypost.com</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">Please activate all nypost accounts and model after Lia Eustachewich. They don't need equipment or softwares.</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

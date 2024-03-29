@@ -6,7 +6,7 @@ import { useFilters } from "../hooks/FilterContext";
 
 
 function DataTable({ onRowClick }) {
-  const { rowData, filters, searchTerm } = useFilters(); // Use the custom hook to access rowData
+  const { rowData, filters, searchTerm } = useFilters(); 
 
 const isPastOrToday = (requestNeededDate) => {
   const today = new Date();
@@ -15,7 +15,7 @@ const isPastOrToday = (requestNeededDate) => {
   const redDate = new Date(requestNeededDate);
   redDate.setUTCHours(0, 0, 0, 0); // Reset time to 00:00:00 UTC for needed date
 
-  return redDate <= today;
+  return redDate < today;
 };
 
   const filteredRowData = rowData.filter((row) => {
@@ -76,7 +76,6 @@ const isPastOrToday = (requestNeededDate) => {
                   fontWeight: row.status === "Complete" || isPastOrToday(row.request_needed_date) ? "bolder" : "normal",
                   fontStyle: row.status === "Complete" ? "italic" : "none",
                 }}>
-
                 {new Date(row.request_needed_date)
                   .toISOString()
                   .split("T")[0]
@@ -102,6 +101,7 @@ const isPastOrToday = (requestNeededDate) => {
           ))}
         </tbody>
       </Table>
+      <div>Total Records: {filteredRowData.length}</div>
     </div>
   );
 }
