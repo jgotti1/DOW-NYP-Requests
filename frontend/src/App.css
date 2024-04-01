@@ -6,6 +6,16 @@
   box-sizing: border-box;
 }
 
+.sticky-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000; /* Ensure it's above other content */
+
+}
+
+
 .anton-regular {
   font-family: "Anton", sans-serif;
   font-weight: 400;
@@ -37,6 +47,9 @@ td,
   background-color: #c60800;
   border-bottom: 3px solid black;
 }
+
+
+
 
 .center-content {
   display: flex;

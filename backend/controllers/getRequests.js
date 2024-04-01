@@ -24,7 +24,7 @@ const getRequests = async (req, res) => {
 
       } else {
         // Retrieve all requests
-        const result = await client.query("SELECT * FROM requests");
+         const result = await client.query("SELECT * FROM requests ORDER BY request_needed_date ASC");
         const requests = result.rows;
         res.status(200).json(requests); //return the result 
         // console.log(result.rows); // Logging the JSON object to the console
