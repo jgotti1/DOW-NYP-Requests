@@ -15,6 +15,12 @@
 
 }
 
+.sticky-header-columns {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 149px;
+  z-index: 0;
+}
 
 .anton-regular {
   font-family: "Anton", sans-serif;
@@ -105,11 +111,7 @@ font-size: 10px;
   color: #61dafb;
 }
 
-.addButton {
-  margin-right: 50px;
-  padding: 5px;
-  border-radius: 9px;
-}
+
 
 .required {
   margin-left: 8px;
@@ -121,3 +123,14 @@ font-size: 10px;
 .data-entry-modal .modal-content {
   background-color: #cfd4d6; /* Light grey background for this specific modal */
 }
+
+
+.addButton {
+  margin-right: 50px;
+  padding: 5px;
+  border-radius: 9px;
+  height: 40px; /* Example fixed height */
+  min-width: 140px; /* Adjusts width to content */
+  font-size: 14px;
+}
+

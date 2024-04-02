@@ -1,6 +1,6 @@
 const { Pool } = require("pg");
 const fs = require("fs");
-const data = require("./data")
+const data = require("./dataWith all Hires")
 
 // Database connection configuration
 const pool = new Pool({

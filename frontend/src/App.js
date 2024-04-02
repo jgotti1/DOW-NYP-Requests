@@ -125,10 +125,11 @@ function App() {
           <img src="/images/nyplogo.png" alt="NYP LOGO" />
           <h4 className="anton-regular">Requests</h4>
         </div>
-        <h5 className="version">v-1.02</h5>
+        <h5 className="version">v-1.03</h5>
       </div>
       <div className="filter-list-div">
-        <FilterableList />
+          <FilterableList />
+          <h5 style={{ fontSize: "small", fontStyle: "italic", display: "inline-block", marginRight: "15px" }}>* Click on any record to change status or update</h5>
         <button className="addButton" onClick={() => handleOpenModal()}>
           Add/Edit Request
         </button>{" "}

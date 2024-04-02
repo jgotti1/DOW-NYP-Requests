@@ -49,7 +49,7 @@ const isPastOrToday = (requestNeededDate) => {
   return (
     <div>
       <Table striped bordered hover size="sm">
-        <thead>
+        <thead className="sticky-header-columns">
           <tr>
             <th>Date Needed</th>
             <th>Name</th>
