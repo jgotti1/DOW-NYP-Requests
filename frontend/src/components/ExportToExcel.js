@@ -44,7 +44,7 @@ const ExportToExcel = ({ data }) => {
 
   return (
     <button className="exportButton" onClick={handleExportToExcel}>
-      Excel DB Export &#x2191;
+      Export <span style={{ fontSize: "14px" }}>&#8593;</span> Excel
     </button>
   );
 };

@@ -127,7 +127,7 @@ function App() {
             <img src="/images/nyplogo.png" alt="NYP LOGO" />
             <h4 className="anton-regular">Requests</h4>
           </div>
-          <h5 className="version">v-1.03</h5>
+          <h5 className="version">v-1.10</h5>
         </div>
         <div className="filter-list-div">
           <FilterableList />
