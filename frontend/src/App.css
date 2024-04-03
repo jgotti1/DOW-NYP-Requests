@@ -126,7 +126,7 @@ font-size: 10px;
 
 
 .addButton {
-  margin-right: 50px;
+  margin-right: 20px;
   padding: 5px;
   border-radius: 9px;
   height: 40px; /* Example fixed height */
@@ -134,3 +134,13 @@ font-size: 10px;
   font-size: 14px;
 }
 
+.exportButton {
+  margin-right: 50px;
+  padding: 4px;
+  border-radius:22px;
+  height: 40px; /* Example fixed height */
+  min-width: 103px; /* Adjusts width to content */
+  font-size: 12px;
+  background-color: rgb(132, 132, 138);
+  color: white;
+}
