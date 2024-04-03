@@ -2,3 +2,7 @@
 .env
 node_modules
 Utility/data*
+*.sql
+*.csv
+*.xlsx
+Utility/Orig-spreadsheets

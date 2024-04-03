@@ -45,8 +45,6 @@ function DataEntryModal({ show, handleClose, handleSubmit, handleDelete, initial
     setFormData((prevData) => ({ ...prevData, [name]: value }));
   };
 
-
-
   return (
     <Modal show={show} onHide={handleClose} className="data-entry-modal">
       <Modal.Header closeButton>
@@ -114,6 +112,7 @@ function DataEntryModal({ show, handleClose, handleSubmit, handleDelete, initial
                   <option value="">Select</option>
                   <option value="JM">JM</option>
                   <option value="KS">KS</option>
+                  <option value="BL">BL</option>
                 </Form.Select>
               </Form.Group>
             </Col>

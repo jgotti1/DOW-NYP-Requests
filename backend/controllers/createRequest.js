@@ -60,10 +60,6 @@ const createRequest = async (req, res) => {
         // Handle PUT request: Update an existing request
         const requestId = req.params.id;
 
-        // Fetch the existing requestNeededDate from the database
-        // const existingdateEntered = await client.query("SELECT date_entered FROM requests WHERE id = $1", [requestId]);
-        // dateEntered = existingdateEntered.rows[0].date_entered; // Use the existing date
-
         if (status === "Complete") {
           completedDate = new Date();
         } else {

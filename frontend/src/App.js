@@ -4,6 +4,8 @@ import DataTable from "./components/DataTable";
 import FilterableList from "./components/FilterableList";
 import DataEntryModal from "./components/DataEntryModal";
 import axios from "axios";
+import ExportToExcel from "./components/ExportToExcel"; // Import the ExportToExcel component
+
 import { useFilters } from "./hooks/FilterContext";
 
 function App() {
@@ -120,26 +122,25 @@ function App() {
   return (
     <div className="App">
       <div className="sticky-header">
-      <div className="head-container">
-        <div className="center-content">
-          <img src="/images/nyplogo.png" alt="NYP LOGO" />
-          <h4 className="anton-regular">Requests</h4>
+        <div className="head-container">
+          <div className="center-content">
+            <img src="/images/nyplogo.png" alt="NYP LOGO" />
+            <h4 className="anton-regular">Requests</h4>
+          </div>
+          <h5 className="version">v-1.03</h5>
         </div>
-        <h5 className="version">v-1.03</h5>
-      </div>
-      <div className="filter-list-div">
+        <div className="filter-list-div">
           <FilterableList />
           <h5 style={{ fontSize: "small", fontStyle: "italic", display: "inline-block", marginRight: "15px" }}>* Click on any record to change status or update</h5>
-        <button className="addButton" onClick={() => handleOpenModal()}>
-          Add/Edit Request
-        </button>{" "}
-        {/* Button to open the modal */}
-        <DataEntryModal show={showModal} handleClose={handleCloseModal} handleSubmit={handleSaveModalData} initialData={modalData} handleDelete={handleDelete} />
+          <button className="addButton" onClick={() => handleOpenModal()}>
+            Add/Edit Request
+          </button>
+          <ExportToExcel data={rowData} />
+          <DataEntryModal show={showModal} handleClose={handleCloseModal} handleSubmit={handleSaveModalData} initialData={modalData} handleDelete={handleDelete} />
+        </div>
       </div>
-    </div>
       <DataTable onRowClick={handleRowClick} />
-      </div>
-    
+    </div>
   );
 }
 
