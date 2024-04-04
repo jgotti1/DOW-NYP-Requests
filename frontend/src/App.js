@@ -25,8 +25,8 @@ function App() {
 
   const handleSaveModalData = (data) => {
     // Check if the required fields are filled
-    if (!data.name.trim() || !data.email_address.trim() || !data.applications_involved.trim() || !data.request_needed_date.trim()) {
-      alert("Please fill out all required fields: Name, Email Address, and Applications Involved and Date Needed are all required fields.");
+    if (!data.name.trim() || !data.email_address.trim() || !data.applications_involved.trim() || !data.request_needed_date.trim() || !data.mac_or_pc.trim()) {
+      alert("Please fill out all required fields: Name, Email Address, and Applications Involved, Device, and Date Needed are all required fields.");
       return; // Prevent the modal from closing if validation fails
     }
 
@@ -127,7 +127,7 @@ function App() {
             <img src="/images/nyplogo.png" alt="NYP LOGO" />
             <h4 className="anton-regular">Requests</h4>
           </div>
-          <h5 className="version">v-1.10</h5>
+          <h5 className="version">v-1.11</h5>
         </div>
         <div className="filter-list-div">
           <FilterableList />

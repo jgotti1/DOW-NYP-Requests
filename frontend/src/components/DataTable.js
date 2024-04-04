@@ -57,7 +57,7 @@ const isPastOrToday = (requestNeededDate) => {
             <th>Request Type</th>
             <th>Applications</th>
             <th>Model After</th>
-            <th>Mac or PC</th>
+            <th>Device</th>
             <th>Status</th>
             <th>Requested by</th>
             <th>Requested Date</th>
@@ -72,9 +72,9 @@ const isPastOrToday = (requestNeededDate) => {
             <tr key={index} onClick={() => onRowClick(row)}>
               <td
                 style={{
-                  color: row.status === "Complete" ? "#00b300" : isPastOrToday(row.request_needed_date) ? "red" : "inherit",
-                  fontWeight: row.status === "Complete" || isPastOrToday(row.request_needed_date) ? "bolder" : "normal",
-                  fontStyle: row.status === "Complete" ? "italic" : "none",
+                  color: row.status === "Complete" ? "#00b300" : isPastOrToday(row.request_needed_date) ? "red" : row.status === "In Progress" ? "black" : "inherit",
+                  fontWeight: row.status === "Complete" || isPastOrToday(row.request_needed_date) ? "bolder" : row.status === "In Progress" ? "bolder" : "normal",
+                  fontStyle: row.status === "Complete" ? "italic" : row.status === "In Progress" ? "italic" : "normal",
                 }}>
                 {new Date(row.request_needed_date)
                   .toISOString()

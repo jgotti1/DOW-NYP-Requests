@@ -9,7 +9,7 @@ function DataEntryModal({ show, handleClose, handleSubmit, handleDelete, initial
     request_needed_date: initialData.request_needed_date || "",
     applications_involved: initialData.applications_involved || "",
     model_after: initialData.model_after || "",
-    mac_or_pc: initialData.mac_or_pc || "Mac",
+    mac_or_pc: initialData.mac_or_pc || "",
     requested_by: initialData.requested_by || "",
     status: initialData.status || "New",
     completed_by: initialData.completed_by || "",
@@ -31,7 +31,7 @@ function DataEntryModal({ show, handleClose, handleSubmit, handleDelete, initial
       request_needed_date: initialData.request_needed_date || "",
       applications_involved: initialData.applications_involved || "",
       model_after: initialData.model_after || "",
-      mac_or_pc: initialData.mac_or_pc || "Mac",
+      mac_or_pc: initialData.mac_or_pc || "",
       requested_by: initialData.requested_by || "",
       status: initialData.status || "New",
       completed_by: initialData.completed_by || "",
@@ -84,8 +84,10 @@ function DataEntryModal({ show, handleClose, handleSubmit, handleDelete, initial
             </Col>
             <Col>
               <Form.Group className="mb-3">
-                <Form.Label>Mac or PC</Form.Label>
+                <Form.Label>Device *</Form.Label>
                 <Form.Select name="mac_or_pc" value={formData.mac_or_pc} onChange={handleChange}>
+                  <option value="">Select</option>
+                  <option value="N/A">N/A</option>
                   <option value="Mac">Mac</option>
                   <option value="PC">PC</option>
                   <option value="Own Device">Own Device</option>
