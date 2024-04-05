@@ -23,8 +23,6 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "public", "build")));
 }
 
-// Route to check if username and password match
-app.post("/checkUser", checkUserController.checkUser);
 
 console.log(process.env.NODE_ENV);
 
@@ -50,6 +48,9 @@ app.get("/requests/:id", getController.getRequests);
 
 // delete single request by ID
 app.delete("/requests/:id", deleteController.deleteRequestById);
+
+// Route to check if username and password match
+app.post("/login", checkUserController.checkUser);
 
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
