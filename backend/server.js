@@ -2,11 +2,13 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 
+
 require("dotenv").config();
 const path = require("path");
 const createController = require("./controllers/createRequest");
 const getController = require("./controllers/getRequests");
 const deleteController = require("./controllers/deleteRequest");
+const checkUserController = require("./controllers/checkUser");
 
 const app = express();
 app.use(cors());
@@ -21,7 +23,11 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static(path.join(__dirname, "public", "build")));
 }
 
+// Route to check if username and password match
+app.post("/checkUser", checkUserController.checkUser);
+
 console.log(process.env.NODE_ENV);
+
 
 // default route
 app.get("/", (req, res) => {
