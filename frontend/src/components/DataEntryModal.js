@@ -112,9 +112,15 @@ function DataEntryModal({ show, handleClose, handleSubmit, handleDelete, initial
                 <Form.Label>Completed By</Form.Label>
                 <Form.Select name="completed_by" value={formData.completed_by} onChange={handleChange}>
                   <option value="">Select</option>
-                  <option value="JM">JM</option>
-                  <option value="KS">KS</option>
-                  <option value="BL">BL</option>
+                  <option value="Benjamin Larry">Benjamin Larry</option>
+                  <option value="Jinan Haung">Jinan Haung</option>
+                  <option value="John Margotti">John Margotti</option>
+                  <option value="John OConnor">John OConnor</option>
+                  <option value="Keith Whaley">Keith Whaley</option>
+                  <option value="Kenny Shiu">Kenny Shiu</option>
+                  <option value="Kyle Spelman">Kyle Spelman</option>
+                  <option value="Li Xie">Li Xie</option>
+                  <option value="Tim Ruffner">Tim Ruffner</option>
                 </Form.Select>
               </Form.Group>
             </Col>
