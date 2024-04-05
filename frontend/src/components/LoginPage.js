@@ -39,24 +39,32 @@ console.log(`${process.env.REACT_APP_SERVER_URL}login`);
   };
 
   return (
-    <div className="container mt-5">
-      <h2>Login</h2>
-      {error && <Alert variant="danger">{error}</Alert>}
-      <Form onSubmit={handleSubmit}>
-        <Form.Group controlId="formUsername">
-          <Form.Label>Username</Form.Label>
-          <Form.Control type="text" placeholder="Enter username" value={username} onChange={(e) => setUsername(e.target.value)} />
-        </Form.Group>
+    <div className="container-fluid d-flex justify-content-center align-items-center vh-100 bg-light">
+      <div className="login-box p-4 border rounded" style={{ backgroundColor: "white" }}>
+        <div className="text-center mb-4">
+          <p className="mb-0">PAS support team</p> {/* Moved up top and centered */}
+          <h2 className="mb-0">New York Post Requests</h2>
+        </div>
+        <hr />
+        {error && <Alert variant="danger">{error}</Alert>}
+        <Form onSubmit={handleSubmit}>
+          <Form.Group controlId="formUsername">
+            <Form.Label>Username</Form.Label>
+            <Form.Control type="text" placeholder="Enter username" value={username} onChange={(e) => setUsername(e.target.value)} />
+          </Form.Group>
 
-        <Form.Group controlId="formPassword">
-          <Form.Label>Password</Form.Label>
-          <Form.Control type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
-        </Form.Group>
+          <Form.Group controlId="formPassword">
+            <Form.Label>Password</Form.Label>
+            <Form.Control type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
+          </Form.Group>
 
-        <Button variant="primary" type="submit">
-          Submit
-        </Button>
-      </Form>
+          <Button variant="danger" type="submit" className="w-100 mt-3">
+            {" "}
+            {/* Set variant to "danger" for red color */}
+            Submit
+          </Button>
+        </Form>
+      </div>
     </div>
   );
 };
