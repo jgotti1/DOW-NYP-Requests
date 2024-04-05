@@ -86,16 +86,17 @@ function App() {
 
   const handleDelete = (id) => {
     // Password prompt
-    const password = window.prompt("Please enter the password to confirm you want to delete this request:");
-    if (password !== process.env.REACT_APP_DELETE_PASS) {
-      alert("Incorrect password. Deletion cancelled.");
-      return; // Exit the function if the password is incorrect
-    }
+    // const password = window.prompt("Please enter the password to confirm you want to delete this request:");
+    // if (password !== process.env.REACT_APP_DELETE_PASS) {
+    //   alert("Incorrect password. Deletion cancelled.");
+    //   return; // Exit the function if the password is incorrect
+    // }
 
     // Confirmation dialog
     const isConfirmed = window.confirm("Are you sure you want to delete this request?");
+    const isConfirmed2 = window.confirm("You are about to remove this request from the databae, there is no going back...");
 
-    if (!isConfirmed) {
+    if (!isConfirmed || !isConfirmed2) {
       // If the user clicked "Cancel", exit the function without deleting
       return;
     }
@@ -127,7 +128,7 @@ function App() {
             <img src="/images/nyplogo.png" alt="NYP LOGO" />
             <h4 className="anton-regular">Requests</h4>
           </div>
-          <h5 className="version">v-1.12</h5>
+          <h5 className="version">v-1.20</h5>
         </div>
         <div className="filter-list-div">
           <FilterableList />
