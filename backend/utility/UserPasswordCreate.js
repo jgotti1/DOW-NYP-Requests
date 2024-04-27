@@ -14,7 +14,7 @@ const pool = new Pool({
 
 
 const app = express();
-const PORT = 5002;
+const PORT = 5005;
 
 app.use(express.json());
 
@@ -63,3 +63,4 @@ app.post("/new", async (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
+

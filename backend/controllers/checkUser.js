@@ -2,12 +2,12 @@ const bcrypt = require("bcrypt");
 const pool = require("../DB/db");
 
 const checkUser = async (req, res) => {
-  const { username, userPassword } = req.body;
+  const { username, userPassword} = req.body;
   // console.log("Username:", username); // Log the username provided by the user
 
   try {
     // Retrieve the hashed password from the database for the provided username
-    const query = "SELECT password_hash FROM login WHERE username = $1";
+    const query = "SELECT password_hash, isAdmin FROM login WHERE username = $1";
     const result = await pool.query(query, [username]);
     // console.log("Query Result:", result.rows); // Log the result of the database query
 
@@ -17,6 +17,8 @@ const checkUser = async (req, res) => {
     }
 
     const hashedPassword = result.rows[0].password_hash;
+    const isAdminResult = result.rows[0].isadmin
+   
     // console.log("Hashed Password:", hashedPassword); // Log the hashed password retrieved from the database
 
     // Compare the provided password with the hashed password retrieved from the database
@@ -24,7 +26,7 @@ const checkUser = async (req, res) => {
 
     if (passwordMatch) {
       // Passwords match
-      res.status(200).json({ message: "Username and password match" });
+      res.status(200).json({ message: "Username and password match", isAdminResult });
     } else {
       // Passwords do not match
       res.status(401).json({ message: "Username and password do not match" });

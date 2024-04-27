@@ -8,7 +8,7 @@ import ExportToExcel from "./components/ExportToExcel"; // Import the ExportToEx
 
 import { useFilters } from "./hooks/FilterContext";
 
-function App() {
+function App({ admin }) {
   const [showModal, setShowModal] = useState(false);
   const [modalData, setModalData] = useState({}); // Data to edit, if necessary
   const { rowData, setRowData } = useFilters();
@@ -17,7 +17,7 @@ function App() {
     setModalData(data); // Set the data you might want to edit
     setShowModal(true);
   };
-
+  console.log(`app ${admin}`)
   const handleCloseModal = () => {
     setShowModal(false);
     setModalData({});
@@ -120,8 +120,9 @@ function App() {
     handleCloseModal();
   };
 
-  return (
-    <div className="App">
+return (
+  <div className="App">
+    {admin ? (
       <div className="sticky-header">
         <div className="head-container">
           <div className="center-content">
@@ -139,10 +140,14 @@ function App() {
           <ExportToExcel data={rowData} />
           <DataEntryModal show={showModal} handleClose={handleCloseModal} handleSubmit={handleSaveModalData} initialData={modalData} handleDelete={handleDelete} />
         </div>
+        <DataTable onRowClick={handleRowClick} />
       </div>
-      <DataTable onRowClick={handleRowClick} />
-    </div>
-  );
+    ) : (
+      <h1>Non-admin page</h1>
+    )}
+  </div>
+);
+
 }
 
 export default App;
