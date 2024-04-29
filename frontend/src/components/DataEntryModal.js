@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Modal, Button, Form, Row, Col } from "react-bootstrap";
 
-function DataEntryModal({ show, handleClose, handleSubmit, handleDelete, initialData = {} }) {
+function DataEntryModal({ show, handleClose, handleSubmit, handleDelete, initialData = {}, admin }) {
   const [formData, setFormData] = useState({
     name: initialData.name || "",
     email_address: initialData.email_address || "",
@@ -94,21 +94,21 @@ function DataEntryModal({ show, handleClose, handleSubmit, handleDelete, initial
                 </Form.Select>
               </Form.Group>
 
-              <Form.Group className="mb-3">
+             <Form.Group className="mb-3">
                 <Form.Label>Requested By</Form.Label>
                 <Form.Control type="text" name="requested_by" value={formData.requested_by} onChange={handleChange} />
               </Form.Group>
 
-              <Form.Group className="mb-3">
+              {admin && <Form.Group className="mb-3">
                 <Form.Label>Status</Form.Label>
                 <Form.Select name="status" value={formData.status} onChange={handleChange}>
                   <option value="New">New</option>
                   <option value="In Progress">In Progress</option>
                   <option value="Complete">Complete</option>
                 </Form.Select>
-              </Form.Group>
+              </Form.Group>}
 
-              <Form.Group className="mb-3">
+              {admin && <Form.Group className="mb-3">
                 <Form.Label>Completed By</Form.Label>
                 <Form.Select name="completed_by" value={formData.completed_by} onChange={handleChange}>
                   <option value="">Select</option>
@@ -122,7 +122,7 @@ function DataEntryModal({ show, handleClose, handleSubmit, handleDelete, initial
                   <option value="Li Xie">Li Xie</option>
                   <option value="Tim Ruffner">Tim Ruffner</option>
                 </Form.Select>
-              </Form.Group>
+              </Form.Group>}
             </Col>
           </Row>
 
@@ -142,12 +142,12 @@ function DataEntryModal({ show, handleClose, handleSubmit, handleDelete, initial
                 <Form.Control type="date" name="request_needed_date" value={formData.request_needed_date} onChange={handleChange} />
               </Form.Group>
             </Col>
-            <Col>
+            {admin && <Col>
               <Form.Group className="mb-3">
                 <Form.Label>Ticket Number</Form.Label>
                 <Form.Control type="text" name="ticket_number" value={formData.ticket_number} onChange={handleChange} />
               </Form.Group>
-            </Col>
+            </Col>}
           </Row>
 
           <Form.Group className="mb-3">

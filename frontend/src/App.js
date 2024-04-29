@@ -8,16 +8,17 @@ import ExportToExcel from "./components/ExportToExcel"; // Import the ExportToEx
 
 import { useFilters } from "./hooks/FilterContext";
 
-function App() {
+function App({ admin }) {
   const [showModal, setShowModal] = useState(false);
   const [modalData, setModalData] = useState({}); // Data to edit, if necessary
   const { rowData, setRowData } = useFilters();
+  const version = '2.00'
 
   const handleOpenModal = (data = {}) => {
     setModalData(data); // Set the data you might want to edit
     setShowModal(true);
   };
-
+  console.log(`app ${admin}`)
   const handleCloseModal = () => {
     setShowModal(false);
     setModalData({});
@@ -84,6 +85,10 @@ function App() {
     setShowModal(true);
   };
 
+    const handleRowClickNoAdmin = () => {
+  return
+    };
+
   const handleDelete = (id) => {
     // Password prompt
     // const password = window.prompt("Please enter the password to confirm you want to delete this request:");
@@ -120,15 +125,16 @@ function App() {
     handleCloseModal();
   };
 
-  return (
-    <div className="App">
+return (
+  <div className="App">
+    {admin ? (
       <div className="sticky-header">
         <div className="head-container">
           <div className="center-content">
             <img src="/images/nyplogo.png" alt="NYP LOGO" />
             <h4 className="anton-regular">Requests</h4>
           </div>
-          <h5 className="version">v-1.20</h5>
+          <h5 className="version">{version}</h5>
         </div>
         <div className="filter-list-div">
           <FilterableList />
@@ -137,12 +143,33 @@ function App() {
             Add/Edit Request
           </button>
           <ExportToExcel data={rowData} />
+          <DataEntryModal admin={admin} show={showModal} handleClose={handleCloseModal} handleSubmit={handleSaveModalData} initialData={modalData} handleDelete={handleDelete} />
+        </div>
+        <DataTable onRowClick={handleRowClick} />
+      </div>
+    ) : (
+      <div className="sticky-header">
+        <div className="head-container">
+          <div className="center-content">
+            <img src="/images/nyplogo.png" alt="NYP LOGO" />
+            <h4 className="anton-regular">PAS Workorder Request</h4>
+          </div>
+          <h5 className="version">{version}</h5>
+        </div>
+        <div className="filter-list-div">
+          <FilterableList />
+          <button className="addButton" onClick={() => handleOpenModal()}>
+            Add New Request
+          </button>
+          <ExportToExcel data={rowData} />
           <DataEntryModal show={showModal} handleClose={handleCloseModal} handleSubmit={handleSaveModalData} initialData={modalData} handleDelete={handleDelete} />
         </div>
+        <DataTable onRowClick={handleRowClickNoAdmin} />
       </div>
-      <DataTable onRowClick={handleRowClick} />
-    </div>
-  );
+    )}
+  </div>
+);
+
 }
 
 export default App;

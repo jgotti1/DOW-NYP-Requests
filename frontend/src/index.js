@@ -9,17 +9,22 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const RootComponent = () => {
   const [authenticated, setAuthenticated] = React.useState(false);
+  const [admin, setAdmin] = React.useState(false)
+  
 
   // Function to handle successful login
-  const handleLogin = () => {
+  const handleLogin = (isAdmin) => {
     setAuthenticated(true);
+    setAdmin(isAdmin)
+    
   };
+
 
   return (
     <React.StrictMode>
       <FilterProvider>
         {/* Render LoginPage if not authenticated, otherwise render App */}
-        {authenticated ? <App /> : <LoginPage onLogin={handleLogin} />}
+        {authenticated ? <App admin={admin} /> : <LoginPage onLogin={handleLogin} />}
       </FilterProvider>
     </React.StrictMode>
   );

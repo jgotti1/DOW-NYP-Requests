@@ -23,10 +23,12 @@ console.log(`${process.env.REACT_APP_SERVER_URL}login`);
       });
 
       const data = await response.json();
+      console.log(`data ${data.isAdminResult}`)
+      const admin = data.isAdminResult
 
       if (response.ok) {
         // Login successful, call onLogin to update authentication status
-        onLogin();
+        onLogin(admin);
         console.log("Login successful");
       } else {
         // Login failed, show error message from backend
