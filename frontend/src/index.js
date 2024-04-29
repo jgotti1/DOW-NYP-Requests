@@ -19,10 +19,6 @@ const RootComponent = () => {
     
   };
 
-   React.useEffect(() => {
-     console.log("Admin value changed:", admin);
-     console.log(`index ${admin}`);
-   }, [admin]);
 
   return (
     <React.StrictMode>

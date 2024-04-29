@@ -84,6 +84,10 @@ function App({ admin }) {
     setShowModal(true);
   };
 
+    const handleRowClickNoAdmin = () => {
+  return
+    };
+
   const handleDelete = (id) => {
     // Password prompt
     // const password = window.prompt("Please enter the password to confirm you want to delete this request:");
@@ -138,12 +142,29 @@ return (
             Add/Edit Request
           </button>
           <ExportToExcel data={rowData} />
-          <DataEntryModal show={showModal} handleClose={handleCloseModal} handleSubmit={handleSaveModalData} initialData={modalData} handleDelete={handleDelete} />
+          <DataEntryModal admin={admin} show={showModal} handleClose={handleCloseModal} handleSubmit={handleSaveModalData} initialData={modalData} handleDelete={handleDelete} />
         </div>
         <DataTable onRowClick={handleRowClick} />
       </div>
     ) : (
-      <h1>Non-admin page</h1>
+      <div className="sticky-header">
+        <div className="head-container">
+          <div className="center-content">
+            <img src="/images/nyplogo.png" alt="NYP LOGO" />
+            <h4 className="anton-regular">PAS Workorder Request</h4>
+          </div>
+          <h5 className="version">v-1.20</h5>
+        </div>
+        <div className="filter-list-div">
+          <FilterableList />
+          <button className="addButton" onClick={() => handleOpenModal()}>
+            Add New Request
+          </button>
+          <ExportToExcel data={rowData} />
+          <DataEntryModal show={showModal} handleClose={handleCloseModal} handleSubmit={handleSaveModalData} initialData={modalData} handleDelete={handleDelete} />
+        </div>
+        <DataTable onRowClick={handleRowClickNoAdmin} />
+      </div>
     )}
   </div>
 );
