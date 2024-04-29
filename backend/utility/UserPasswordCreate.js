@@ -4,13 +4,38 @@ const bcrypt = require("bcrypt");
 
 const { Pool } = require("pg");
 
+// connect AWS non prod
+// const pool = new Pool({
+//   user: "postgres",
+//   host: "djprt-nonprod-nyprequests-db.cd6srbbgx3pz.us-east-1.rds.amazonaws.com",
+//   database: "NYP",
+//   password: "#PASpostgres!",
+//   port: 5432,
+//   ssl: {
+//     rejectUnauthorized: false,
+//   },
+// });
+
+// connect AWS PROD
 const pool = new Pool({
-  user: 'postgres',
-  host: 'localhost',
-  database: 'nypr',
-  password: 'postgres',
+  user: "postgres",
+  host: "djprt-prod-nyprequests-db.cdze6efk2ich.us-east-1.rds.amazonaws.com",
+  database: "NYP",
+  password: "#PASpostgres!",
   port: 5432,
+  ssl: {
+    rejectUnauthorized: false,
+  },
 });
+
+// conncent local
+// const pool = new Pool({
+//   user: 'postgres',
+//   host: 'localhost',
+//   database: 'nypr',
+//   password: 'postgres',
+//   port: 5432,
+// });
 
 
 const app = express();

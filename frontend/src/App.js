@@ -12,6 +12,7 @@ function App({ admin }) {
   const [showModal, setShowModal] = useState(false);
   const [modalData, setModalData] = useState({}); // Data to edit, if necessary
   const { rowData, setRowData } = useFilters();
+  const version = '2.00'
 
   const handleOpenModal = (data = {}) => {
     setModalData(data); // Set the data you might want to edit
@@ -133,7 +134,7 @@ return (
             <img src="/images/nyplogo.png" alt="NYP LOGO" />
             <h4 className="anton-regular">Requests</h4>
           </div>
-          <h5 className="version">v-1.20</h5>
+          <h5 className="version">{version}</h5>
         </div>
         <div className="filter-list-div">
           <FilterableList />
@@ -153,7 +154,7 @@ return (
             <img src="/images/nyplogo.png" alt="NYP LOGO" />
             <h4 className="anton-regular">PAS Workorder Request</h4>
           </div>
-          <h5 className="version">v-1.20</h5>
+          <h5 className="version">{version}</h5>
         </div>
         <div className="filter-list-div">
           <FilterableList />
