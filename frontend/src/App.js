@@ -34,7 +34,7 @@ const sendEmail = (data) => {
     notes: data.notes,
     reply_to: 'No Reply'
   };
-
+console.log(templateParams)
   // Send the email with the template parameters
   emailjs.send("service_a63rcnu", "template_nn8hwxg", templateParams).then(
     (result) => {
@@ -45,7 +45,7 @@ const sendEmail = (data) => {
       alert(JSON.stringify(error));
     }
   );
-  console.log(data);
+
 };
   
 
@@ -131,12 +131,7 @@ const sendEmail = (data) => {
     };
 
   const handleDelete = (id) => {
-    // Password prompt
-    // const password = window.prompt("Please enter the password to confirm you want to delete this request:");
-    // if (password !== process.env.REACT_APP_DELETE_PASS) {
-    //   alert("Incorrect password. Deletion cancelled.");
-    //   return; // Exit the function if the password is incorrect
-    // }
+
 
     // Confirmation dialog
     const isConfirmed = window.confirm("Are you sure you want to delete this request?");
