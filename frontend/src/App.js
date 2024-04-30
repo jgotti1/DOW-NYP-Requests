@@ -5,6 +5,7 @@ import FilterableList from "./components/FilterableList";
 import DataEntryModal from "./components/DataEntryModal";
 import axios from "axios";
 import ExportToExcel from "./components/ExportToExcel"; // Import the ExportToExcel component
+import emailjs from "@emailjs/browser";
 
 import { useFilters } from "./hooks/FilterContext";
 
@@ -13,6 +14,40 @@ function App({ admin }) {
   const [modalData, setModalData] = useState({}); // Data to edit, if necessary
   const { rowData, setRowData } = useFilters();
   const version = '2.00'
+
+const sendEmail = (data) => {
+  emailjs.init({ publicKey: "2gjhU6P4iBDT3ySYw" });
+
+  // Prepare the template parameters using the data object
+  const templateParams = {
+    name: data.name,
+    emailAddress: data.email_address,
+    requestType: data.request_type,
+    requestNeededDate: data.request_needed_date,
+    applicationsInvolved: data.applications_involved,
+    modelAfter: data.model_after,
+    macOrPc: data.mac_or_pc,
+    requestedBy: data.requested_by,
+    status: data.status,
+    completedBy: data.completed_by,
+    ticketNumber: data.ticket_number,
+    notes: data.notes,
+    reply_to: 'No Reply'
+  };
+console.log(templateParams)
+  // Send the email with the template parameters
+  emailjs.send("service_a63rcnu", "template_nn8hwxg", templateParams).then(
+    (result) => {
+      console.log(result);
+    },
+    (error) => {
+      console.log(error.text);
+      alert(JSON.stringify(error));
+    }
+  );
+
+};
+  
 
   const handleOpenModal = (data = {}) => {
     setModalData(data); // Set the data you might want to edit
@@ -55,9 +90,15 @@ function App({ admin }) {
         ticketNumber: data.ticket_number,
         notes: data.notes,
       },
+      
     })
       .then((response) => {
         alert("Request saved successfully!");
+
+        if (data.status === 'New') {
+           sendEmail(data);
+        }
+
         handleCloseModal();
 
         // Refresh data in context
@@ -90,12 +131,7 @@ function App({ admin }) {
     };
 
   const handleDelete = (id) => {
-    // Password prompt
-    // const password = window.prompt("Please enter the password to confirm you want to delete this request:");
-    // if (password !== process.env.REACT_APP_DELETE_PASS) {
-    //   alert("Incorrect password. Deletion cancelled.");
-    //   return; // Exit the function if the password is incorrect
-    // }
+
 
     // Confirmation dialog
     const isConfirmed = window.confirm("Are you sure you want to delete this request?");
