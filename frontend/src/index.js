@@ -24,7 +24,7 @@ const RootComponent = () => {
     <React.StrictMode>
       <FilterProvider>
         {/* Render LoginPage if not authenticated, otherwise render App */}
-        {authenticated ? <App admin={admin} /> : <LoginPage onLogin={handleLogin} />}
+        {!authenticated ? <App admin={admin} /> : <LoginPage onLogin={handleLogin} />}
       </FilterProvider>
     </React.StrictMode>
   );

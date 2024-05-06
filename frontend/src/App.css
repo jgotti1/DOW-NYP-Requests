@@ -144,3 +144,10 @@ font-size: 10px;
   background-color: rgb(132, 132, 138);
   color: white;
 }
+
+@media only screen and (max-width: 850px) {
+  .sticky-header {
+    min-width: 850px;
+    margin: 0 auto; /* Center the element horizontally */
+  }
+}
