@@ -1,4 +1,7 @@
+const nodemailer = require("nodemailer");
 const pool = require("../DB/db");
+
+require("dotenv").config(); // Load environment variables
 
 const createRequest = async (req, res) => {
   console.log(`Request Method: ${req.method}`);
@@ -56,6 +59,53 @@ const createRequest = async (req, res) => {
           dateEntered,
           notes,
         ];
+
+        // Send email if status is 'New'
+        if (status === "New") {
+        const transporter = nodemailer.createTransport({
+          host: "pp-ser-agents.dowjones.net",
+          port: 25,
+          secure: false,
+          tls: {
+            rejectUnauthorized: false,
+          },
+        });
+          
+          const htmlContent = `
+          <html>
+          <body>
+          <p>Hello PAS support team</p>
+          <p>You have a new request for the user <strong>${name}</strong> from the New York Post PAS Request App:</p>
+          <p><em>Details Below:</em></p>
+          <p style="padding: 0px; border-left: 3px solid #d0d0d0;">&nbsp;<strong> Name: </strong>${name}</p>
+          <p style="padding: 0px; border-left: 3px solid #d0d0d0;">&nbsp;<strong> Email Address: </strong>${emailAddress}</p>
+          <p style="padding: 0px; border-left: 3px solid #d0d0d0;">&nbsp;<strong> Request Type: </strong>${requestType}</p>
+          <p style="padding: 0px; border-left: 3px solid #d0d0d0;">&nbsp;<strong> Date Needed: </strong>${requestNeededDate}</p>
+          <p style="padding: 0px; border-left: 3px solid #d0d0d0;">&nbsp;<strong> Applications: </strong>${applicationsInvolved}</p>
+          <p style="padding: 0px; border-left: 3px solid #d0d0d0;">&nbsp;<strong> Model After: </strong>${modelAfter}</p>
+          <p style="padding: 0px; border-left: 3px solid #d0d0d0;">&nbsp;<strong> Workstation Type: </strong>${macOrPc}</p>
+          <p style="padding: 0px; border-left: 3px solid #d0d0d0;">&nbsp;<strong> Requested By: </strong>${requestedBy}</p>
+          <p style="padding: 0px; border-left: 3px solid #d0d0d0;">&nbsp;<strong> Status: </strong>${status}</p>
+          <p style="padding: 0px; border-left: 3px solid #d0d0d0;">&nbsp;<strong> Notes: </strong>${notes}</p>
+          `;
+          
+          // Prepare the email content
+          const mailOptions = {
+            from: "NYPrequests@dowjones.com", // Email address to be shown as the sender
+            to: "pasmailbox@dowjones.com", // Email address of the recipient
+            subject: "New NYP Request Notification",
+            html: htmlContent,
+          };
+
+          // Send the email
+          transporter.sendMail(mailOptions, function (error, info) {
+            if (error) {
+              console.error("Error sending email:", error);
+            } else {
+              console.log("Email sent:", info.response);
+            }
+          });
+        }
       } else if (req.method === "PUT" && req.params.id) {
         // Handle PUT request: Update an existing request
         const requestId = req.params.id;
@@ -75,7 +125,7 @@ const createRequest = async (req, res) => {
           name,
           emailAddress,
           requestType,
-          requestNeededDate, 
+          requestNeededDate,
           applicationsInvolved,
           modelAfter,
           macOrPc,
