@@ -1,6 +1,8 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
+const db = require("./DB/db");
+
 
 
 require("dotenv").config();
@@ -9,6 +11,7 @@ const createController = require("./controllers/createRequest");
 const getController = require("./controllers/getRequests");
 const deleteController = require("./controllers/deleteRequest");
 const checkUserController = require("./controllers/checkUser");
+const taskReportController = require("./controllers/taskReportController");
 
 const app = express();
 app.use(cors());
@@ -52,6 +55,15 @@ app.delete("/requests/:id", deleteController.deleteRequestById);
 // Route to check if username and password match
 app.post("/login", checkUserController.checkUser);
 
-app.listen(port, () => {
-  console.log(`Server listening on port ${port}`);
+app.get("/reports/tasksdue", taskReportController.generateAndSendTasksDueReport);
+
+
+app.listen(port, async () => {
+  try {
+    const result = await db.query("SELECT NOW()");
+    console.log("Database connection successful at", result.rows[0].now);
+  } catch (err) {
+    console.error("Error connecting to the database", err);
+  }
+  console.log(`App up and running on port ${port}`);
 });
