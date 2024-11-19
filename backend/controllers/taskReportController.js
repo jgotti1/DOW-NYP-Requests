@@ -39,8 +39,6 @@ const generateAndSendTasksDueReport = async (req, res) => {
       return;
     }
 
- 
-
     // Generate the PDF report with 11x17 landscape format
     console.log("Generating PDF report...");
     const doc = new jsPDF({
@@ -97,8 +95,6 @@ const generateAndSendTasksDueReport = async (req, res) => {
       ];
     });
 
-
-
     doc.autoTable({
       head: [columns],
       body: rows,
@@ -127,8 +123,8 @@ const generateAndSendTasksDueReport = async (req, res) => {
 
     // Set up email options
     const emailOptions = {
-      from: "no-reply@yourdomain.com", // Replace with your "from" email address
-      to: "john.margotti@dowjones.com", // Replace with recipient email address(es)
+      from: "no-reply@dowjones.com", 
+      to: "pagappsup@dowjones.com", 
       subject: "NYP Requests Due Today or Sooner (Status: NOT 'Complete')",
       text: "Please find the attached report of NYP Requests due today or sooner with status NOT 'Complete'.",
       attachments: [
@@ -150,7 +146,7 @@ const generateAndSendTasksDueReport = async (req, res) => {
     console.log("Sending email...");
     await transporter.sendMail(emailOptions);
 
-    console.log("Email sent successfully to john.margotti@dowjones.com.");
+    console.log("Email sent successfully.");
     res.send("Email processed successfully and sent.");
   } catch (error) {
     console.error("Error generating and sending the report:", error);
