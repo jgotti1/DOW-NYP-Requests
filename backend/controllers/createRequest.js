@@ -93,7 +93,8 @@ const createRequest = async (req, res) => {
           // Prepare the email content
           const mailOptions = {
             from: "NYPrequests@dowjones.com", // Email address to be shown as the sender
-            to: "pasmailbox@dowjones.com", // Email address of the recipient
+            // to: "john.margotti@dowjones.com", // Email address of the recipient
+            to: "pagappsup@dowjones.com", // Email address of the recipient
             subject: "New NYP Request Notification",
             html: htmlContent,
           };
