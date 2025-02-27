@@ -54,6 +54,15 @@ td,
   border-bottom: 3px solid black;
 }
 
+.head-container-dow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Keeps existing alignment */
+  align-items: center;
+  height: 95px;
+  background-color: #2b83e0;
+  border-bottom: 3px solid black;
+}
 
 
 
@@ -102,9 +111,9 @@ td,
   color: white;
 }
 
-.version{
+.version, .version-dow{
 font-size: 10px;
-
+margin-left: 10px;
 }
 
 .App-link {

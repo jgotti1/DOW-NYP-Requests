@@ -61,7 +61,7 @@ app.get("/reports/tasksdue", taskReportController.generateAndSendTasksDueReport)
 app.listen(port, async () => {
   try {
     const result = await db.query("SELECT NOW()");
-    console.log("Database connection successful at", result.rows[0].now);
+    console.log(`Database connection successful to ${process.env.DB_HOST} at`, result.rows[0].now);
   } catch (err) {
     console.error("Error connecting to the database", err);
   }

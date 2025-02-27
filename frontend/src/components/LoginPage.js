@@ -45,7 +45,7 @@ console.log(`${process.env.REACT_APP_SERVER_URL}login`);
       <div className="login-box p-4 border rounded" style={{ backgroundColor: "white" }}>
         <div className="text-center mb-4">
           <p className="mb-0">PAS support team</p> {/* Moved up top and centered */}
-          <h2 className="mb-0">New York Post Requests</h2>
+          <h3 className="mb-0">DOW & NYP Requests</h3>
         </div>
         <hr />
         {error && <Alert variant="danger">{error}</Alert>}
@@ -60,7 +60,7 @@ console.log(`${process.env.REACT_APP_SERVER_URL}login`);
             <Form.Control type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
           </Form.Group>
 
-          <Button variant="danger" type="submit" className="w-100 mt-3">
+          <Button variant="primary" type="submit" className="w-100 mt-3">
             {" "}
             {/* Set variant to "danger" for red color */}
             Submit
