@@ -66,22 +66,22 @@ app.get("/reports/tasksdue", taskReportController.generateAndSendTasksDueReport)
 // ******* request routes DOW *******
 
 // write new request
-app.post("/dowrequests", createControllerDow.createRequest);
+app.post("/dowrequests", createControllerDow.createRequestDow);
 
 // update request
-app.put("/dowrequests/:id", createControllerDow.createRequest);
+app.put("/dowrequests/:id", createControllerDow.createRequestDow);
 
 // get all requests
-app.get("/dowrequests/all", getControllerDow.getRequests);
+app.get("/dowrequests/all", getControllerDow.getRequestsDow);
 
 // get single request by ID
-app.get("/dowrequests/:id", getControllerDow.getRequests);
+app.get("/dowrequests/:id", getControllerDow.getRequestsDow);
 
 // delete single request by ID
-app.delete("/dowrequests/:id", deleteControllerDow.deleteRequestById);
+app.delete("/dowrequests/:id", deleteControllerDow.deleteRequestByIdDow);
 
 
-app.get("/dowreports/tasksdue", taskReportControllerDow.generateAndSendTasksDueReport);
+app.get("/dowreports/tasksdue", taskReportControllerDow.generateAndSendTasksDueReportDow);
 
 
 

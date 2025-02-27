@@ -1,19 +1,19 @@
 import React, { useState } from "react";
 import "./App.css";
-import DataTable from "./components/DataTable";
-import FilterableList from "./components/FilterableList";
-import DataEntryModal from "./components/DataEntryModal";
+import DataTableDow from "./components/DataTableDow";
+import FilterableListDow from "./components/FilterableListDow";
+import DataEntryModalDow from "./components/DataEntryModalDow";
 import axios from "axios";
-import ExportToExcel from "./components/ExportToExcel"; // Import the ExportToExcel component
+import ExportToExcelDow from "./components/ExportToExcelDow"; // Import the ExportToExcel component
 
 // import emailjs from "@emailjs/browser";
 
-import { useFilters } from "./hooks/FilterContext";
+import { useFiltersDow } from "./hooks/FilterContextDow";
 
 function App({ admin }) {
   const [showModal, setShowModal] = useState(false);
   const [modalData, setModalData] = useState({}); // Data to edit, if necessary
-  const { rowData, setRowData } = useFilters();
+  const { rowDataDow, setRowDataDow } = useFiltersDow();
   const version = '2.60'
 
 // const sendEmail = (data) => {
@@ -68,7 +68,7 @@ function App({ admin }) {
     }
 
     // Determine the URL and HTTP method based on the presence of an ID
-    const url = modalData.id ? `${process.env.REACT_APP_SERVER_URL}requests/${modalData.id}` : `${process.env.REACT_APP_SERVER_URL}requests`;
+    const url = modalData.id ? `${process.env.REACT_APP_SERVER_URL}dowrequests/${modalData.id}` : `${process.env.REACT_APP_SERVER_URL}dowrequests`;
     const method = modalData.id ? "put" : "post";
     //  console.log(modalData.id)
     // console.log(method, url)
@@ -106,8 +106,8 @@ function App({ admin }) {
         const fetchData = async () => {
           try {
             const baseUrl = process.env.REACT_APP_SERVER_URL;
-            const response = await axios.get(`${baseUrl}requests/all`, { params: {} }); // Adjust params as necessary
-            setRowData(response.data);
+            const response = await axios.get(`${baseUrl}dowrequests/all`, { params: {} }); // Adjust params as necessary
+            setRowDataDow(response.data);
           } catch (error) {
             console.error("Error refreshing data:", error);
           }
@@ -143,7 +143,7 @@ function App({ admin }) {
       return;
     }
 
-    const url = `${process.env.REACT_APP_SERVER_URL}requests/${id}`;
+    const url = `${process.env.REACT_APP_SERVER_URL}dowrequests/${id}`;
 
     axios
       .delete(url)
@@ -151,8 +151,8 @@ function App({ admin }) {
         alert("Entry deleted successfully!");
 
         // Update state to reflect deletion
-        const updatedData = rowData.filter((item) => item.id !== id);
-        setRowData(updatedData);
+        const updatedData = rowDataDow.filter((item) => item.id !== id);
+        setRowDataDow(updatedData);
       })
       .catch((error) => {
         console.error("Error deleting entry:", error);
@@ -181,15 +181,15 @@ return (
           <h5 className="version-dow">{version}</h5>
         </div>
         <div className="filter-list-div">
-          <FilterableList />
+          <FilterableListDow />
           <h5 style={{ fontSize: "small", fontStyle: "italic", display: "inline-block", marginRight: "15px" }}>* Click on any record to change status or update</h5>
           <button className="addButton" onClick={() => handleOpenModal()}>
             Add/Edit Request
           </button>
-          <ExportToExcel data={rowData} />
-          <DataEntryModal admin={admin} show={showModal} handleClose={handleCloseModal} handleSubmit={handleSaveModalData} initialData={modalData} handleDelete={handleDelete} />
+          <ExportToExcelDow data={rowDataDow} />
+          <DataEntryModalDow admin={admin} show={showModal} handleClose={handleCloseModal} handleSubmit={handleSaveModalData} initialData={modalData} handleDelete={handleDelete} />
         </div>
-        <DataTable onRowClick={handleRowClick} />
+        <DataTableDow onRowClick={handleRowClick} />
       </div>
     ) : (
       <div className="sticky-header">
@@ -201,14 +201,14 @@ return (
           <h5 className="version">{version}</h5>
         </div>
         <div className="filter-list-div">
-          <FilterableList />
+          <FilterableListDow />
           <button className="addButton" onClick={() => handleOpenModal()}>
             Add New Request
           </button>
-          <ExportToExcel data={rowData} />
-          <DataEntryModal show={showModal} handleClose={handleCloseModal} handleSubmit={handleSaveModalData} initialData={modalData} handleDelete={handleDelete} />
+          <ExportToExcelDow data={rowDataDow} />
+          <DataEntryModalDow show={showModal} handleClose={handleCloseModal} handleSubmit={handleSaveModalData} initialData={modalData} handleDelete={handleDelete} />
         </div>
-        <DataTable onRowClick={handleRowClickNoAdmin} />
+        <DataTableDow onRowClick={handleRowClickNoAdmin} />
       </div>
     )}
   </div>

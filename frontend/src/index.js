@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import AppDow from "./AppDow";
 import { FilterProvider } from "./hooks/FilterContext"; // Import the FilterProvider
+import { FilterProviderDow } from "./hooks/FilterContextDow"; // Import the FilterProvider
 import LoginPage from "./components/LoginPage"; // Import the LoginPage component
 import NavBar from "./components/NavBar"; // Import the NavBar component
 
@@ -27,11 +28,13 @@ const RootComponent = () => {
   return (
     <React.StrictMode>
       <FilterProvider>
+      <FilterProviderDow>
         {/* Render LoginPage if not authenticated, otherwise render App */}
         {!authenticated && <LoginPage onLogin={handleLogin} />}
         {authenticated && <NavBar selected={selected} setSelected={setSelected} />}
         {selected === "New York Post" && authenticated && <App admin={admin} />}
-        {selected === "DowJones" && authenticated && <AppDow admin={admin} /> }
+        {selected === "DowJones" && authenticated && <AppDow admin={admin} />}
+      </FilterProviderDow>
       </FilterProvider>
     </React.StrictMode>
   );

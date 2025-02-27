@@ -3,7 +3,7 @@ require("jspdf-autotable");
 const nodemailer = require("nodemailer");
 const db = require("../DB/db"); // Adjust the path as necessary
 
-const generateAndSendTasksDueReport = async (req, res) => {
+const generateAndSendTasksDueReportDow = async (req, res) => {
   try {
     console.log("Route /reports/tasksdue hit. Starting report generation...");
 
@@ -155,5 +155,5 @@ const generateAndSendTasksDueReport = async (req, res) => {
 };
 
 module.exports = {
-  generateAndSendTasksDueReport,
+  generateAndSendTasksDueReportDow,
 };

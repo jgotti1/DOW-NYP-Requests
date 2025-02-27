@@ -1,6 +1,6 @@
 const pool = require("../DB/db");
 
-const getRequests = async (req, res) => {
+const getRequestsDow = async (req, res) => {
 
 
   try {
@@ -39,5 +39,5 @@ const getRequests = async (req, res) => {
 };
 
 module.exports = {
-  getRequests,
+  getRequestsDow,
 };

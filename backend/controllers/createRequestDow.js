@@ -3,7 +3,7 @@ const pool = require("../DB/db");
 
 require("dotenv").config(); // Load environment variables
 
-const createRequest = async (req, res) => {
+const createRequestDow = async (req, res) => {
   console.log(`Request Method: ${req.method}`);
 
   // Destructure request body
@@ -61,7 +61,7 @@ const createRequest = async (req, res) => {
         ];
 
         // Send email if status is 'New'
-        if (status === "New") {
+        if (status === "Newxxx") {
         const transporter = nodemailer.createTransport({
           host: "pp-ser-agents.dowjones.net",
           port: 25,
@@ -158,5 +158,5 @@ const createRequest = async (req, res) => {
 };
 
 module.exports = {
-  createRequest,
+  createRequestDow,
 };

@@ -11,6 +11,9 @@ const NavBar = ({selected, setSelected}) => {
   console.log(selected);
 
   return (
+        <div>
+      {/* Black rule at the top of the screen */}
+      <div style={{ backgroundColor: "black", height: "1px", width: "100%", position: "fixed", top: 0, zIndex: 1060 }} />
     <Navbar bg="light" expand="lg" style={{ zIndex: 1050, position: "relative" }}>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
@@ -20,7 +23,7 @@ const NavBar = ({selected, setSelected}) => {
             id="basic-nav-dropdown"
             onSelect={handleSelect}
             align="end"
-            style={{ marginRight: "15px" }}>
+            style={{ marginRight: "15px", border: "1px solid grey", borderRadius: "5px" }}>
             <NavDropdown.Header style={{ fontWeight: "bold" }}>Brand Selection</NavDropdown.Header>
             <NavDropdown.Item eventKey="New York Post" active={selected === "New York Post"}>
               {selected === "New York Post" && <>&#10003; </>} New York Post
@@ -31,7 +34,8 @@ const NavBar = ({selected, setSelected}) => {
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>
-    </Navbar>
+      </Navbar>
+      </div>
   );
 };
 

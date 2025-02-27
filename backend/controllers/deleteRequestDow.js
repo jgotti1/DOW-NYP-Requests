@@ -1,6 +1,6 @@
 const pool = require("../DB/db");
 
-const deleteRequestById = async (req, res) => {
+const deleteRequestByIdDow = async (req, res) => {
   try {
     const client = await pool.connect();
 
@@ -32,5 +32,5 @@ const deleteRequestById = async (req, res) => {
 };
 
 module.exports = {
-  deleteRequestById,
+  deleteRequestByIdDow,
 };

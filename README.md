@@ -1,4 +1,4 @@
-# New York Post and DowJOnes Tracking Request Application
+# New York Post and DowJones Tracking Request Application
 
 This application, developed by John Margotti on 3/28/2024, is designed to manage tracking request sites for the New York Post. It allows users to add or remove tracking requests and provides functionality to indicate when requests are late. The application is built using React, Rails, and PostgreSQL.
 
