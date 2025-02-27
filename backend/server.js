@@ -12,6 +12,11 @@ const getController = require("./controllers/getRequests");
 const deleteController = require("./controllers/deleteRequest");
 const checkUserController = require("./controllers/checkUser");
 const taskReportController = require("./controllers/taskReportController");
+const createControllerDow = require("./controllers/createRequestDow");
+const getControllerDow = require("./controllers/getRequestsDow");
+const deleteControllerDow = require("./controllers/deleteRequestDow");
+const taskReportControllerDow = require("./controllers/taskReportControllerDow");
+
 
 const app = express();
 app.use(cors());
@@ -35,7 +40,7 @@ app.get("/", (req, res) => {
   res.send("Welcome to NYP Requests");
 });
 
-// ******* request routes *******
+// ******* request routes NYP *******
 
 // write new request
 app.post("/requests", createController.createRequest);
@@ -56,6 +61,29 @@ app.delete("/requests/:id", deleteController.deleteRequestById);
 app.post("/login", checkUserController.checkUser);
 
 app.get("/reports/tasksdue", taskReportController.generateAndSendTasksDueReport);
+
+
+// ******* request routes DOW *******
+
+// write new request
+app.post("/dowrequests", createControllerDow.createRequest);
+
+// update request
+app.put("/dowrequests/:id", createControllerDow.createRequest);
+
+// get all requests
+app.get("/dowrequests/all", getControllerDow.getRequests);
+
+// get single request by ID
+app.get("/dowrequests/:id", getControllerDow.getRequests);
+
+// delete single request by ID
+app.delete("/dowrequests/:id", deleteControllerDow.deleteRequestById);
+
+
+app.get("/dowreports/tasksdue", taskReportControllerDow.generateAndSendTasksDueReport);
+
+
 
 
 app.listen(port, async () => {

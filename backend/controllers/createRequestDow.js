@@ -39,7 +39,7 @@ const createRequest = async (req, res) => {
         }
 
         query = `
-          INSERT INTO requests (name, email_address, request_type, request_needed_date, applications_involved, model_after, mac_or_pc, requested_by, status, completed_date, completed_by, ticket_number, date_entered, notes)
+          INSERT INTO dow_requests (name, email_address, request_type, request_needed_date, applications_involved, model_after, mac_or_pc, requested_by, status, completed_date, completed_by, ticket_number, date_entered, notes)
           VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14)
           RETURNING id;
         `;
@@ -76,7 +76,7 @@ const createRequest = async (req, res) => {
           <html>
           <body>
           <p>Hello PAS support team</p>
-          <p>You have a new request for the user <strong>${name}</strong> from the New York Post PAS Request App:</p>
+          <p>You have a new request for the user <strong>${name}</strong> from the DowJones PAS Request App:</p>
           <p><em>Details Below:</em></p>
           <p style="padding: 0px; border-left: 3px solid #d0d0d0;">&nbsp;<strong> Name: </strong>${name}</p>
           <p style="padding: 0px; border-left: 3px solid #d0d0d0;">&nbsp;<strong> Email Address: </strong>${emailAddress}</p>
@@ -95,7 +95,7 @@ const createRequest = async (req, res) => {
             from: "no-reply@dowjones.com", // Email address to be shown as the sender
             // to: "john.margotti@dowjones.com", // Email address of the recipient
             to: "pagappsup@dowjones.com", // Email address of the recipient
-            subject: "New NYP Request Notification",
+            subject: "New DowJones Request Notification",
             html: htmlContent,
           };
 
@@ -119,7 +119,7 @@ const createRequest = async (req, res) => {
         }
 
         query = `
-          UPDATE requests
+          UPDATE dow_requests
           SET name=$1, email_address=$2, request_type=$3, request_needed_date=$4, applications_involved=$5, model_after=$6, mac_or_pc=$7, requested_by=$8, status=$9, completed_date=$10, completed_by=$11, ticket_number=$12, notes=$13
           WHERE id=$14
         `;
