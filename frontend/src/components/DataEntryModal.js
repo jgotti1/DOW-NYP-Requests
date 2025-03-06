@@ -70,7 +70,6 @@ function DataEntryModal({ show, handleClose, handleSubmit, handleDelete, initial
                 <Form.Label>Request Type</Form.Label>
                 <Form.Select name="request_type" value={formData.request_type} onChange={handleChange}>
                   <option value="New Hire">New Hire</option>
-                  <option value="Add Apps">Add Apps</option>
                   <option value="Termination">Termination</option>
                   <option value="Remove Access">Remove Access</option>
                   <option value="Add/Change Request">Add/Change Request</option>
@@ -94,35 +93,40 @@ function DataEntryModal({ show, handleClose, handleSubmit, handleDelete, initial
                 </Form.Select>
               </Form.Group>
 
-             <Form.Group className="mb-3">
+              <Form.Group className="mb-3">
                 <Form.Label>Requested By</Form.Label>
                 <Form.Control type="text" name="requested_by" value={formData.requested_by} onChange={handleChange} />
               </Form.Group>
 
-              {admin && <Form.Group className="mb-3">
-                <Form.Label>Status</Form.Label>
-                <Form.Select name="status" value={formData.status} onChange={handleChange}>
-                  <option value="New">New</option>
-                  <option value="In Progress">In Progress</option>
-                  <option value="Complete">Complete</option>
-                </Form.Select>
-              </Form.Group>}
+              {admin && (
+                <Form.Group className="mb-3">
+                  <Form.Label>Status</Form.Label>
+                  <Form.Select name="status" value={formData.status} onChange={handleChange}>
+                    <option value="New">New</option>
+                    <option value="In Progress">In Progress</option>
+                    <option value="Complete">Complete</option>
+                  </Form.Select>
+                </Form.Group>
+              )}
 
-              {admin && <Form.Group className="mb-3">
-                <Form.Label>Completed By</Form.Label>
-                <Form.Select name="completed_by" value={formData.completed_by} onChange={handleChange}>
-                  <option value="">Select</option>
-                  <option value="Benjamin Larry">Benjamin Larry</option>
-                  <option value="Jinan Haung">Jinan Haung</option>
-                  <option value="John Margotti">John Margotti</option>
-                  <option value="John OConnor">John OConnor</option>
-                  <option value="Keith Whaley">Keith Whaley</option>
-                  <option value="Kenny Shiu">Kenny Shiu</option>
-                  <option value="Kyle Spelman">Kyle Spelman</option>
-                  <option value="Li Xie">Li Xie</option>
-                  <option value="Tim Ruffner">Tim Ruffner</option>
-                </Form.Select>
-              </Form.Group>}
+              {admin && (
+                <Form.Group className="mb-3">
+                  <Form.Label>Completed By</Form.Label>
+                  <Form.Select name="completed_by" value={formData.completed_by} onChange={handleChange}>
+                    <option value="">Select</option>
+                    <option value="Benjamin Larry">Benjamin Larry</option>
+                    <option value="Jinan Haung">Jinan Haung</option>
+                    <option value="John Margotti">John Margotti</option>
+                    <option value="John OConnor">John OConnor</option>
+                    <option value="Keith Whaley">Keith Whaley</option>
+                    <option value="Kenny Shiu">Kenny Shiu</option>
+                    <option value="Kyle Spelman">Kyle Spelman</option>
+                    <option value="Li Xie">Li Xie</option>
+                    <option value="Tim Ruffner">Tim Ruffner</option>
+                    <option value="Uvash Seeraj">Uvash Seeraj</option>
+                  </Form.Select>
+                </Form.Group>
+              )}
             </Col>
           </Row>
 
@@ -142,12 +146,14 @@ function DataEntryModal({ show, handleClose, handleSubmit, handleDelete, initial
                 <Form.Control type="date" name="request_needed_date" value={formData.request_needed_date} onChange={handleChange} />
               </Form.Group>
             </Col>
-            {admin && <Col>
-              <Form.Group className="mb-3">
-                <Form.Label>Ticket Number</Form.Label>
-                <Form.Control type="text" name="ticket_number" value={formData.ticket_number} onChange={handleChange} />
-              </Form.Group>
-            </Col>}
+            {admin && (
+              <Col>
+                <Form.Group className="mb-3">
+                  <Form.Label>Ticket Number</Form.Label>
+                  <Form.Control type="text" name="ticket_number" value={formData.ticket_number} onChange={handleChange} />
+                </Form.Group>
+              </Col>
+            )}
           </Row>
 
           <Form.Group className="mb-3">

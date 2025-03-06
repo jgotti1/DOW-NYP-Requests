@@ -14,7 +14,7 @@ function App({ admin }) {
   const [showModal, setShowModal] = useState(false);
   const [modalData, setModalData] = useState({}); // Data to edit, if necessary
   const { rowDataDow, setRowDataDow } = useFiltersDow();
-  const version = '2.60'
+  const version = '3.0 Test'
 
 // const sendEmail = (data) => {
 //   emailjs.init({ publicKey: "2gjhU6P4iBDT3ySYw" });
@@ -170,7 +170,7 @@ return (
           <div className="center-content">
             <img
               style={{
-                maxWidth: "280px",
+                maxWidth: "200px",
                 marginLeft: "-50px"
               }}
               src="/images/dowlogo.png"

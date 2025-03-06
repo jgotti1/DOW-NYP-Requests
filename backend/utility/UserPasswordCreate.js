@@ -19,8 +19,8 @@ const { Pool } = require("pg");
 // connect AWS PROD
 const pool = new Pool({
   user: "postgres",
-  // host: "djprt-prod-nyprequests-db.cdze6efk2ich.us-east-1.rds.amazonaws.com",
-  host: "djprt-nonprod-nyprequests-db.cd6srbbgx3pz.us-east-1.rds.amazonaws.com",
+  host: "djprt-prod-nyprequests-db.cdze6efk2ich.us-east-1.rds.amazonaws.com",
+  // host: "djprt-nonprod-nyprequests-db.cd6srbbgx3pz.us-east-1.rds.amazonaws.com",
   database: "NYP",
   password: "#PASpostgres!",
   port: 5432,
