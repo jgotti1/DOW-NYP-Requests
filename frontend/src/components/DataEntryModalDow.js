@@ -69,10 +69,11 @@ function DataEntryModalDow({ show, handleClose, handleSubmit, handleDelete, init
               <Form.Group className="mb-3">
                 <Form.Label>Request Type</Form.Label>
                 <Form.Select name="request_type" value={formData.request_type} onChange={handleChange}>
+                  <option value="Add Access">Add Access</option>
+                  <option value="Change Access">Change Access</option>
                   <option value="New Hire">New Hire</option>
-                  <option value="Termination">Termination</option>
                   <option value="Remove Access">Remove Access</option>
-                  <option value="Add/Change Request">Add/Change Request</option>
+                  <option value="Termination">Termination</option>
                 </Form.Select>
               </Form.Group>
 
