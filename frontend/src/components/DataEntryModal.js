@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Modal, Button, Form, Row, Col } from "react-bootstrap";
 
-function DataEntryModal({ show, handleClose, handleSubmit, handleDelete, initialData = {}, admin }) {
+function DataEntryModal({ show, handleClose, handleSubmit, handleDelete, handleCopy, initialData = {}, admin }) {
   const [formData, setFormData] = useState({
     name: initialData.name || "",
     email_address: initialData.email_address || "",
@@ -17,28 +17,27 @@ function DataEntryModal({ show, handleClose, handleSubmit, handleDelete, initial
     notes: initialData.notes || "",
   });
 
-  useEffect(() => {
-    if (initialData.request_needed_date) {
-      // Convert ISO 8601 format to YYYY-MM-DD format
-      const date = new Date(initialData.request_needed_date);
-      const formattedDate = date.toISOString().split("T")[0]; // This will give you YYYY-MM-DD format
-      initialData.request_needed_date = formattedDate;
-    }
-    setFormData({
-      name: initialData.name || "",
-      email_address: initialData.email_address || "",
-      request_type: initialData.request_type || "New Hire",
-      request_needed_date: initialData.request_needed_date || "",
-      applications_involved: initialData.applications_involved || "",
-      model_after: initialData.model_after || "",
-      mac_or_pc: initialData.mac_or_pc || "",
-      requested_by: initialData.requested_by || "",
-      status: initialData.status || "New",
-      completed_by: initialData.completed_by || "",
-      ticket_number: initialData.ticket_number || "",
-      notes: initialData.notes || "",
-    });
-  }, [initialData]);
+useEffect(() => {
+  const formattedDate = initialData.request_needed_date ? new Date(initialData.request_needed_date).toISOString().split("T")[0] : "";
+
+  setFormData({
+    name: initialData.name || "",
+    email_address: initialData.email_address || "",
+    request_type: initialData.request_type || "New Hire",
+    request_needed_date: formattedDate,
+    applications_involved: initialData.applications_involved || "",
+    model_after: initialData.model_after || "",
+    mac_or_pc: initialData.mac_or_pc || "",
+    requested_by: initialData.requested_by || "",
+    status: initialData.status || "New",
+    completed_by: initialData.completed_by || "",
+    ticket_number: initialData.ticket_number || "",
+    notes: initialData.notes || "",
+  });
+}, [initialData]);
+  
+const hasId = initialData && initialData.id !== undefined && initialData.id !== null && String(initialData.id).trim() !== "";
+
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -48,7 +47,7 @@ function DataEntryModal({ show, handleClose, handleSubmit, handleDelete, initial
   return (
     <Modal show={show} onHide={handleClose} className="data-entry-modal">
       <Modal.Header closeButton>
-        <Modal.Title>{initialData.id ? "Edit Request" : "New Request"}</Modal.Title>
+        <Modal.Title>{hasId ? "Edit Request" : "New Request"}</Modal.Title>
         <br />
       </Modal.Header>
       <small className="required">* Required fields</small>
@@ -166,9 +165,9 @@ function DataEntryModal({ show, handleClose, handleSubmit, handleDelete, initial
       <Modal.Footer className="d-flex justify-content-between">
         {/* Left side buttons */}
         <div>
-          {initialData.id && (
+          {hasId && (
             <>
-              <Button variant="outline-primary" onClick={() => console.log("Copy Button")} className="me-2">
+              <Button variant="outline-primary" onClick={() => handleCopy(initialData.id)} className="me-2">
                 Copy
               </Button>
               <Button variant="danger" onClick={() => handleDelete(initialData.id)}>
