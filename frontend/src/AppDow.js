@@ -14,7 +14,7 @@ function App({ admin }) {
   const [showModal, setShowModal] = useState(false);
   const [modalData, setModalData] = useState({}); // Data to edit, if necessary
   const { rowDataDow, setRowDataDow } = useFiltersDow();
-  const version = '3.1 PROD'
+  const version = '3.2 PROD'
 
 // const sendEmail = (data) => {
 //   emailjs.init({ publicKey: "2gjhU6P4iBDT3ySYw" });

@@ -163,24 +163,36 @@ function DataEntryModalDow({ show, handleClose, handleSubmit, handleDelete, init
           </Form.Group>
         </Form>
       </Modal.Body>
-      <Modal.Footer>
-        <Button variant="secondary" onClick={handleClose}>
-          Close
-        </Button>
-        {initialData.id && (
-          <Button variant="danger" onClick={() => handleDelete(initialData.id)} style={{ marginRight: "auto" }}>
-            Delete
+      <Modal.Footer className="d-flex justify-content-between">
+        {/* Left side buttons */}
+        <div>
+          {initialData.id && (
+            <>
+              <Button variant="outline-primary" onClick={() => console.log("Copy Button")} className="me-2">
+                Copy
+              </Button>
+              <Button variant="danger" onClick={() => handleDelete(initialData.id)}>
+                Delete
+              </Button>
+            </>
+          )}
+        </div>
+
+        {/* Right side buttons */}
+        <div>
+          <Button variant="secondary" onClick={handleClose} className="me-2">
+            Close
           </Button>
-        )}
-        {initialData.id ? (
-          <Button variant="warning" onClick={() => handleSubmit(formData)}>
-            Update
-          </Button>
-        ) : (
-          <Button variant="primary" onClick={() => handleSubmit(formData)}>
-            Save Changes
-          </Button>
-        )}
+          {initialData.id ? (
+            <Button variant="warning" onClick={() => handleSubmit(formData)}>
+              Update
+            </Button>
+          ) : (
+            <Button variant="primary" onClick={() => handleSubmit(formData)}>
+              Save Changes
+            </Button>
+          )}
+        </div>
       </Modal.Footer>
     </Modal>
   );
