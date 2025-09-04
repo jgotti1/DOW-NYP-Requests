@@ -61,7 +61,7 @@ const createRequestDow = async (req, res) => {
         ];
 
         // Send email if status is 'New'
-        if (status === "Newxxx") {
+        if (status === "New") {
         const transporter = nodemailer.createTransport({
           host: "pp-ser-agents.dowjones.net",
           port: 25,

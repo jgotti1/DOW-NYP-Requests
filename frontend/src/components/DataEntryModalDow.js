@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Modal, Button, Form, Row, Col } from "react-bootstrap";
 
-function DataEntryModalDow({ show, handleClose, handleSubmit, handleDelete, initialData = {}, admin }) {
+function DataEntryModalDow({ show, handleClose, handleSubmit, handleDelete, handleCopy, initialData = {}, admin }) {
   const [formData, setFormData] = useState({
     name: initialData.name || "",
     email_address: initialData.email_address || "",
@@ -168,7 +168,7 @@ function DataEntryModalDow({ show, handleClose, handleSubmit, handleDelete, init
         <div>
           {initialData.id && (
             <>
-              <Button variant="outline-primary" onClick={() => console.log("Copy Button")} className="me-2">
+              <Button variant="outline-primary" onClick={() => handleCopy(initialData.id)} className="me-2">
                 Copy
               </Button>
               <Button variant="danger" onClick={() => handleDelete(initialData.id)}>
