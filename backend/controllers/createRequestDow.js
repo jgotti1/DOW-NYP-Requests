@@ -61,17 +61,16 @@ const createRequestDow = async (req, res) => {
         ];
 
         // Send email if status is 'New'
-        if (status === "New") {
-        const transporter = nodemailer.createTransport({
-          host: "pp-ser-agents.dowjones.net",
-          port: 25,
-          secure: false,
-          tls: {
-            rejectUnauthorized: false,
-          },
-        });
-          
-          
+        if (status === "New_disable") {
+          const transporter = nodemailer.createTransport({
+            host: "pp-ser-agents.dowjones.net",
+            port: 25,
+            secure: false,
+            tls: {
+              rejectUnauthorized: false,
+            },
+          });
+
           const htmlContent = `
           <html>
           <body>
@@ -89,7 +88,7 @@ const createRequestDow = async (req, res) => {
           <p style="padding: 0px; border-left: 3px solid #d0d0d0;">&nbsp;<strong> Status: </strong>${status}</p>
           <p style="padding: 0px; border-left: 3px solid #d0d0d0;">&nbsp;<strong> Notes: </strong>${notes}</p>
           `;
-          
+
           // Prepare the email content
           const mailOptions = {
             from: "no-reply@dowjones.com", // Email address to be shown as the sender

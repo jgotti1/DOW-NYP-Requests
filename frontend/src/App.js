@@ -15,7 +15,7 @@ function App({ admin }) {
   const { rowData, setRowData } = useFilters();
   const [modalVersion, setModalVersion] = useState(0);
 
-  const version = "3.2 PROD";
+  const version = "3.3 PROD";
 
   // const sendEmail = (data) => {
   //   emailjs.init({ publicKey: "2gjhU6P4iBDT3ySYw" });
